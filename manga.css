@@ -12,9 +12,25 @@ body {
 
 
 body {
-  height: 100%;
   background: url('./assets/background_white.jpeg');
+  overflow-x: hidden;
 
+}
+
+#home {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  border: none;
+  background: none;
+  width: 50px;
+  height: 50px;
+}
+
+#home img {
+
+  width: 50px;
+  height: 50px;
 }
 
 #kofi {
@@ -101,7 +117,7 @@ body {
   text-align: left;
   margin-left: auto;
   margin-right: auto;
-line-height: 30px;
+  line-height: 30px;
 }
 
 
@@ -110,19 +126,21 @@ line-height: 30px;
   margin-right: auto;
 }
 
-#filters1, #filters2 {
+#filters1,
+#filters2 {
   width: 50%;
 }
 
 #filterButtons button {
- margin-left: 0%;
- margin-right: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
   width: auto;
 }
-#filterButtons {
-width: 340px;
 
- margin: auto;
+#filterButtons {
+  width: 340px;
+
+  margin: auto;
 }
 
 
