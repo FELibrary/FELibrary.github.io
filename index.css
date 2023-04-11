@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'FEH';
-  src: url(./feh.ttf) format("truetype");
+  src: url(./assets/feh.ttf) format("truetype");
 
 }
 
@@ -13,6 +13,7 @@ body {
 
 body {
   height: 100%;
+  background: url('./assets/background_white.jpeg');
 
 }
 
@@ -48,7 +49,7 @@ body {
 
 .collapsible {
   background-color: transparent;
-  background: url('./arrow.png') no-repeat left center;
+  background: url('./assets/arrow.png') no-repeat left center;
   background-size: 20px auto;
   height: 30px;
   padding-left: 35px;
@@ -83,14 +84,14 @@ body {
 }
 
 .active:after {
-  background-image: url('./arrowdown.png')no-repeat left center;
+  background-image: url('./assets/arrowdown.png')no-repeat left center;
   background-size: auto 20px;
 
 
 }
 
 .active {
-  background-image: url('./arrowdown.png');
+  background-image: url('./assets/arrowdown.png');
   background-size: auto 20px;
 
 }
@@ -98,7 +99,7 @@ body {
 
 
 #banner {
-  background-image: url('image.png');
+  background-image: url('assets/banner.png');
   background-repeat: repeat-x;
   width: 100%;
   height: 400px;
