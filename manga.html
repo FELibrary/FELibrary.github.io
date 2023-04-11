@@ -1,0 +1,355 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./manga.css" />
+</head>
+<title>Fire Emblem Library</title>
+
+<body onload="generateChTable('fehChs1', feh1)
+    generateChTable('fehChs2', feh2)
+generateChTable('fehChs3', feh3)
+generateChTable('fehChs4', feh4)
+generateChTable('genChs', gen1)">
+  <script src="./scripts.js"></script>
+  <script src="./entry.js"></script>
+  <div id=banner>
+    <img id=logo src="./logo.png">
+  </div>
+
+  <button id='filters1Coll' onclick='toggleCollapsible(this.id, "filters1")' class='collapsible'>Media Type</button></td>
+  <div id='filters1' class='content'>
+
+    <table class=filtertable>
+      <tr>
+        <td>
+          <input type="checkbox" checked="true" value="Manga" id="type1" onclick="display('type1', 'manga')">
+          <span class="cbox">Manga</span>
+        </td>
+        <td>
+          <input type="checkbox" checked="true" value="Novels" id="type2" onclick="display('type2', 'novel')">
+          <span class="cbox">Novels</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" checked="true" value="Artbooks" id="type3" onclick="display('type3', 'artbook')">
+          <span class="cbox">Artbooks</span>
+        </td>
+        <td>
+          <input type="checkbox" checked="true" value="Guidebooks" id="type4" onclick="display('type4', 'guidebook')">
+          <span class="cbox">Guidebooks</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" checked="true" value="4koma / Comics" id="type5" onclick="display('type5', 'comic')">
+          <span class="cbox">4koma / Comics</span>
+        </td>
+        <td>
+          <input type="checkbox" checked="true" value="Drama CD" id="type6" onclick="display('type6', 'drama')">
+          <span class="cbox">Drama CD</span>
+        </td>
+      </tr>
+    </table>
+
+  </div>
+  <button id='filters2Coll' onclick='toggleCollapsible(this.id, "filters2")' class='collapsible'>Games</button></td>
+  <div id=filters2 class='content'>
+    <table class=filtertable>
+      <tr>
+
+        <td><input type="checkbox" checked="true" value="Shadow Dragon / New Mystery" id="game1" onclick="display('game1', 'archanea')">
+          <span class="cbox">Shadow Dragon / New Mystery</span>
+        </td>
+        <td>
+          <input type="checkbox" checked="true" value="Gaiden / Shadows of Valentia" id="game2" onclick="display('game2', 'sov')">
+          <span class="cbox">Gaiden / Shadows of Valentia</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="checkbox" checked="true" value="Genealogy of the Holy War" id="game3" onclick="display('game3', 'gen')">
+          <span class="cbox">Genealogy of the Holy War</span>
+        </td>
+        <td>
+          <input type="checkbox" checked="true" value="Thracia 776" id="game4" onclick="display('game4', 'thracia')">
+          <span class="cbox">Thracia 776</span>
+        </td>
+      </tr>
+
+      <tr>
+
+        <td>
+          <input type="checkbox" checked="true" value="Binding Blade" id="game5" onclick="display('game5', 'seals')">
+          <span class="cbox">Binding Blade</span>
+        </td>
+        <td>
+          <input type="checkbox" checked="true" value="Blazing Blade" id="game6" onclick="display('game6', 'sword')">
+          <span class="cbox">Blazing Blade</span>
+        </td>
+      </tr>
+
+      <tr>
+
+        <td>
+          <input type="checkbox" checked="true" value="Sacred Stones" id="game7" onclick="display('game7', 'stones')">
+          <span class="cbox">Sacred Stones</span>
+        </td>
+        <td>
+          <input type="checkbox" checked="true" value="Path of Radiance" id="game8" onclick="display('game8', 'por')">
+          <span class="cbox">Path of Radiance</span>
+        </td>
+      </tr>
+
+      <tr>
+
+        <td>
+          <input type="checkbox" checked="true" value="Radiant Dawn" id="game9" onclick="display('game9', 'rd')">
+          <span class="cbox">Radiant Dawn</span>
+        </td>
+        <td>
+          <input type="checkbox" checked="true" value="Awakening" id="game10" onclick="display('game10', 'awakening')">
+          <span class="cbox">Awakening</span>
+        </td>
+      </tr>
+
+      <tr>
+
+        <td>
+          <input type="checkbox" checked="true" value="Fates" id="game11" onclick="display('game11', 'fates')">
+          <span class="cbox">Fates</span>
+        </td>
+        <td>
+          <input type="checkbox" checked="true" value="Three Houses" id="game12" onclick="display('game12', '3h')">
+          <span class="cbox">Three Houses</span>
+        </td>
+      </tr>
+
+      <tr>
+
+        <td>
+          <input type="checkbox" checked="true" value="Engage" id="game13" onclick="display('game13', 'engage')">
+          <span class="cbox">Engage</span>
+        </td>
+        <td>
+          <input type="checkbox" checked="true" value="Heroes" id="game14" onclick="display('game14', 'feh')">
+          <span class="cbox">Heroes</span>
+        </td>
+      </tr>
+
+    </table>
+
+  </div>
+
+  <div id='info-box'>
+
+    <table class='entry-table engage manga'>
+      <tbody>
+        <tr>
+
+          <td id=cover style="background-image: url('./covers/engage.png'" )>
+            <a href="https://mangadex.org/title/54510496-b1d9-4b71-ac97-b50dec06d685/fire-emblem-engage"></a>
+          </td>
+
+          <td id='info'>
+            <p id=title>Fire Emblem Engage</p>
+            <br>
+            <br>
+            <strong>Art and Story:</strong> Kazuro Kyou
+            <br>
+            <br>
+            <strong>Translation:</strong>
+          </td>
+
+        </tr>
+        <tr>
+          <td colspan=2> <button id='engageColl' onclick='toggleCollapsible(this.id, "engageChs")' class='collapsible'>Chapters</button></td>
+        </tr>
+
+      </tbody>
+    </table>
+    <div class="content" id='engageChs'>
+      <table class='chTable'>
+        <tbody>
+          <tr>
+            <td>Prologue</td>
+            <td>Chapter 1:</td>
+          </tr>
+          <tr>
+            <td>Chapter 2:</td>
+            <td></td>
+          </tr>
+
+        </tbody>
+
+      </table>
+    </div>
+
+    <table class='entry-table feh comic'>
+      <tbody>
+        <tr>
+
+          <td id=cover style="background-image: url('./covers/feh.png'" )>
+            <a href="https://mangadex.org/title/54510496-b1d9-4b71-ac97-b50dec06d685/fire-emblem-engage"></a>
+          </td>
+
+          <td id='info'>
+            <p id=title>Fire Emblem Heroes: A Day in the Life</p>
+            <br>
+            <br>
+            <strong>Art and Story:</strong>
+            <br>
+            <br>
+            <strong>Translation:</strong>
+          </td>
+
+        </tr>
+      </tbody>
+    </table>
+
+    <div>
+      <button id='fehColl1' onclick='toggleCollapsible(this.id, "fehChs1")' class='collapsible comic feh'>Character Comics</button>
+    </div>
+
+    <div class="content" id='fehChs1'>
+      <table class='chTable'>
+      </table>
+    </div>
+
+    <div>
+      <button id='fehColl2' onclick='toggleCollapsible(this.id, "fehChs2")' class='collapsible comic feh'>Chapters 1-99</button>
+    </div>
+
+    <div class="content" id='fehChs2'>
+      <table class='chTable'>
+      </table>
+    </div>
+
+    <div>
+      <button id='fehColl3' onclick='toggleCollapsible(this.id, "fehChs3")' class='collapsible comic feh'>Chapters 100-199</button>
+    </div>
+
+    <div class="content" id='fehChs3'>
+      <table class='chTable'>
+      </table>
+    </div>
+
+    <div>
+      <button id='fehColl4' onclick='toggleCollapsible(this.id, "fehChs4")' class='collapsible comic feh'>Chapters 200 - ??</button>
+    </div>
+
+    <div class="content" id='fehChs4'>
+      <table class='chTable'>
+      </table>
+    </div>
+
+    <table class='entry-table gen novel'>
+      <tbody>
+        <tr>
+
+          <td id=cover style="background-image: url('./covers/genealogy_novel.jpg'" )>
+            <a href="https://drive.google.com/drive/folders/1dGUtCC8jk5ENhpb0Uvj_LH1VQbcnC5Da"></a>
+          </td>
+
+          <td id='info'>
+            <p id=title>Genealogy of the Holy War</p>
+            <br>
+            <br>
+            <strong>Story:</strong> Ginichiro Suzuki
+            <br>
+            <strong>Illustration:</strong> Rika Suzuki
+
+            <br>
+            <strong>Translation:</strong> Leif of Leonster Translations
+            <br>
+            Book 1
+            <br>
+            Book 2
+            <br>
+            Book 3
+          </td>
+
+        </tr>
+      </tbody>
+    </table>
+
+    <table class='entry-table thracia novel'>
+      <tbody>
+        <tr>
+
+          <td id=cover style="background-image: url('./covers/thracia_novel.jpg'" )>
+            <a href="https://mangadex.org/title/54510496-b1d9-4b71-ac97-b50dec06d685/fire-emblem-engage"></a>
+          </td>
+
+          <td id='info'>
+            <p id=title>Thracia 776</p>
+            <br>
+            <br>
+            <strong>Story:</strong> Takashi Umemura
+            <br>
+            <strong>Illustration:</strong> Mitsuki Shiina
+
+            <br>
+            <strong>Translation:</strong> Leif of Leonster Translations
+            <br>
+            Book 1
+            <br>
+            Book 2
+            <br>
+
+          </td>
+
+        </tr>
+      </tbody>
+    </table>
+
+    <table class='entry-table gen manga'>
+      <tbody>
+        <tr>
+
+          <td id=cover style="background-image: url('./covers/gen_manga.png'" )>
+            <a href="https://mangadex.org/title/54510496-b1d9-4b71-ac97-b50dec06d685/fire-emblem-engage"></a>
+          </td>
+
+          <td id='info'>
+            <p id=title>Genealogy of the Holy War (Manga)</p>
+            <br>
+            <br>
+            <strong>Art and Story:</strong> 
+            <br>
+            <br>
+            <strong>Translation:</strong>
+          </td>
+
+        </tr>
+        <tr>
+          <td colspan=2> <button id='genColl' onclick='toggleCollapsible(this.id, "genChs")' class='collapsible'>Chapters</button></td>
+        </tr>
+
+      </tbody>
+    </table>
+    <div class="content" id='genChs'>
+      <table class='chTable'>
+
+      </table>
+    </div>
+
+  </div>
+
+  <table id="linksTable" align="center" width="320" height='80'>
+    <tbody>
+      <tr id="buttonRow">
+        <td id='discord'><a href="https://discord.gg/U4TN8mEY44"> </a></td>
+        <td></td>
+        <td id='kofi'><a href="https://ko-fi.com/mina_7756"> </a></td>
+        <td></td>
+        <td id='twitter'><a href="https://twitter.com/Mina_776_"> </a></td>
+
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+
+</html>
