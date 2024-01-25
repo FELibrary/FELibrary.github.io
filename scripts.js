@@ -6,6 +6,37 @@ let map = {
   fehColl4: "fehChs4",
   genColl: "genChs"
 }
+arr = [
+  'archanea',
+  'sov',
+  'gothw',
+  't776',
+  'binding',
+  'blazing',
+  'ss',
+  'por',
+  'rd',
+  'awakening',
+  'fates',
+  '3h',
+  'engage'
+]
+
+function setUp() {
+  game_div = document.getElementById('games')
+  for (let i = 0; i < arr.length; i++) {
+    let element = document.createElement("div");
+    element.id = arr[i]
+    element.classList.toggle('game_info_box')
+    element.innerHTML = games[arr[i]]['name']
+    let img = document.createElement("img")
+    img.classList.toggle('game_img')
+    img.src = `./games/${arr[i]}.png`
+    element.appendChild(img)
+    game_div.appendChild(element)
+
+  }
+}
 
 function toggleCollapsible(id, contentID) {
   let el = document.getElementById(id);
@@ -33,11 +64,9 @@ function generateChTable(tableID, chs) {
 }
 
 function display(cboxID, clss) {
-
   closeAll();
   closeAll();
-    closeAll();
-
+  closeAll();
   nodes = document.getElementsByClassName(clss)
   if (document.getElementById(cboxID).checked) {
     for (let i = 0; i < nodes.length; i++) {
@@ -48,14 +77,13 @@ function display(cboxID, clss) {
       nodes[i].style.display = 'none';
     }
   }
-
 }
 
 function closeAll() {
   let nodes = document.getElementsByClassName('active')
   console.log(nodes)
   for (let i = 0; i < nodes.length; i++) {
-    if(nodes[i].id == 'filters1Coll' || nodes[i].id == 'filters2Coll'){
+    if (nodes[i].id == 'filters1Coll' || nodes[i].id == 'filters2Coll') {
       continue;
     }
     console.log(nodes[i].id)
