@@ -26,12 +26,18 @@ function setUp() {
   game_div = document.getElementById('games')
   for (let i = 0; i < arr.length; i++) {
     let element = document.createElement("div");
+
     element.id = arr[i]
     element.classList.toggle('game_info_box')
-    element.innerHTML = games[arr[i]]['name']
+
+    let span = document.createElement("span")
+    span.innerHTML = `${games[arr[i]]['name']}`
+
     let img = document.createElement("img")
     img.classList.toggle('game_img')
     img.src = `./games/${arr[i]}.png`
+
+    element.appendChild(span)
     element.appendChild(img)
     game_div.appendChild(element)
 

@@ -11,8 +11,6 @@ body {
 }
 
 
-
-
 body {
 
   background: url('./assets/background_white.jpeg');
@@ -32,6 +30,31 @@ body {
   justify-content: space-around;
   align-content: center;
 
+
+}
+
+#games span {
+  font-family: FEH;
+  width: 55%;
+  font-size: 175%;
+  color: white;
+
+  text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+  text-align: center;
+  -webkit-text-stroke: 0.33px black;
+  left: 38.5%;
+  top: 10%;
+  position: absolute;
+  line-height: 120%;
+
 }
 
 
@@ -45,7 +68,6 @@ body {
   min-width: 640px;
   position: relative;
   margin-top: 2%;
-
 }
 
 .game_img {
@@ -148,7 +170,7 @@ body {
   background-image: url('assets/banner.png');
   background-repeat: repeat-x;
   width: 100%;
-  height: 300px;
+  height: 250px;
   text-align: center;
   background-position: center;
 
@@ -201,4 +223,21 @@ body {
   background: none;
   height: 150px;
   width: auto;
+}
+
+@media only screen and (max-width: 1280px) {
+
+  .game_info_box {
+    background: url('./assets/gamebox.png');
+    background-repeat: no-repeat;
+    width: 70%;
+    aspect-ratio: 640 / 250;
+    height: auto;
+    background-size: contain;
+    min-height: 250px;
+    min-width: 640px;
+    position: relative;
+    margin-top: 2%;
+  }
+
 }
