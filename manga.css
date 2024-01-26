@@ -18,6 +18,61 @@ body {
 
 }
 
+#media_div {
+  width: 100%;
+
+}
+.media_box {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  width: 80%;
+  height: 30%;
+  position: relative;
+    min-height: 400px;
+  min-width: 640px;
+    position: relative;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.media_box span {
+  font-family: FEH;
+  width: 55%;
+  font-size: 175%;
+  color: white;
+
+
+  text-shadow:
+    -1px -1px 0 #000,
+     0   -1px 0 #000,
+     1px -1px 0 #000,
+     1px  0   0 #000,
+     1px  1px 0 #000,
+     0    1px 0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000;
+  text-align: center;
+  -webkit-text-stroke: 0.33px black;
+  left: 38.5%;
+  top: 5%;
+  position: absolute;
+  line-height: 120%;
+
+}
+
+.media_img {
+  min-height: 200px;
+  position: absolute;
+  height: 90%;
+  width: auto;
+  left: 1.5%;
+  top: 5%;
+}
+
+
 #home {
   position: fixed;
   top: 15px;
@@ -63,89 +118,6 @@ body {
   margin-right: auto;
 }
 
-
-.collapsible {
-  background-color: transparent;
-  background: url('./assets/arrow.png') no-repeat left center;
-  background-size: 20px auto;
-  height: 30px;
-  padding-left: 35px;
-  padding-right: 20px;
-  border: none;
-  color: black;
-  width: 300px;
-  text-align: left;
-  font-family: 'FEH';
-  font-size: 20px;
-  margin-left: 45%;
-  margin-right: 50%;
-}
-
-.content {
-  padding: 0 18px;
-  background-color: none;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  font-family: FEH;
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-
-
-}
-
-.chTable {
-  width: 1000px;
-  padding: 0px 50px 0px 50px;
-  text-align: left;
-}
-
-.active:after {
-  background-image: url('./assets/arrowdown.png')no-repeat left center;
-  background-size: auto 20px;
-
-
-}
-
-.active {
-  background-image: url('./assets/arrowdown.png');
-  background-size: auto 20px;
-
-}
-
-.filtertable {
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 30px;
-}
-
-
-#filterTable {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#filters1,
-#filters2 {
-  width: 50%;
-}
-
-#filterButtons button {
-  margin-left: 0%;
-  margin-right: 0%;
-  width: auto;
-}
-
-#filterButtons {
-  width: 340px;
-
-  margin: auto;
-}
-
-
-
 #banner {
   background-image: url('assets/banner.png');
   background-repeat: repeat-x;
@@ -164,64 +136,3 @@ body {
   margin-top: 30px;
 }
 
-#menu {
-  height: 100px;
-  width: 100%;
-
-  text-align: center;
-
-}
-
-#menu a {
-  color: white;
-  text-align: center;
-  font-size: 25px;
-  padding: 10px;
-  line-height: 40px;
-}
-
-#infobox {
-  text-align: center;
-}
-
-
-
-.entry-table {
-
-  padding: 50px 50px 0px 50px;
-  height: 400px;
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-#cover {
-  height: 400px;
-  width: 300px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-
-}
-
-#cover a {
-  width: 300px;
-  height: 400px;
-  display: table;
-}
-
-#title {
-  font-family: 'FEH';
-  font-size: 40px;
-  text-align: center;
-  position: relative;
-  margin-top: 3px;
-
-}
-
-#info {
-  text-align: left;
-  width: 500px;
-  position: absolute;
-}
