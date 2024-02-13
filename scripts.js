@@ -61,6 +61,36 @@ function mediaPage(game) {
     div.appendChild(span)
     div.appendChild(img)
 
+    let credit_tbl = document.createElement("table")
+    credit_tbl.classList.toggle('credits')
+    let credit_body = document.createElement("tbody")
+    let cred_row1 = document.createElement("tr")
+    let story = document.createElement("td")
+    story.innerHTML = `Story: ${items[i]["story"]}`
+
+    let art = document.createElement("td")
+    art.innerHTML = `Art: ${items[i]["art"]}`
+
+    cred_row1.appendChild(story)
+    cred_row1.appendChild(art)
+
+    credit_body.appendChild(cred_row1)
+
+    let cred_row2 = document.createElement("tr")
+    let translator = document.createElement("td")
+    translator.colSpan = 2
+    translator.innerHTML = "Translation: list here"
+
+    cred_row2.appendChild(translator)
+
+    credit_body.appendChild(cred_row2)
+
+    credit_tbl.appendChild(credit_body)
+
+    div.appendChild(credit_tbl)
+
+
+
     media_div.appendChild(div)
 
 
