@@ -18,94 +18,47 @@ body {
 
 }
 
-#media_div {
-  width: 100%;
-
+#main{
+display: block;
+position: relative;
+width: 100%;
+height: 100%;
 }
 
-.src_btn {
-  width: 25%;
-  position: absolute;
-  margin-left: 66%;
-  top: 25%;
-}
-
-.src_btn button {
-  background: none;
-  border: none;
-}
-
-.src_btn button img {
-  width: 100%;
-}
-.media_box {
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
-  width: 80%;
-  height: 30%;
-  position: relative;
-    min-height: 400px;
-  min-width: 640px;
-    position: relative;
-  margin-top: 2%;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-.media_box span {
-  font-family: FEH;
-  width: 55%;
-  font-size: 175%;
-  color: white;
-
-
-  text-shadow:
-    -1px -1px 0 #000,
-     0   -1px 0 #000,
-     1px -1px 0 #000,
-     1px  0   0 #000,
-     1px  1px 0 #000,
-     0    1px 0 #000,
-    -1px  1px 0 #000,
-    -1px  0   0 #000;
-  text-align: center;
-  -webkit-text-stroke: 0.33px black;
-  left: 38.5%;
-  top: 5%;
-  position: absolute;
-  line-height: 120%;
-
-}
-
-.media_img {
-  min-height: 200px;
-  position: absolute;
-  height: 90%;
-  width: auto;
-  left: 1.5%;
-  top: 5%;
-}
-
-.credits {
-  top: 25%;
-  left: 25%;
-  font-size: 125%;
- text-align: center;
- width: 55%;
-    position: absolute;
-
-}
-
-.credits table, tr, td{
-
+#cover {
+ width: 64%;
+ min-width: 200px;
+ min-height: 200px;
+ height: 100%;
     border-style: solid;
   border-color: black;
   border-width: 1px;
-
+  position: absolute;
 
 }
+
+#cover_img{
+  width: 150px;
+  text-align: center;
+  position: relative;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+#sidebar {
+  width: 35%;
+  min-width: 200px;
+  min-height: 200px;
+  height: 100%;
+      border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  position: absolute;
+  margin-left: 64%;
+}
+
+
+
 
 #home {
   position: fixed;
@@ -156,7 +109,7 @@ body {
   background-image: url('assets/banner.png');
   background-repeat: repeat-x;
   width: 100%;
-  height: 275px;
+  height: 200px;
   text-align: center;
   background-position: center;
 

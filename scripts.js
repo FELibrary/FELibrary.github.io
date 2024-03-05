@@ -26,73 +26,76 @@ function setUp() {
   game_div = document.getElementById('games')
   for (let i = 0; i < arr.length; i++) {
     let element = document.createElement("div");
-
     element.id = arr[i]
     element.classList.toggle('game_info_box')
-
     let span = document.createElement("span")
     span.innerHTML = `${games[arr[i]]['name']}`
-
     let img = document.createElement("img")
     img.classList.toggle('game_img')
     img.src = `./games/${arr[i]}.png`
-
     element.appendChild(span)
     element.appendChild(img)
     game_div.appendChild(element)
-
   }
 }
 
 function mediaPage(game) {
   let items = entry_data[game]
   media_div = document.getElementById('media_div')
-  for (let i = 0; i < items.length; i++){
+  for (let i = 0; i < items.length; i++) {
     let div = document.createElement("div");
     div.classList.toggle('media_box')
-
     let img = document.createElement("img")
     img.classList.toggle('media_img')
     img.src = `./covers/${items[i]['img']}.png`
-
-
     let span = document.createElement("span")
     span.innerHTML = `${items[i]['name']}`
     div.appendChild(span)
     div.appendChild(img)
-
     let credit_tbl = document.createElement("table")
     credit_tbl.classList.toggle('credits')
     let credit_body = document.createElement("tbody")
     let cred_row1 = document.createElement("tr")
-    let story = document.createElement("td")
-    story.innerHTML = `Story: ${items[i]["story"]}`
-
-    let art = document.createElement("td")
-    art.innerHTML = `Art: ${items[i]["art"]}`
-
-    cred_row1.appendChild(story)
-    cred_row1.appendChild(art)
-
+    cred_row1.innerHTML = `<strong>Story:</strong> ${items[i]["story"]}`
     credit_body.appendChild(cred_row1)
-
     let cred_row2 = document.createElement("tr")
+    cred_row2.innerHTML = `<strong>Art:</strong> ${items[i]["art"]}`
+    credit_body.appendChild(cred_row2)
+    let cred_row3 = document.createElement("tr")
     let translator = document.createElement("td")
     translator.colSpan = 2
-    translator.innerHTML = "Translation: list here"
-
-    cred_row2.appendChild(translator)
-
-    credit_body.appendChild(cred_row2)
-
+    translator.innerHTML = "<strong>Translation:</strong> list here"
+    cred_row3.appendChild(translator)
+    credit_body.appendChild(cred_row3)
     credit_tbl.appendChild(credit_body)
-
     div.appendChild(credit_tbl)
+
+    let buttons = document.createElement("div");
+    buttons.classList.toggle('src_btn')
+
+    for (let j = 0; j < items[i].buttons.length; j++){
+      let button = document.createElement('button')
+      let img = document.createElement('img')
+      img.src = `./assets/${items[i].buttons[j].type}.png`   
+      button.appendChild(img)
+      buttons.appendChild(button)
+      
+    }
+    div.appendChild(buttons)
+
 
 
 
     media_div.appendChild(div)
+  }
+}
 
-
+function info(entry) {
+  body = document.getElementById('ch_body')
+  document.getElementById('cover_img').src = "./covers/gothw_oosawa.png"
+  for (let i = gen1.length - 1; i > -1; i--) {
+    let tr = document.createElement("tr")
+    tr.innerHTML = gen1[i].title
+    body.appendChild(tr)
   }
 }

@@ -14,7 +14,7 @@ let entry_data = {
       "img": "gothw_oosawa",
       "raws" : "",
       "buttons": [{
-          "type": "google",
+          "type": "gdrive",
           "link" : "https://drive.google.com/drive/folders/1Ah26-A1hxYMXG2RbpOIRuHbhtW-WorVs",
           "note": "Vol 13-16"
         },
