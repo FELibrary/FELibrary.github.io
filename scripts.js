@@ -50,6 +50,7 @@ function mediaPage(game) {
     img.src = `./covers/${items[i]['img']}.png`
     let span = document.createElement("span")
     span.innerHTML = `${items[i]['name']}`
+    span.classList.toggle('title')
     div.appendChild(span)
     div.appendChild(img)
     let credit_tbl = document.createElement("table")
@@ -74,11 +75,23 @@ function mediaPage(game) {
     buttons.classList.toggle('src_btn')
 
     for (let j = 0; j < items[i].buttons.length; j++){
+      let a = document.createElement('a')
+      a.href = items[i].buttons[j].link
+      a.target = '_blank'
       let button = document.createElement('button')
-      let img = document.createElement('img')
-      img.src = `./assets/${items[i].buttons[j].type}.png`   
-      button.appendChild(img)
-      buttons.appendChild(button)
+      let span = document.createElement('span')
+
+      span.innerHTML = items[i].buttons[j].note
+      //button.backgroundImage = 
+      button.style.background = `url('./assets/${items[i].buttons[j].type}.png') no-repeat`
+      button.style.backgroundSize = 'contain'
+
+      //let img = document.createElement('img')
+      //img.src = `./assets/${items[i].buttons[j].type}.png`   
+      a.appendChild(button)
+      button.appendChild(span)
+      //button.appendChild(img)
+      buttons.appendChild(a)
       
     }
     div.appendChild(buttons)
