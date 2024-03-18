@@ -7,6 +7,7 @@ let entry_data = {
       "story" : "Mitsuki Oosawa",
       "art" : "Mitsuki Oosawa",
       "type" : "manga",
+      "status" : "Fully Translated",
       "translation" : [
         "Another FE4 Translation",
         "FalaScans",
@@ -30,10 +31,11 @@ let entry_data = {
       "story" : "Fujimori Nattsu",
       "art" : "Fujimori Nattsu",
       "type" : "manga",
+      "status" : "Partially Translated",
       "translation" : [
         "TheEnd",
         "FranceFE"],
-      "img": "gothw_oosawa",
+      "img": "gothw_nattsu",
       "raws" : "",
       "buttons": [
         {
@@ -42,7 +44,58 @@ let entry_data = {
           "note": "Ch 1-38"
         }
       ]
-    }
+    },
+
+      {
+      "name": "Fire Emblem Treasure",
+      "story" : "",
+      "art" : "",
+      "type" : "artbook",
+      "status" : "Untranslated",
+      "translation" : [],
+      "img": "gothw_treasure",
+      "raws" : "",
+      "buttons": []
+    },
+
+          {
+      "name": "Gekka Ginyu Artbook",
+      "story" : "",
+      "art" : "",
+      "type" : "artbook",
+      "status" : "Untranslated",
+      "translation" : [],
+      "img": "gothw_gekka",
+      "raws" : "",
+      "buttons": []
+    },
+
+          {
+      "name": "Thracia 776 (Takanagi Yuuna)",
+      "story" : "Takanagi Yuuna",
+      "art" : "Takanagi Yuuna",
+      "type" : "manga",
+      "status" : "Translation in Progress",
+      "translation" : [
+        "Kitsudori"
+        ],
+      "img": "t776_takanagi",
+      "raws" : "",
+      "buttons": 
+        [{
+          "type": "gdrive",
+          "link" : "https://drive.google.com/drive/folders/1vqlwDa8fKrzQ4r-lvMYmAZc9qLxgi8Cy?usp=sharing]",
+          "note": "All Chs."
+        },
+        {
+          "type": "mangadex",
+          "link" : "https://mangadex.org/title/bb1792a0-5887-4dcf-abc4-a733934f6eb1/fire-emblem-thracia-776?tab=art",
+          "note": "All Chs."
+        }
+      ]
+
+        
+    },
   ],
 
   "t776": {},
