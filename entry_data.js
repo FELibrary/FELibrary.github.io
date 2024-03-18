@@ -96,6 +96,28 @@ let entry_data = {
 
         
     },
+
+    {
+      "name": "FE World Tour",
+      "story" : "",
+      "art" : "",
+      "type" : "4koma",
+      "status" : "Translation in Progress",
+      "translation" : [
+        "Kitsudori"
+        ],
+      "img": "gothw_tour",
+      "raws" : "https://drive.google.com/drive/folders/1JxJOJedTP1AtNJ728LjYrTgkUIDhLXgQ",
+      "buttons": 
+        [{
+          "type": "gdrive",
+          "link" : "https://drive.google.com/drive/folders/1pSiDEjAwUTxIN3LAmvZBQ99gknisZ_3c",
+          "note": "Vol 1-3 (Select Pages)"
+        }
+      ]
+
+        
+    },
   ],
 
   "t776": {},
