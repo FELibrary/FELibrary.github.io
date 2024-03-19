@@ -54,7 +54,7 @@ let entry_data = {
       "status" : "Untranslated",
       "translation" : [],
       "img": "gothw_treasure",
-      "raws" : "",
+      "raws" : "https://drive.google.com/drive/folders/1VAWgDkwLn1BoCugO6LiSK3Cx_YIZ8b8a",
       "buttons": []
     },
 
@@ -66,7 +66,43 @@ let entry_data = {
       "status" : "Untranslated",
       "translation" : [],
       "img": "gothw_gekka",
-      "raws" : "",
+      "raws" : "https://drive.google.com/drive/folders/15JS-nAVfjYG9OMmaXVWX4jIUcSctK8Qf",
+      "buttons": []
+    },
+
+    {
+      "name": "Short Comic Theater 2",
+      "story" : "",
+      "art" : "",
+      "type" : "artbook",
+      "status" : "Untranslated",
+      "translation" : [],
+      "img": "gothw_theather",
+      "raws" : "https://drive.google.com/drive/folders/10EFlg6gWOPOz5Wp-gUtXTiHzo2fOPxJ8",
+      "buttons": []
+    },
+
+    {
+      "name": "Military History of the Continent",
+      "story" : "",
+      "art" : "",
+      "type" : "manga",
+      "status" : "Untranslated",
+      "translation" : [],
+      "img": "gothw_military",
+      "raws" : "https://drive.google.com/drive/folders/1XD_OfV3wKYwXVhyjC0WFTLEkGMW_FOBD",
+      "buttons": []
+    },
+
+        {
+      "name": "Fire Emblem Yaruze",
+      "story" : "",
+      "art" : "",
+      "type" : "manga",
+      "status" : "Untranslated",
+      "translation" : [],
+      "img": "gothw_yaruze",
+      "raws" : "https://drive.google.com/drive/folders/160OGlP9e2QCBclusrKRa7jgFMFtDg6lw",
       "buttons": []
     },
 
