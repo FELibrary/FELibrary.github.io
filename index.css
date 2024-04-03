@@ -50,8 +50,7 @@ body {
     -1px  0   0 #000;
   text-align: center;
   -webkit-text-stroke: 0.33px black;
-  left: 38.5%;
-  top: 10%;
+  top: 90%;
   position: absolute;
   line-height: 120%;
 
@@ -59,21 +58,34 @@ body {
 
 
 .game_info_box {
-  background: url('./assets/gamebox.png');
-  background-repeat: no-repeat;
-  width: 40%;
-  height: auto;
-  background-size: contain;
-  min-height: 250px;
-  min-width: 640px;
+
+ 
+  width: 20%;
+
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+
+  min-height: 400px;
+  min-width: 300px;
   position: relative;
   margin-top: 2%;
 }
 
+.game_button {
+
+ width: 40%;
+  min-height: 400px;
+  min-width: 300px;
+  position: relative;
+  margin-top: 2%;
+
+}
+
 .game_img {
-  min-height: 200px;
+  max-height: 250px;
   position: absolute;
-  height: 80%;
+  height: 75%;
   width: auto;
   left: 4%;
   top: 10%;
@@ -225,17 +237,5 @@ body {
 
 @media only screen and (max-width: 1280px) {
 
-  .game_info_box {
-    background: url('./assets/gamebox.png');
-    background-repeat: no-repeat;
-    width: 70%;
-    aspect-ratio: 640 / 250;
-    height: auto;
-    background-size: contain;
-    min-height: 250px;
-    min-width: 640px;
-    position: relative;
-    margin-top: 2%;
-  }
 
 }

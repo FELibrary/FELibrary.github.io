@@ -23,6 +23,14 @@ body {
 
 }
 
+.line {
+  width: 100%;
+
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
 .src_btn {
   width: 30%;
   position: absolute;

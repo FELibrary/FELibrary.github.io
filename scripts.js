@@ -82,15 +82,13 @@ function mediaPage(game) {
       let span = document.createElement('span')
 
       span.innerHTML = items[i].buttons[j].note
-      //button.backgroundImage = 
+
       button.style.background = `url('./assets/${items[i].buttons[j].type}.png') no-repeat`
       button.style.backgroundSize = 'contain'
 
-      //let img = document.createElement('img')
-      //img.src = `./assets/${items[i].buttons[j].type}.png`   
       a.appendChild(button)
       button.appendChild(span)
-      //button.appendChild(img)
+    
       buttons.appendChild(a)
       
     }
@@ -100,6 +98,12 @@ function mediaPage(game) {
 
 
     media_div.appendChild(div)
+       media_div.appendChild(div)
+    let line = document.createElement("div");
+    line.classList.toggle('break')
+    line.innerHTML = "<hr>"
+    media_div.appendChild(line)
+
   }
 }
 
