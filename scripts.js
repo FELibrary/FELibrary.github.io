@@ -22,24 +22,44 @@ arr = [
   'engage'
 ]
 
+let game = ''
+
 function setUp() {
   game_div = document.getElementById('games')
   for (let i = 0; i < arr.length; i++) {
-    let element = document.createElement("div");
+    let div = document.createElement("div");
+    div.classList.toggle('game_info_box')
+    let element = document.createElement("button");
+    element.onclick = function() { 
+      window.location.href = `file:///Users/aiman/Desktop/FELibrary/manga.html?g=${arr[i]}`
+    }
     element.id = arr[i]
-    element.classList.toggle('game_info_box')
+    element.classList.toggle('game_info_button')
     let span = document.createElement("span")
     span.innerHTML = `${games[arr[i]]['name']}`
     let img = document.createElement("img")
     img.classList.toggle('game_img')
     img.src = `./games/${arr[i]}.png`
+        element.appendChild(img)
     element.appendChild(span)
-    element.appendChild(img)
-    game_div.appendChild(element)
+
+    div.appendChild(element)
+    game_div.appendChild(div)
   }
 }
 
-function mediaPage(game) {
+
+function redirect(id) {
+   
+    console.log(id)
+    game = id;
+    mediaPage()
+}
+
+
+function mediaPage() {
+  url = window.location.href;
+  game = url.substring(url.indexOf('?g=')+3, url.length)
   let items = entry_data[game]
   media_div = document.getElementById('media_div')
   for (let i = 0; i < items.length; i++) {
