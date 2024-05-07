@@ -48,6 +48,68 @@ function setUp() {
   }
 }
 
+
+function mediaPage() {
+  url = window.location.href;
+  game = url.substring(url.indexOf('?g=')+3, url.length)
+  let items = entry_data[game]
+  media_div = document.getElementById('media_div')
+  for (let i = 0; i < items.length; i++) {
+    let div = document.createElement("div");
+    div.classList.toggle('media_box')
+
+    let title_div = document.createElement("div");
+    title_div.classList.toggle('title_box')
+    let span = document.createElement("span")
+    span.innerHTML = `${items[i]['name']}`
+    span.classList.toggle('title')
+    title_div.appendChild(span)
+
+    let img_div = document.createElement("div");
+    img_div.classList.toggle('img_box')
+    let img = document.createElement("img")
+    img.classList.toggle('media_img')
+    img.src = `./covers/${items[i]['img']}.png`
+    img_div.appendChild(img)
+
+    let info_div = document.createElement("div");
+    info_div.classList.toggle('info_box')
+
+    let buttons_div = document.createElement("div");
+    buttons_div.classList.toggle('buttons_box')
+
+    for (let j = 0; j < items[i].buttons.length; j++){
+      let a = document.createElement('a')
+      a.href = items[i].buttons[j].link
+      a.target = '_blank'
+      let button = document.createElement('button')
+      let span = document.createElement('span')
+
+      span.innerHTML = items[i].buttons[j].note
+
+      button.style.background = `url('./assets/${items[i].buttons[j].type}.png')`
+
+      a.appendChild(button)
+      button.appendChild(span)
+    
+      buttons_div.appendChild(a)
+      
+    }
+    
+    div.appendChild(title_div)
+    div.appendChild(img_div)
+    div.appendChild(info_div)
+    div.appendChild(buttons_div)
+    media_div.appendChild(div)
+
+    let line = document.createElement("div");
+    line.classList.toggle('break')
+    line.innerHTML = "<hr>"
+    media_div.appendChild(line)
+
+  }
+}
+/*
 function mediaPage() {
   url = window.location.href;
   game = url.substring(url.indexOf('?g=')+3, url.length)
@@ -117,6 +179,8 @@ function mediaPage() {
 
   }
 }
+
+*/
 
 function info(entry) {
   body = document.getElementById('ch_body')

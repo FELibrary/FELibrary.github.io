@@ -113,7 +113,7 @@ let entry_data = {
         "buttons": [{
           "type": "gdrive",
           "link": "https://drive.google.com/drive/folders/1pSiDEjAwUTxIN3LAmvZBQ99gknisZ_3c",
-          "note": "Vol 1-3 (Select Pages)"
+          "note": "Vol 1-3"
         }]
       }
     ],
@@ -175,7 +175,7 @@ let entry_data = {
         "translation": [
           ""
         ],
-        "img": "gothw_tour",
+        "img": "engage",
         "raws": "",
         "buttons": [{
           "type": "mangadex",
