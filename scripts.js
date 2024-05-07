@@ -31,7 +31,7 @@ function setUp() {
     div.classList.toggle('game_info_box')
     let element = document.createElement("button");
     element.onclick = function() { 
-      window.location.href = `www.fireemblemlibrary.github.io/media.html?g=${arr[i]}`
+      window.location.href = `media.html?g=${arr[i]}`
     }
     element.id = arr[i]
     element.classList.toggle('game_info_button')
@@ -47,15 +47,6 @@ function setUp() {
     game_div.appendChild(div)
   }
 }
-
-
-function redirect(id) {
-   
-    console.log(id)
-    game = id;
-    mediaPage()
-}
-
 
 function mediaPage() {
   url = window.location.href;
