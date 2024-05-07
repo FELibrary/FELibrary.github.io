@@ -1,6 +1,5 @@
 let entry_data = {
   "archanea": [{
-    
     "name": "Legacy of Archanea",
     "type": "Artbook",
     "status": "English Release",
@@ -12,14 +11,34 @@ let entry_data = {
       "link": "https://drive.google.com/drive/folders/1Y7XWvhDjynoD4PKsJqs_-bIB5Yv62nMP",
       "note": "All Pages"
     }]
-  }],
-  "sov": {},
-  "gothw": [
+  },
+
   {
-      "name": "Genealogy of the Holy War (OOSAWA Mitsuki)",
+    "name": "Fire Emblem Tactics",
+    "type": "Guidebook",
+    "status": "Untranslated",
+    "translation": [],
+    "img": "arc_tactics",
+    "raws": "https://drive.google.com/drive/folders/1z7iChG4BnaIm6OWve4KX1P_7JzSutJe0",
+    "buttons": []
+  }],
+
+
+  
+  "sov": [{
+    "name": "Fire Emblem Gaiden Encyclopedia",
+    "type": "Guidebook",
+    "status": "Untranslated",
+    "translation": [],
+    "img": "gaiden_encyclo",
+    "raws": "https://drive.google.com/drive/folders/1VsCgf4EqbYiGXWdRTZWC0KtGvQZ8VFqn",
+    "buttons": []
+  }],
+  "gothw": [{
+      "name": "Genealogy of the Holy War (Mitsuki Oosawa)",
       "story": "Mitsuki Oosawa",
       "art": "Mitsuki Oosawa",
-      "type": "manga",
+      "type": "Manga",
       "status": "Fully Translated",
       "translation": [
         "Another FE4 Translation",
@@ -41,10 +60,10 @@ let entry_data = {
       ]
     },
     {
-      "name": "Genealogy of the Holy War (FUJIMORI Nattsu)",
+      "name": "Genealogy of the Holy War (Fujimori Nattsu)",
       "story": "Fujimori Nattsu",
       "art": "Fujimori Nattsu",
-      "type": "manga",
+      "type": "Manga",
       "status": "Partially Translated",
       "translation": [
         "TheEnd",
@@ -62,7 +81,7 @@ let entry_data = {
       "name": "Fire Emblem Treasure",
       "story": "",
       "art": "",
-      "type": "artbook",
+      "type": "Artbook",
       "status": "Untranslated",
       "translation": [],
       "img": "gothw_treasure",
@@ -71,20 +90,24 @@ let entry_data = {
     },
     {
       "name": "Gekka Ginyu Artbook",
-      "story": "",
-      "art": "",
-      "type": "artbook",
-      "status": "Untranslated",
-      "translation": [],
+      "story": "Mitsuki Oosawa",
+      "art": "Mitsuki Oosawa",
+      "type": "Artbook/Manga",
+      "status": "Fully Translated",
+      "translation": ["Another FE4 Translation"],
       "img": "gothw_gekka",
-      "raws": "https://drive.google.com/drive/folders/15JS-nAVfjYG9OMmaXVWX4jIUcSctK8Qf",
-      "buttons": []
+      "raws": "https://drive.google.com/drive/folders/1Ow0oU5yX1-wRmU4-cfFNzNk24nrQnqa2",
+      "buttons": [{
+        "type": "gdrive",
+        "link": "https://drive.google.com/drive/folders/1aZD5YEqVH_udy2sUO_MWxBBqxZ08EfDW",
+        "note": "Story Pages"
+      }]
     },
     {
       "name": "Short Comic Theater 2",
       "story": "",
       "art": "",
-      "type": "artbook",
+      "type": "Artbook",
       "status": "Untranslated",
       "translation": [],
       "img": "gothw_theater",
@@ -95,7 +118,7 @@ let entry_data = {
       "name": "Military History of the Continent",
       "story": "",
       "art": "",
-      "type": "manga",
+      "type": "Manga",
       "status": "Untranslated",
       "translation": [],
       "img": "gothw_military",
@@ -106,7 +129,7 @@ let entry_data = {
       "name": "Fire Emblem Yaruze",
       "story": "",
       "art": "",
-      "type": "manga",
+      "type": "Manga",
       "status": "Untranslated",
       "translation": [],
       "img": "gothw_yaruze",
@@ -135,7 +158,7 @@ let entry_data = {
     "name": "Thracia 776 (Takanagi Yuuna)",
     "story": "Takanagi Yuuna",
     "art": "Takanagi Yuuna",
-    "type": "manga",
+    "type": "Manga",
     "status": "Translation in Progress",
     "translation": [
       "Kitsudori"
@@ -158,7 +181,7 @@ let entry_data = {
     "name": "Another Story - Champion's Sword",
     "story": "Hiroshi Izawa",
     "art": "Yamada Koutarou",
-    "type": "manga",
+    "type": "Manga",
     "status": "Completed",
     "translation": [
       "TheEnd"
@@ -179,41 +202,35 @@ let entry_data = {
   "fates": [],
   "3h": [],
   "engage": [{
-    "name": "Fire Emblem Engage",
-    "story": "Kazuro Kyou",
-    "art": "Kazuro Kyou",
-    "type": "Manga",
-    "status": "Translation in Progress",
-    "translation": [
-      ""
-    ],
-    "img": "engage",
-    "raws": "",
-    "buttons": [{
-      "type": "mangadex",
-      "link": "https://mangadex.org/title/54510496-b1d9-4b71-ac97-b50dec06d685/fire-emblem-engage",
-      "note": "All Chs."
-    }]
-  },
-
-  {
-    "name": "Special Edition Artbook",
-    "art": "Mika",
-    "type": "Artbook",
-    "status": "English Release",
-    "translation": [
-    ],
-    "img": "engage_se",
-    "raws": "",
-    "buttons": [{
-      "type": "gdrive",
-      "link": "https://drive.google.com/drive/folders/1JnOvAwsPcez3gO5MBXmkdUGqPc-BdmqN",
-      "note": "All Pages"
-    }]
-  }
-
-
-
-
+      "name": "Fire Emblem Engage (Kazuro Kyou)",
+      "story": "Kazuro Kyou",
+      "art": "Kazuro Kyou",
+      "type": "Manga",
+      "status": "Publishing",
+      "translation": [
+        ""
+      ],
+      "img": "engage",
+      "raws": "",
+      "buttons": [{
+        "type": "mangadex",
+        "link": "https://mangadex.org/title/54510496-b1d9-4b71-ac97-b50dec06d685/fire-emblem-engage",
+        "note": "All Chs."
+      }]
+    },
+    {
+      "name": "Special Edition Artbook",
+      "art": "Mika Pikazo",
+      "type": "Artbook",
+      "status": "English Release",
+      "translation": [],
+      "img": "engage_se",
+      "raws": "",
+      "buttons": [{
+        "type": "gdrive",
+        "link": "https://drive.google.com/drive/folders/1JnOvAwsPcez3gO5MBXmkdUGqPc-BdmqN",
+        "note": "All Pages"
+      }]
+    }
   ]
 }

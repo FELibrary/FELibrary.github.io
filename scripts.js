@@ -105,7 +105,7 @@ function mediaPage() {
       button.classList.toggle('raw_btn')
       let span = document.createElement('span')
 
-      span.innerHTML = 'Raws'
+      span.innerHTML = 'Scans'
 
       //button.style.background = `url('./assets/${items[i].buttons[j].type}.png')`
 
