@@ -37,23 +37,39 @@ body {
   position: absolute;
   margin-left: 66%;
   top: 25%;
-  display: flex;
+
+}
+
+.buttons_box{
+  position: absolute;
+  height: 85%;
+  width: 33%;
+   top: 15%;
+  left: 66.6%;
+    border-style: solid;
+  border-color: black;
+  border-width: 1px;
+    display: flex;
   flex-direction: column;
+    justify-content: space-around;
+  align-content: center;
 }
 
 .buttons_box a {
 
-  width: 100%;
+  width: 95%;
+  margin-left: 2.5%;
   height: auto;
 }
 
 .buttons_box button {
   border: none;
   background-size: cover;
-  width: 100%;
+  width: 95%;
+    margin-left: 2.5%;
+    background-color: cornflowerblue;
     position: relative;
-min-height: 20%;
-background-position: center;
+
     cursor: pointer;
 }
 
@@ -78,6 +94,10 @@ background-position: center;
     -1px  1px 0 #000,
     -1px  0   0 #000;
     -webkit-text-stroke: 0.33px black;
+}
+
+.raw_btn {
+  background-color: lightpink;
 }
 
 .media_box {
@@ -126,16 +146,7 @@ background-position: center;
   border-width: 1px;
 }
 
-.buttons_box{
-  position: absolute;
-  height: 85%;
-  width: 33%;
-   top: 15%;
-  left: 66.6%;
-    border-style: solid;
-  border-color: black;
-  border-width: 1px;
-}
+
 
 .title {
   font-family: FEH;

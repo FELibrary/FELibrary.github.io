@@ -87,7 +87,7 @@ function mediaPage() {
 
       span.innerHTML = items[i].buttons[j].note
 
-      button.style.background = `url('./assets/${items[i].buttons[j].type}.png')`
+      //button.style.background = `url('./assets/${items[i].buttons[j].type}.png')`
 
       a.appendChild(button)
       button.appendChild(span)
@@ -95,6 +95,41 @@ function mediaPage() {
       buttons_div.appendChild(a)
       
     }
+
+    if (items[i]['raws']){
+
+      let a = document.createElement('a')
+      a.href = items[i].raws
+      a.target = '_blank'
+      let button = document.createElement('button')
+      button.classList.toggle('raw_btn')
+      let span = document.createElement('span')
+
+      span.innerHTML = 'Raws'
+
+      //button.style.background = `url('./assets/${items[i].buttons[j].type}.png')`
+
+      a.appendChild(button)
+      button.appendChild(span)
+      buttons_div.appendChild(a)
+
+    }
+
+    string = ""
+
+    string += `<strong>Type:</strong> ${items[i].type}<br/>`
+    string += `<strong>Status:</strong> ${items[i].status}<br/>`
+
+     if (items[i]['story']){
+      string += `<strong>Story:</strong> ${items[i].story}<br/>`
+     }
+     if (items[i]['art']){
+      string += `<strong>Art:</strong> ${items[i].art}<br/>`
+     }
+
+    info_div.innerHTML = string
+
+
     
     div.appendChild(title_div)
     div.appendChild(img_div)

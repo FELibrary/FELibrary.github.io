@@ -151,7 +151,7 @@ let entry_data = {
         "translation": [
           "TheEnd"
         ],
-        "img": "binding_sword",
+        "img": "fe6_sword",
         "raws": "https://drive.google.com/drive/folders/1JxJOJedTP1AtNJ728LjYrTgkUIDhLXgQ",
         "buttons": [{
           "type": "mangadex",
