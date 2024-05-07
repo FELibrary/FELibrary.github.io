@@ -31,7 +31,7 @@ function setUp() {
     div.classList.toggle('game_info_box')
     let element = document.createElement("button");
     element.onclick = function() { 
-      window.location.href = `file:///Users/aiman/Desktop/FELibrary/manga.html?g=${arr[i]}`
+      window.location.href = `www.fireemblemlibrary.github.io/media.html?g=${arr[i]}`
     }
     element.id = arr[i]
     element.classList.toggle('game_info_button')

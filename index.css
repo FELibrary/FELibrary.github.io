@@ -41,13 +41,13 @@ body {
 
   text-shadow:
     -1px -1px 0 #000,
-     0   -1px 0 #000,
-     1px -1px 0 #000,
-     1px  0   0 #000,
-     1px  1px 0 #000,
-     0    1px 0 #000,
-    -1px  1px 0 #000,
-    -1px  0   0 #000;
+    0 -1px 0 #000,
+    1px -1px 0 #000,
+    1px 0 0 #000,
+    1px 1px 0 #000,
+    0 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 0 0 #000;
   text-align: center;
   -webkit-text-stroke: 0.33px black;
 
@@ -58,19 +58,24 @@ body {
 
 .game_info_box {
   width: 20%;
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
-
   min-height: 375px;
   min-width: 300px;
   position: relative;
+  cursor: pointer;
   margin-top: 2%;
+
 }
+
 .game_info_button {
   width: 100%;
   height: 100%;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  cursor: pointer;
   position: absolute;
+  background-color: rgba(63, 39, 34, 0.25);
+
 }
 
 .game_img {
@@ -230,7 +235,4 @@ body {
   width: auto;
 }
 
-@media only screen and (max-width: 1280px) {
-
-
-}
+@media only screen and (max-width: 1280px) {}
