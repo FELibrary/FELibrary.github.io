@@ -1,42 +1,84 @@
 let entry_data = {
   "archanea": [{
-    "name": "Legacy of Archanea",
-    "type": "Artbook",
-    "status": "English Release",
-    "translation": [],
-    "img": "arc_legacy",
-    "raws": "",
-    "buttons": [{
-      "type": "gdrive",
-      "link": "https://drive.google.com/drive/folders/1Y7XWvhDjynoD4PKsJqs_-bIB5Yv62nMP",
-      "note": "All Pages"
-    }]
-  },
-
-  {
-    "name": "Fire Emblem Tactics",
-    "type": "Guidebook",
-    "status": "Untranslated",
-    "translation": [],
-    "img": "arc_tactics",
-    "raws": "https://drive.google.com/drive/folders/1z7iChG4BnaIm6OWve4KX1P_7JzSutJe0",
-    "buttons": []
-  },
-
+      "name": "Legacy of Archanea",
+      "type": "Artbook",
+      "status": "English Release",
+      "translation": [],
+      "img": "arc_legacy",
+      "raws": "",
+      "buttons": [{
+        "type": "gdrive",
+        "link": "https://drive.google.com/drive/folders/1Y7XWvhDjynoD4PKsJqs_-bIB5Yv62nMP",
+        "note": "All Pages"
+      }]
+    },
     {
-    "name": "Memorial Book Akaneia Chronicle",
-    "type": "Guidebook",
-    "status": "Untranslated",
-    "translation": [],
-    "img": "arc_akaneia",
-    "raws": "https://drive.google.com/drive/folders/1KahbvANHj6l3wgNJ52o2aoNg5iVTfpiF",
-    "buttons": []
-  }
-
+      "name": "Fire Emblem Tactics",
+      "type": "Guidebook",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "arc_tactics",
+      "raws": "https://drive.google.com/drive/folders/1z7iChG4BnaIm6OWve4KX1P_7JzSutJe0",
+      "buttons": []
+    },
+    {
+      "name": "MotE Strategy Guidebook",
+      "type": "Guidebook",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "arc_strategy",
+      "raws": "https://drive.google.com/drive/folders/10sZAU0VyrSnhIXdnqgb3tHX9TWeviDRv",
+      "buttons": []
+    },
+    {
+      "name": "MotE Strategy Manual",
+      "type": "Guidebook",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "arc_guide",
+      "raws": "https://drive.google.com/drive/folders/1xQvys5nXSj-7QWeR_IYGeSmKxEuB0xTW",
+      "buttons": []
+    },
+    {
+      "name": "MotE Manga",
+      "type": "Manga",
+      "art": "Sara Yamaguchi",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "arc_sara",
+      "raws": "https://drive.google.com/drive/folders/1hmT2biUytt95yFFZQBfOT_8uolTojvOk",
+      "buttons": []
+    },
+    {
+      "name": "Short Comic Theater",
+      "type": "Manga",
+      "art": "",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "arc_theater",
+      "raws": "https://drive.google.com/drive/folders/1JtYnDvq9-BAeVLIX8v84pKYoU-g7YpE6",
+      "buttons": []
+    },
+    {
+      "name": "The Legend of Archanea Comic Anthology",
+      "type": "Manga",
+      "art": "",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "arc_legend",
+      "raws": "https://drive.google.com/drive/folders/1lyMAoWZZzRKLctw-FV4ReS4UbQmfEGf9",
+      "buttons": []
+    },
+    {
+      "name": "Memorial Book Akaneia Chronicle",
+      "type": "Guidebook",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "arc_akaneia",
+      "raws": "https://drive.google.com/drive/folders/1KahbvANHj6l3wgNJ52o2aoNg5iVTfpiF",
+      "buttons": []
+    }
   ],
-
-
-  
   "sov": [{
     "name": "Fire Emblem Gaiden Encyclopedia",
     "type": "Guidebook",
@@ -101,6 +143,24 @@ let entry_data = {
       "buttons": []
     },
     {
+      "name": "Memorial File",
+      "type": "Artbook/Guidebook",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "gothw_memorial",
+      "raws": "https://drive.google.com/drive/folders/1jnvf9LSjU7KPPM6V81olwlEqjqpOB8B-",
+      "buttons": []
+    },
+    {
+      "name": "Final Capture Bible",
+      "type": "Guidebook",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "gothw_final",
+      "raws": "https://drive.google.com/drive/folders/1ucy7uNSGj-7_DR1rWUdhMZpbIYoGSoFt",
+      "buttons": []
+    },
+    {
       "name": "Gekka Ginyu Artbook",
       "story": "Mitsuki Oosawa",
       "art": "Mitsuki Oosawa",
@@ -149,10 +209,19 @@ let entry_data = {
       "buttons": []
     },
     {
+      "name": "Kobunsha Heaven Short Comic",
+      "type": "Manga",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "gothw_kobunsha",
+      "raws": "https://drive.google.com/drive/folders/1QG7KI7UFmF34AAyfyI59srrDQWZr7eZ5",
+      "buttons": []
+    },
+    {
       "name": "FE World Tour",
       "story": "",
       "art": "",
-      "type": "4koma",
+      "type": "Manga",
       "status": "Translation in Progress",
       "translation": [
         "Kitsudori"
@@ -165,13 +234,15 @@ let entry_data = {
         "note": "Vol 1-3"
       }]
     },
-       {"name": "Famitsu Fan Special",
-    "type": "Guidebook",
-    "status": "Untranslated",
-    "translation": [],
-    "img": "gothw_famitsu",
-    "raws": "https://drive.google.com/drive/folders/1-C7epGBbKp9sZDIqAwGD0D0J3epc6gmu",
-    "buttons": []}
+    {
+      "name": "Famitsu Fan Special",
+      "type": "Guidebook",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "gothw_famitsu",
+      "raws": "https://drive.google.com/drive/folders/1-C7epGBbKp9sZDIqAwGD0D0J3epc6gmu",
+      "buttons": []
+    }
   ],
   "t776": [{
     "name": "Thracia 776 (Takanagi Yuuna)",
@@ -197,36 +268,84 @@ let entry_data = {
     ]
   }],
   "binding": [{
-    "name": "Another Story - Champion's Sword",
-    "story": "Hiroshi Izawa",
-    "art": "Yamada Koutarou",
-    "type": "Manga",
-    "status": "Completed",
-    "translation": [
-      "TheEnd"
-    ],
-    "img": "fe6_sword",
-    "raws": "https://drive.google.com/drive/folders/1JxJOJedTP1AtNJ728LjYrTgkUIDhLXgQ",
-    "buttons": [{
-      "type": "mangadex",
-      "link": "https://mangadex.org/title/d320eeff-08d2-424d-9513-77b17b219354/fire-emblem-6-another-story-champion-s-sword",
-      "note": "Ch 1-45"
-    }]
-  }],
+      "name": "Another Story - Champion's Sword",
+      "story": "Hiroshi Izawa",
+      "art": "Yamada Koutarou",
+      "type": "Manga",
+      "status": "Completed",
+      "translation": [
+        "TheEnd"
+      ],
+      "img": "fe6_sword",
+      "raws": "https://drive.google.com/drive/folders/1JxJOJedTP1AtNJ728LjYrTgkUIDhLXgQ",
+      "buttons": [{
+        "type": "mangadex",
+        "link": "https://mangadex.org/title/d320eeff-08d2-424d-9513-77b17b219354/fire-emblem-6-another-story-champion-s-sword",
+        "note": "Ch 1-45"
+      }]
+    },
+    {
+      "name": "The Binding Blade Anthology Manga",
+      "type": "Manga",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "fe6_antho",
+      "raws": "https://drive.google.com/drive/folders/1HqDSzoKQIXDUpiiGbMAhpG06nzg0wCh_",
+      "buttons": []
+    },
+    {
+      "name": "Gag Battle Anthology",
+      "type": "4koma",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "fe6_gag",
+      "raws": "https://drive.google.com/drive/folders/1aoRcBIhSB8K8CUQ9FyvtjmCbCyMPPquD",
+      "buttons": []
+    },
+    {
+      "name": "Futabasha 4koma",
+      "type": "4koma",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "fe6_futabasha",
+      "raws": "https://drive.google.com/drive/folders/1X9HBqJl5BuwZ9oWB7tyqsxEZrS04BdAG",
+      "buttons": []
+    }
+  ],
   "blazing": [],
   "ss": [],
   "por": [],
   "rd": [],
-  "awakening": [],
-  "fates": [
-        {"name": "Valla Comic Anthology",
-    "type": "Manga",
+  "awakening": [{
+    "name": "Kozaki Holiday Fan Book",
+    "type": "Artbook",
+    "art": "Yusuke Kozaki",
     "status": "Untranslated",
     "translation": [],
-    "img": "fates_valla",
-    "raws": "https://drive.google.com/drive/folders/12fJ7FkUQGWruYAbtzNm5gflGFDrWxgm9",
-    "buttons": []}
-    ],
+    "img": "fates_kozaki",
+    "raws": "https://drive.google.com/drive/folders/1LmU_rxPERXGI7nEcoRwcmcougdWAsoRV",
+    "buttons": []
+  }],
+  "fates": [{
+      "name": "Valla Comic Anthology",
+      "type": "Manga",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "fates_valla",
+      "raws": "https://drive.google.com/drive/folders/12fJ7FkUQGWruYAbtzNm5gflGFDrWxgm9",
+      "buttons": []
+    },
+    {
+      "name": "Kozaki Holiday Fan Book",
+      "type": "Artbook",
+      "art": "Yusuke Kozaki",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "fates_kozaki",
+      "raws": "https://drive.google.com/drive/folders/1LmU_rxPERXGI7nEcoRwcmcougdWAsoRV",
+      "buttons": []
+    }
+  ],
   "3h": [],
   "engage": [{
       "name": "Fire Emblem Engage (Kazuro Kyou)",

@@ -62,5 +62,10 @@ let games = {
       "engage" : {
     "name" : "Engage",
     "summary" : ""
+  },
+
+  "tmsfe" : {
+    "name" : "Tokyo Mirage Sessions #FE",
+    "summary" : ""
   }
 }

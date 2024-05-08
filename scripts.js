@@ -19,7 +19,8 @@ arr = [
   'awakening',
   'fates',
   '3h',
-  'engage'
+  'engage',
+  'tmsfe'
 ]
 
 let game = ''
