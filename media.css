@@ -129,7 +129,7 @@ body {
   position: absolute;
   height: 85%;
   top: 15%;
-  width: 33.3%;
+  aspect-ratio: 611/800;
     border-style: solid;
   border-color: black;
   border-width: 1px;
