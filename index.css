@@ -30,7 +30,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: center;
-  gap: 5%;
+  gap: 3%;
 
 
 }
@@ -59,7 +59,7 @@ body {
 
 
 .game_info_box {
-  width: 20%;
+  width: 30%;
   min-height: 375px;
   min-width: 300px;
     aspect-ratio: 300/375;
