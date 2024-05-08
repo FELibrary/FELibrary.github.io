@@ -21,7 +21,19 @@ let entry_data = {
     "img": "arc_tactics",
     "raws": "https://drive.google.com/drive/folders/1z7iChG4BnaIm6OWve4KX1P_7JzSutJe0",
     "buttons": []
-  }],
+  },
+
+    {
+    "name": "Memorial Book Akaneia Chronicle",
+    "type": "Guidebook",
+    "status": "Untranslated",
+    "translation": [],
+    "img": "arc_akaneia",
+    "raws": "https://drive.google.com/drive/folders/1KahbvANHj6l3wgNJ52o2aoNg5iVTfpiF",
+    "buttons": []
+  }
+
+  ],
 
 
   
@@ -152,7 +164,14 @@ let entry_data = {
         "link": "https://drive.google.com/drive/folders/1pSiDEjAwUTxIN3LAmvZBQ99gknisZ_3c",
         "note": "Vol 1-3"
       }]
-    }
+    },
+       {"name": "Famitsu Fan Special",
+    "type": "Guidebook",
+    "status": "Untranslated",
+    "translation": [],
+    "img": "gothw_famitsu",
+    "raws": "https://drive.google.com/drive/folders/1-C7epGBbKp9sZDIqAwGD0D0J3epc6gmu",
+    "buttons": []}
   ],
   "t776": [{
     "name": "Thracia 776 (Takanagi Yuuna)",
@@ -199,7 +218,15 @@ let entry_data = {
   "por": [],
   "rd": [],
   "awakening": [],
-  "fates": [],
+  "fates": [
+        {"name": "Valla Comic Anthology",
+    "type": "Manga",
+    "status": "Untranslated",
+    "translation": [],
+    "img": "fates_valla",
+    "raws": "https://drive.google.com/drive/folders/12fJ7FkUQGWruYAbtzNm5gflGFDrWxgm9",
+    "buttons": []}
+    ],
   "3h": [],
   "engage": [{
       "name": "Fire Emblem Engage (Kazuro Kyou)",
@@ -210,7 +237,7 @@ let entry_data = {
       "translation": [
         ""
       ],
-      "img": "engage",
+      "img": "engage_manga",
       "raws": "",
       "buttons": [{
         "type": "mangadex",

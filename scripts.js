@@ -65,6 +65,9 @@ function mediaPage() {
     span.classList.toggle('title')
     title_div.appendChild(span)
 
+    let lower_div = document.createElement("div");
+    lower_div.classList.toggle('lower_box')
+
     let img_div = document.createElement("div");
     img_div.classList.toggle('img_box')
     let img = document.createElement("img")
@@ -132,9 +135,10 @@ function mediaPage() {
 
     
     div.appendChild(title_div)
-    div.appendChild(img_div)
-    div.appendChild(info_div)
-    div.appendChild(buttons_div)
+   lower_div.appendChild(img_div)
+    lower_div.appendChild(info_div)
+    lower_div.appendChild(buttons_div)
+    div.appendChild(lower_div)
     media_div.appendChild(div)
 
     let line = document.createElement("div");
