@@ -1,5 +1,6 @@
 let entry_data = {
-  "archanea": [{
+  "archanea": [
+  {
       "name": "Legacy of Archanea",
       "type": "Artbook",
       "status": "English Release",
@@ -21,6 +22,110 @@ let entry_data = {
       "raws": "https://drive.google.com/drive/folders/1z7iChG4BnaIm6OWve4KX1P_7JzSutJe0",
       "buttons": []
     },
+
+        {
+      "name": "All of Fire Emblem",
+      "type": "Guidebook",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "arc_all",
+      "raws": "https://serenesforest.net/gallery/all-of-fire-emblem/",
+      "buttons": []
+    },
+
+            {
+      "name": "Fire Emblem Wind Mage",
+      "type": "Manga",
+      "art" : "Shinshu Ueda",
+      "story" : "Shinshu Ueda",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "arc_wind",
+      "raws": "https://drive.google.com/drive/folders/1vkfthwI2IESVuvUA9ATe-6Vg5a0BLxLh",
+      "buttons": []
+    },
+
+                {
+      "name": "Enix Super Comic Gekijoh Vol.5",
+      "type": "Manga",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "arc_gekijoh",
+      "raws": "https://drive.google.com/drive/folders/1h1h-rYs-k_8P80bYgHXwxkztEld7G2Qy",
+      "buttons": []
+    },
+
+                {
+      "name": "Theater Comic Anthology Book 1",
+      "type": "4koma",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "arc_theater1",
+      "raws": "https://drive.google.com/drive/folders/1HfHxom9QUL-TC0BUS01i6yTSmhjyXPV1",
+      "buttons": []
+    },
+
+                    {
+      "name": "Theater Comic Anthology Book 2",
+      "type": "4koma",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "arc_theater2",
+      "raws": "https://drive.google.com/drive/folders/1_c6lZbdkiDg3G8PcmFKllUkschCqabsk",
+      "buttons": []
+    },
+
+                        {
+      "name": "Theater Comic Anthology Book 3",
+      "type": "4koma",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "arc_theater3",
+      "raws": "https://drive.google.com/drive/folders/1o1ACvx_JxYcy5jpbdBhu8FKPWa0nyiRI",
+      "buttons": []
+    },
+
+                            {
+      "name": "Theater Comic Anthology Book 4",
+      "type": "4koma",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "arc_theater4",
+      "raws": "https://drive.google.com/drive/folders/1By4Lh49n5LiZJGjt5N83fkl7jYP23bB5",
+      "buttons": []
+    },
+
+                                {
+      "name": "Amusement Anthology Series 11",
+      "type": "4koma",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "arc_amusement",
+      "raws": "https://drive.google.com/drive/folders/1orJzH2Vn2zaiFMlaC9TVmcOW85RionAT",
+      "buttons": []
+    },
+
+                                    {
+      "name": "Shounen Oh Comics 4Koma Gag Battle",
+      "type": "4koma",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "arc_gag",
+      "raws": "https://drive.google.com/drive/folders/1mHVBTgFiUKUJeT43wH4xAbHogoLbNfC_",
+      "buttons": []
+    },
+
+                                    {
+      "name": "Telephone Pay Card",
+      "type": "Misc",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "arc_phone",
+      "raws": "https://www.reddit.com/r/fireemblem/comments/zykmc5/one_of_my_big_highlights_of_2022_was_getting_what/",
+      "buttons": []
+    },
+
+
     {
       "name": "MotE Strategy Guidebook",
       "type": "Guidebook",
@@ -151,6 +256,17 @@ let entry_data = {
       "raws": "https://drive.google.com/drive/folders/1jnvf9LSjU7KPPM6V81olwlEqjqpOB8B-",
       "buttons": []
     },
+
+        {
+      "name": "The Last of the Earth Dragon Tribe",
+      "type": "Light Novel",
+      "status": "Fully Translated",
+      "translation": [
+        "Leif of Leonster (3,5)", "garmmy (1-2, 4, 6-8)"],
+      "img": "gothw_dragon",
+      "raws": "https://docs.google.com/document/d/1WmfI_vbJU549LNLQm-ijfQJFqLrivtg9aGbZWVuPIf8/edit",
+      "buttons": []
+    },
     {
       "name": "Final Capture Bible",
       "type": "Guidebook",
@@ -184,6 +300,16 @@ let entry_data = {
       "translation": [],
       "img": "gothw_theater",
       "raws": "https://drive.google.com/drive/folders/10EFlg6gWOPOz5Wp-gUtXTiHzo2fOPxJ8",
+      "buttons": []
+    },
+
+        {
+      "name": "Shounen Oh Short Gag Box",
+      "type": "4koma",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "gothw_gag",
+      "raws": "https://drive.google.com/drive/folders/171KcHPc5XcQ8lWomWbgjDfRxUTFMQGzg",
       "buttons": []
     },
     {
@@ -242,7 +368,88 @@ let entry_data = {
       "img": "gothw_famitsu",
       "raws": "https://drive.google.com/drive/folders/1-C7epGBbKp9sZDIqAwGD0D0J3epc6gmu",
       "buttons": []
-    }
+    },
+    {
+
+        "name": "Enix Super Comic Gekijoh Vol.7",
+      "type": "Manga",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "gothw_gekijoh7",
+      "raws": "https://drive.google.com/drive/folders/1F6RWVOxWUPLmov9JTs8fyoxdYrFgGuQw",
+      "buttons": []
+    },
+
+        {
+
+        "name": "Enix Super Comic Gekijoh Vol.2",
+      "type": "Manga",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "gothw_gekijoh2",
+      "raws": "https://drive.google.com/drive/folders/1oz0U8YzdF7TaUT5EfYc0-yiEM-xkacGP",
+      "buttons": []
+    },
+{
+
+        "name": "Shonen Oh Anthology Manga",
+      "type": "Manga",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "gothw_antho",
+      "raws": "https://drive.google.com/drive/folders/1HQX568sx4Gx5SzmwMzuqnLR8zCwLfl0V",
+      "buttons": []
+    },
+
+    {
+
+        "name": "Hikari Wo Tsugumonotachi",
+      "type": "Manga",
+      "art" : "Sumi Arisaka",
+      "story" : "Sumi Arisaka",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "gothw_arisaka",
+      "raws": "https://drive.google.com/drive/folders/1q7UNICK4NGDQEyRTSyODKh5R4E0iN9Iq",
+      "buttons": []
+    },
+
+
+    {
+
+        "name": "Genealogy of the Holy War Light Novel I",
+      "type": "Light Novel",
+
+      "story" : "Yuichiro Takeda",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "gothw_takeda1",
+      "raws": "https://drive.google.com/drive/folders/1ApBadZm7yD1aRTYnPph_X2ywvjePwkHZ",
+      "buttons": []
+    },
+
+        {
+
+        "name": "Genealogy of the Holy War Light Novel II",
+      "type": "Light Novel",
+
+      "story" : "Yuichiro Takeda",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "gothw_takeda2",
+      "raws": "https://drive.google.com/drive/folders/1byVDmBWdEvnXSE82IFD_XENkDMLPjotT",
+      "buttons": []
+    },
+{
+
+        "name": "Gakken Mook Strategy Book",
+      "type": "Guidebook",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "gothw_gakken",
+      "raws": "https://drive.google.com/drive/folders/1HQX568sx4Gx5SzmwMzuqnLR8zCwLfl0V",
+      "buttons": []
+    },
   ],
   "t776": [{
     "name": "Thracia 776 (Takanagi Yuuna)",
@@ -266,7 +473,17 @@ let entry_data = {
         "note": "All Chs."
       }
     ]
-  }],
+  },{
+
+        "name": "Enix Super Comic Gekijoh Vol.23",
+      "type": "Manga",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "t776_gekijoh",
+      "raws": "https://drive.google.com/drive/folders/1z3RX73Zm9qS56wNfg_ZExEhSHphfcxBY",
+      "buttons": []
+    }
+  ],
   "binding": [{
       "name": "Another Story - Champion's Sword",
       "story": "Hiroshi Izawa",
