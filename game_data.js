@@ -1,75 +1,90 @@
 let games = {
   "archanea" : {
     "name" : "Shadow Dragon / Mystery of the Emblem",
-    "summary" : ""
+    "summary" : "",
+    "filters" : ['All', 'Manga', 'Artbook', 'Guidebook', '4koma', 'Misc']
   },
 
     "sov" : {
     "name" : "Gaiden / Shadows of Valentia",
-    "summary" : ""
+    "summary" : "",
+    "filters" : ['All', 'Artbook', 'Guidebook']
   },
 
     "gothw" : {
     "name" : "Genealogy of the Holy War",
-    "summary" : ""
+    "summary" : "",
+    "filters" : ['All', 'Manga', 'Novel', 'Artbook', '4koma', 'Guidebook']
   },
 
     "t776" : {
     "name" : "Thracia 776",
-    "summary" : ""
+    "summary" : "",
+    "filters" : ['All', 'Manga', 'Novel']
   },
 
     "binding" : {
     "name" : "The Binding Blade",
-    "summary" : ""
+    "summary" : "",
+    "filters" : ['All', 'Manga', '4koma',]
   },
 
     "blazing" : {
     "name" : "The Blazing Blade",
-    "summary" : ""
+    "summary" : "",
+    "filters" : ['All']
   },
 
     "ss" : {
     "name" : "The Sacred Stones",
-    "summary" : ""
+    "summary" : "",
+    "filters" : ['All', 'Novel']
   },
 
     "por" : {
     "name" : "Path of Radiance",
-    "summary" : ""
+    "summary" : "",
+    "filters" : ['All', 'Artbook']
   },
 
       "rd" : {
     "name" : "Radiant Dawn",
-    "summary" : ""
+    "summary" : "",
+    "filters" : ['All', 'Artbook']
   },
 
       "awakening" : {
     "name" : "Awakening",
-    "summary" : ""
+    "summary" : "",
+    "filters" : ['All', 'Artbook']
   },
 
       "fates" : {
     "name" : "Fates",
-    "summary" : ""
+    "summary" : "",
+    "filters" : ['All', 'Manga', 'Artbook']
   },
 
       "3h" : {
     "name" : "Three Houses",
-    "summary" : ""
+    "summary" : "",
+    "filters" : ['All', 'Artbook']
   },
 
       "engage" : {
     "name" : "Engage",
-    "summary" : ""
+    "summary" : "",
+    "filters" : ['All', 'Manga', 'Artbook']
   },
 
   "tmsfe" : {
     "name" : "Tokyo Mirage Sessions #FE",
-    "summary" : ""
+    "summary" : "",
+    "filters" : ['All', 'Artbook']
   },
     "feh" : {
     "name" : "Fire Emblem Heroes",
-    "summary" : ""
+    "summary" : "",
+    "filters" : ['All', 'Manga', 'Artbook']
   }
 }
