@@ -20,6 +20,15 @@ body {
 
 #filter_bar{
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2%;
+}
+
+#filter_bar button{
+  font-family: 'FEH';
+  font-size: 125%;
 }
 
 #media_div {
@@ -75,7 +84,7 @@ body {
   background-size: cover;
   width: 95%;
   margin-left: 2.5%;
-  background-color: cornflowerblue;
+
   position: relative;
 
   cursor: pointer;
@@ -147,6 +156,7 @@ body {
   border-color: black;
   border-width: 1px;
 }
+
 
 .info_box {
 

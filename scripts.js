@@ -85,12 +85,14 @@ function mediaPage() {
     let buttons_div = document.createElement("div");
     buttons_div.classList.toggle('buttons_box')
 
+
     for (let j = 0; j < items[i].buttons.length; j++){
       let a = document.createElement('a')
       a.href = items[i].buttons[j].link
       a.target = '_blank'
       let button = document.createElement('button')
       let span = document.createElement('span')
+      button.style.backgroundColor = items[i].buttons[j].color
 
       span.innerHTML = items[i].buttons[j].note
 
@@ -103,7 +105,7 @@ function mediaPage() {
       
     }
 
-    if (items[i]['raws']){
+    /*if (items[i]['raws']){
 
       let a = document.createElement('a')
       a.href = items[i].raws
@@ -121,7 +123,7 @@ function mediaPage() {
       buttons_div.appendChild(a)
 
     }
-
+*/
     string = ""
 
     string += `<strong>Type:</strong> ${items[i].type}<br/>`
