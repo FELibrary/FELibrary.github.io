@@ -12,7 +12,6 @@ body {
 
 
 body {
-
   background: url('./assets/background_white.jpeg');
   overflow-x: hidden;
   position: relative;
@@ -30,17 +29,15 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: center;
-  gap: 3%;
+  gap: 7%;
 
 
 }
 
 #games span {
   font-family: FEH;
-
-  font-size: 1.5vw;
+  font-size: 2vw;
   color: white;
-
   text-shadow:
     -0.1vw -0.1vw 0 #000,
     0 -0.1vw 0 #000,
@@ -52,17 +49,15 @@ body {
     -0.1vw 0 0 #000;
   text-align: center;
   -webkit-text-stroke: 0.33px black;
-
   line-height: 120%;
-
 }
 
 
 .game_info_box {
-  width: 30%;
+  width: 27%;
   min-height: 375px;
   min-width: 300px;
-    aspect-ratio: 300/375;
+  aspect-ratio: 300/375;
   position: relative;
   cursor: pointer;
   margin-top: 2%;
@@ -78,128 +73,23 @@ body {
   cursor: pointer;
   position: absolute;
   background-color: rgba(63, 39, 34, 0.25);
-
 }
 
 .game_img {
   aspect-ratio: 1/1;
   margin-bottom: 10%;
   margin: 10%;
-
   width: 80%;
   top: 5%;
-
   border-color: black;
   border-style: solid;
   border-width: 1px;
 }
 
 
-#kofi {
-  background: url('./assets/kofi.png');
-  background-size: 40px 40px;
-  background-position: 50% 50%;
-
-  background-repeat: no-repeat;
-}
-
-#twitter {
-  background: url('./assets/twitter.png');
-  background-size: 40px 40px;
-  background-position: 50% 50%;
-
-  background-repeat: no-repeat;
-}
-
-#discord {
-  background: url('./assets/discord.png');
-  background-size: 40px 40px;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-}
-
-#linksTable {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-.collapsible {
-  background-color: transparent;
-  background: url('./assets/arrow.png') no-repeat left center;
-  background-size: 20px auto;
-  height: 30px;
-  padding-left: 35px;
-  border: none;
-  color: black;
-  width: 300px;
-  text-align: left;
-  font-family: 'FEH';
-  font-size: 20px;
-  margin-left: 50%;
-  margin-right: 50%;
-}
-
-.content {
-  padding: 0 18px;
-  background-color: none;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  font-family: FEH;
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-
-
-}
-
-.chTable {
-  width: 1000px;
-  padding: 0px 50px 0px 50px;
-  text-align: left;
-}
-
-.active:after {
-  background-image: url('./assets/arrowdown.png')no-repeat left center;
-  background-size: auto 20px;
-
-
-}
-
-.active {
-  background-image: url('./assets/arrowdown.png');
-  background-size: auto 20px;
-
-}
-
-
-
-#banner {
-  background-image: url('assets/banner.png');
-  background-repeat: repeat-x;
-  width: 100%;
-  height: 25vw;
-max-height: 450px;
-  text-align: center;
-  background-position: center;
-
-
-}
-
-#logo {
-  margin-left: auto;
-  margin-right: auto;
-  max-height: 450px;
-  height: 25vw;
-  margin-top: 30px;
-}
-
 #menu {
   height: 100px;
   width: 100%;
-
   text-align: center;
 
 }
