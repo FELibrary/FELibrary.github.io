@@ -67,5 +67,9 @@ let games = {
   "tmsfe" : {
     "name" : "Tokyo Mirage Sessions #FE",
     "summary" : ""
+  },
+    "feh" : {
+    "name" : "Fire Emblem Heroes",
+    "summary" : ""
   }
 }

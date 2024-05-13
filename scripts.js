@@ -20,7 +20,9 @@ arr = [
   'fates',
   '3h',
   'engage',
+  'feh',
   'tmsfe'
+
 ]
 
 let game = ''
