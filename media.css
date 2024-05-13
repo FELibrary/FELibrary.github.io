@@ -18,6 +18,10 @@ body {
 
 }
 
+#filter_bar{
+  text-align: center;
+}
+
 #media_div {
   width: 100%;
   font-family: FEH;

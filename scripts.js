@@ -55,6 +55,7 @@ function setUp() {
 function mediaPage() {
   url = window.location.href;
   game = url.substring(url.indexOf('?g=')+3, url.length)
+  filter_bar(game)
   let items = entry_data[game]
   media_div = document.getElementById('media_div')
   for (let i = 0; i < items.length; i++) {
@@ -152,3 +153,22 @@ function mediaPage() {
   }
 }
 
+function filter_bar(game){
+  filter_bar = document.getElementById('filter_bar')
+  console.log(game)
+  let filters = games[game].filters
+  console.log(entry_data[game])
+  for (let i = 0; i < filters.length; i++){
+    let button = document.createElement('button')
+    button.setAttribute('onclick', `filter('${filters[i]}')`)
+    //button.onclick = filter(filters[i]);
+    button.innerHTML = filters[i]
+    filter_bar.appendChild(button)
+  }
+
+}
+
+function filter(type) {
+
+  console.log(type)
+}
