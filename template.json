@@ -1,17 +1,20 @@
 {
-      "name": "",
-      "story" : "",
-      "art" : "",
-      "type" : "",
-      "translation" : [],
-      "img": "",
-      "raws" : "",
-      "buttons": [
-        {
-          "type": "",
-          "link" : "",
-          "note": "",
-          "color" :""
-        }
-      ]
+  "name": "",
+  "published": "",
+  "desc": "",
+  "story": "",
+  "art": "",
+  "type": "",
+  "status": "",
+  "translation": [],
+  "img": "",
+  "raws": "",
+  "buttons": [
+    {
+      "type": "",
+      "link": "",
+      "note": "",
+      "color": ""
     }
+  ]
+}

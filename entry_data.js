@@ -1,5 +1,6 @@
 let entry_data = {
-  "archanea": [{
+  "archanea": [
+  {
       "name": "Legacy of Archanea",
       "published": "December",
       "desc": "Included in the 30th Anniversary Edition of Fire Emblem: Shadow Dragon & the Blade of Light.",
@@ -294,21 +295,81 @@ let entry_data = {
     }
   ],
   "sov": [{
-    "name": "Fire Emblem Gaiden Encyclopedia",
-    "published": "",
-    "desc": "",
-    "type": "Guidebook",
-    "status": "Untranslated",
-    "translation": [],
-    "img": "gaiden_encyclo",
-    "raws": "",
-    "buttons": [{
-      "type": "gdrive",
-      "link": "https://drive.google.com/drive/folders/1VsCgf4EqbYiGXWdRTZWC0KtGvQZ8VFqn",
-      "note": "Scans",
-      "color": "lightpink"
-    }]
-  }],
+      "name": "Fire Emblem Gaiden Encyclopedia",
+      "published": "",
+      "desc": "",
+      "type": "Guidebook",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "gaiden_encyclo",
+      "raws": "",
+      "buttons": [{
+        "type": "gdrive",
+        "link": "https://drive.google.com/drive/folders/1VsCgf4EqbYiGXWdRTZWC0KtGvQZ8VFqn",
+        "note": "Scans",
+        "color": "lightpink"
+      }]
+    },
+
+         { "name": "Gaiden Novel",
+      "published": "",
+      "desc": "",
+      "story": "Katsuyuki Ozaki",
+      "art" : "Ichiro & Kazuo Hiroi",
+      
+      "type": "Light Novel",
+      "status": "Partially Translated",
+      "translation": [],
+      "img": "gaiden_novel",
+      "raws": "",
+      "buttons": [{
+        "type": "gdrive",
+        "link": "https://drive.google.com/drive/folders/1VukemM7dNj4vN9xU_lXd8Fgf9hhbOeka",
+        "note": "Book 1",
+        "color": "yellow"
+      }]
+    },
+
+    {
+
+      "name": "4koma Comic Anthology",
+      "published": "",
+      "desc": "",
+      "story": "",
+      "art": "",
+      "status": "Fully Translated",
+      "type": "4koma",
+      "translation": [
+        "Kantopia"
+      ],
+      "img": "sov_antho",
+      "raws": "",
+      "buttons": [{
+        "type": "external",
+        "link": "https://kantopia.wordpress.com/2018/01/28/fire-emblem-echoes-shadows-of-valentia-comic-anthology-4koma-translations-all/",
+        "note": "All Pages",
+        "color": "cornflowerblue"
+      }]
+    },
+    {
+      "name": "Valentia Accordion",
+      "published": "",
+      "desc": "",
+      "story": "",
+      "art": "Hidari",
+      "type": "Artbook",
+      "status": "Fully Translated",
+      "translation": ["Kantopia"],
+      "img": "sov_accordion",
+      "raws": "",
+      "buttons": [{
+        "type": "external",
+        "link": "https://kantopia.wordpress.com/2018/04/01/fe-echoes-sov-memorial-book-valentia-accordion-scan-translation-compilation-post/",
+        "note": "Translations",
+        "color": "cornflowerblue"
+      }]
+    }
+  ],
   "gothw": [{
       "name": "Genealogy of the Holy War (Mitsuki Oosawa)",
       "published": "",
@@ -400,19 +461,21 @@ let entry_data = {
       }]
     },
     {
-      "name": "The Last of the Earth Dragon Tribe",
+      "name": "Short Story Collection",
       "published": "",
       "desc": "",
+      "story": "Ginichiro Suzuki",
+      "art": "Rika Suzuki",
       "type": "Light Novel",
       "status": "Fully Translated",
       "translation": [
-        "Leif of Leonster (3,5)", "garmmy (1-2, 4, 6-8)"
+        "Leif of Leonster", "garmmy"
       ],
       "img": "gothw_dragon",
       "raws": "",
       "buttons": [{
-        "type": "external",
-        "link": "https://docs.google.com/document/d/1WmfI_vbJU549LNLQm-ijfQJFqLrivtg9aGbZWVuPIf8/edit",
+        "type": "gdrive",
+        "link": "https://drive.google.com/drive/folders/1kTI7zrOPY_pnRT85Jg4J8wVMc5BPgahY",
         "note": "All Stories",
         "color": "cornflowerblue"
       }]
@@ -654,40 +717,49 @@ let entry_data = {
       }]
     },
     {
-      "name": "Genealogy of the Holy War Light Novel I",
+      "name": "Genealogy of the Holy War Novel (Takeda)",
       "published": "",
       "desc": "",
       "type": "Light Novel",
       "story": "Yuichiro Takeda",
       "status": "Untranslated",
       "translation": [],
-      "img": "gothw_takeda1",
+      "img": "gothw_takeda",
       "raws": "",
       "buttons": [{
-        "type": "gdrive",
-        "link": "https://drive.google.com/drive/folders/1ApBadZm7yD1aRTYnPph_X2ywvjePwkHZ",
-        "note": "Scans",
-        "color": "lightpink"
-      }]
+          "type": "gdrive",
+          "link": "https://drive.google.com/drive/folders/1ApBadZm7yD1aRTYnPph_X2ywvjePwkHZ",
+          "note": "Book 1 Scans",
+          "color": "lightpink"
+        },
+        {
+          "type": "gdrive",
+          "link": "https://drive.google.com/drive/folders/1byVDmBWdEvnXSE82IFD_XENkDMLPjotT",
+          "note": "Book 2 Scans",
+          "color": "lightpink"
+        }
+      ]
     },
     {
-      "name": "Genealogy of the Holy War Light Novel II",
+      "name": "Genealogy of the Holy War Novel (Suzuki)",
       "published": "",
       "desc": "",
+      "story": "Ginichiro Suzuki",
+      "art": "Rika Suzuki",
       "type": "Light Novel",
-      "story": "Yuichiro Takeda",
-      "status": "Untranslated",
-      "translation": [],
-      "img": "gothw_takeda2",
+      "status": "Fully Translated",
+      "translation": [
+        "Leif of Leonster"
+      ],
+      "img": "gothw_novel",
       "raws": "",
       "buttons": [{
         "type": "gdrive",
-        "link": "https://drive.google.com/drive/folders/1byVDmBWdEvnXSE82IFD_XENkDMLPjotT",
-        "note": "Scans",
-        "color": "lightpink"
+        "link": "https://drive.google.com/drive/folders/1dGUtCC8jk5ENhpb0Uvj_LH1VQbcnC5Da?usp=drive_link",
+        "note": "All Books",
+        "color": "cornflowerblue"
       }]
-    },
-    {
+    }, {
       "name": "Gakken Mook Strategy Book",
       "published": "",
       "desc": "",
@@ -705,47 +777,67 @@ let entry_data = {
     },
   ],
   "t776": [{
-    "name": "Thracia 776 (Takanagi Yuuna)",
-    "published": "",
-    "desc": "",
-    "story": "Takanagi Yuuna",
-    "art": "Takanagi Yuuna",
-    "type": "Manga",
-    "status": "Translation in Progress",
-    "translation": [
-      "Kitsudori"
-    ],
-    "img": "t776_takanagi",
-    "raws": "",
-    "buttons": [{
+      "name": "Thracia 776 (Takanagi Yuuna)",
+      "published": "",
+      "desc": "",
+      "story": "Takanagi Yuuna",
+      "art": "Takanagi Yuuna",
+      "type": "Manga",
+      "status": "Translation in Progress",
+      "translation": [
+        "Kitsudori"
+      ],
+      "img": "t776_takanagi",
+      "raws": "",
+      "buttons": [{
+          "type": "gdrive",
+          "link": "https://drive.google.com/drive/folders/1vqlwDa8fKrzQ4r-lvMYmAZc9qLxgi8Cy?usp=sharing]",
+          "note": "All Chs.",
+          "color": "cornflowerblue"
+        },
+        {
+          "type": "mangadex",
+          "link": "https://mangadex.org/title/bb1792a0-5887-4dcf-abc4-a733934f6eb1/fire-emblem-thracia-776?tab=art",
+          "note": "All Chs.",
+          "color": "cornflowerblue"
+        }
+      ]
+    },
+    {
+      "name": "Thracia 776 Novel",
+      "published": "",
+      "desc": "",
+      "story": "Takashi Umemura",
+      "art": "Mitsuki Shiina",
+      "type": "Light Novel",
+      "status": "Fully Translated",
+      "translation": ["Leif of Leonster"],
+      "img": "t776_novel",
+      "raws": "",
+      "buttons": [{
         "type": "gdrive",
-        "link": "https://drive.google.com/drive/folders/1vqlwDa8fKrzQ4r-lvMYmAZc9qLxgi8Cy?usp=sharing]",
-        "note": "All Chs.",
+        "link": "https://drive.google.com/drive/folders/1_ovqBXO_xxrbrbooT67JnuaETz2mjznx",
+        "note": "All Books",
         "color": "cornflowerblue"
-      },
-      {
-        "type": "mangadex",
-        "link": "https://mangadex.org/title/bb1792a0-5887-4dcf-abc4-a733934f6eb1/fire-emblem-thracia-776?tab=art",
-        "note": "All Chs.",
-        "color": "cornflowerblue"
-      }
-    ]
-  }, {
-    "name": "Enix Super Comic Gekijoh Vol.23",
-    "published": "",
-    "desc": "",
-    "type": "Manga",
-    "status": "Untranslated",
-    "translation": [],
-    "img": "t776_gekijoh",
-    "raws": "",
-    "buttons": [{
-      "type": "gdrive",
-      "link": "https://drive.google.com/drive/folders/1z3RX73Zm9qS56wNfg_ZExEhSHphfcxBY",
-      "note": "Scans",
-      "color": "lightpink"
-    }]
-  }],
+      }]
+    },
+    {
+      "name": "Enix Super Comic Gekijoh Vol.23",
+      "published": "",
+      "desc": "",
+      "type": "Manga",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "t776_gekijoh",
+      "raws": "",
+      "buttons": [{
+        "type": "gdrive",
+        "link": "https://drive.google.com/drive/folders/1z3RX73Zm9qS56wNfg_ZExEhSHphfcxBY",
+        "note": "Scans",
+        "color": "lightpink"
+      }]
+    }
+  ],
   "binding": [{
       "name": "Another Story - Champion's Sword",
       "published": "",
@@ -822,10 +914,98 @@ let entry_data = {
       }]
     }
   ],
-  "blazing": [],
-  "ss": [],
-  "por": [],
-  "rd": [],
+  "blazing": [
+    {
+  "name": "The Blazing Blade Novel",
+  "published": "",
+  "desc": "",
+  "story": "Makasa Kazuyoshi",
+  "art": "Kaneda Eiji",
+  "type": "Light Novel",
+  "status": "Fully Translated",
+  "translation": [
+    "Leif of Leonster"
+    ],
+  "img": "fe7_novel",
+  "raws": "",
+  "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1wJ4jmra4GBelMLIT-Y-XM5y_jLhRf3Z5",
+      "note": "All Books",
+      "color": "cornflowerblue"
+    }
+  ]
+}
+    ],
+  "ss": [
+
+{
+  "name": "The Sacred Stones Novel",
+  "published": "",
+  "desc": "",
+  "story": "Mie Takase",
+  "art": "Rika Suzuki",
+  "type": "Light Novel",
+  "status": "Fully Translated",
+  "translation": [
+    "Leif of Leonster"],
+  "img": "stones_novel",
+  "raws": "",
+  "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1HlaBPNkUGqTeoiOzpuUUiOIJSNh771rE?usp=drive_link",
+      "note": "All Books",
+      "color": "cornflowerblue"
+    }
+  ]
+}
+
+    ],
+  "por": [
+    {
+  "name": "Tellius Recollection Vol. 1",
+  "published": "",
+  "desc": "",
+  "story": "",
+  "art": "Senri Kita",
+  "type": "Artbook",
+  "status": "Fully Translated",
+  "translation": [
+    "Kantopia"],
+  "img": "tell_reco1",
+  "raws": "",
+  "buttons": [
+    {
+      "type": "external",
+      "link": "https://kantopia.wordpress.com/2016/07/31/fire-emblem-por-tellius-recollection-scantranslation-compilation-post/",
+      "note": "All Pages",
+      "color": "cornflowerblue"
+    }
+  ]
+}],
+  "rd": [    {
+  "name": "Tellius Recollection Vol. 2",
+  "published": "",
+  "desc": "",
+  "story": "",
+  "art": "Senri Kita",
+  "type": "Artbook",
+  "status": "Fully Translated",
+  "translation": [
+    "Kantopia"],
+  "img": "tell_reco2",
+  "raws": "",
+  "buttons": [
+    {
+      "type": "external",
+      "link": "https://kantopia.wordpress.com/2016/11/28/fire-emblem-rd-tellius-recollection-vol-2-scantranslation-compilation-post/",
+      "note": "All Pages",
+      "color": "cornflowerblue"
+    }
+  ]
+}],
   "awakening": [{
     "name": "Kozaki Holiday Fan Book",
     "published": "",
@@ -915,5 +1095,73 @@ let entry_data = {
         "color": "cornflowerblue"
       }]
     }
+  ],
+  "feh" : [{
+  "name": "A Day in the Life",
+  "published": "",
+  "desc": "",
+  "story": "",
+  "art": "",
+  "type": "4koma",
+  "status": "Publishing",
+  "translation": [],
+  "img": "feh_manga",
+  "raws": "",
+  "buttons": [
+    {
+      "type": "external",
+      "link": "https://fire-emblem-heroes.com/en/manga/",
+      "note": "Ch 101-Current",
+      "color": "cornflowerblue"
+    },
+        {
+      "type": "mangadex",
+      "link": "https://mangadex.org/title/99830840-8b6f-479f-8524-d220ba162007/fire-emblem-heroes-daily-lives-of-the-heroes?tab=chapters&order=asc",
+      "note": "Ch 0-100",
+      "color": "cornflowerblue"
+    }
+
   ]
+},
+{
+  "name": "Character Illustrations Vol. 1",
+  "published": "",
+  "desc": "",
+  "story": "",
+  "art": "",
+  "type": "Artbook",
+  "status": "",
+  "translation": [],
+  "img": "feh_char1",
+  "raws": "",
+  "buttons": [
+    {
+      "type": "",
+      "link": "",
+      "note": "",
+      "color": ""
+    }
+  ]
+},
+{
+  "name": "Character Illustrations Vol. 2",
+  "published": "",
+  "desc": "",
+  "story": "",
+  "art": "",
+  "type": "Artbook",
+  "status": "",
+  "translation": [],
+  "img": "feh_char2",
+  "raws": "",
+  "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1IohZEXdxpoiglXlS3iBiG0ATT5x8TO36?usp=sharing",
+      "note": "Concept Pages",
+      "color": "lightpink"
+    }
+  ]
+}],
+  "tmsfe" : []
 }
