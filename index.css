@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'FEH';
   src: url(./assets/feh.ttf) format("truetype");
-
 }
 
 html,
@@ -9,7 +8,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 
 body {
   background: url('./assets/background_white.jpeg');
@@ -31,7 +29,6 @@ body {
   align-content: center;
   gap: 7%;
 
-
 }
 
 #games span {
@@ -52,7 +49,6 @@ body {
   line-height: 120%;
 }
 
-
 .game_info_box {
   width: 27%;
   min-height: 375px;
@@ -61,7 +57,6 @@ body {
   position: relative;
   cursor: pointer;
   margin-top: 2%;
-
 }
 
 .game_info_button {
@@ -86,12 +81,10 @@ body {
   border-width: 1px;
 }
 
-
 #menu {
   height: 100px;
   width: 100%;
   text-align: center;
-
 }
 
 #menu a {
@@ -130,14 +123,16 @@ body {
 @media only screen and (max-width: 1280px) {
 
   .game_info_box {
-  width: 40%;
-  min-height: 375px;
-  min-width: 300px;
-  aspect-ratio: 300/375;
-  position: relative;
-  cursor: pointer;
-  margin-top: 2%;
+    width: 40%;
+    min-height: 375px;
+    min-width: 300px;
+    aspect-ratio: 300/375;
+    position: relative;
+    cursor: pointer;
+    margin-top: 2%;
+  }
 
-}
-
+  #games span {
+    font-size: 3vw;
+  }
 }

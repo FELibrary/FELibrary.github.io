@@ -1,10 +1,9 @@
 let entry_data = {
-  "archanea": [
-  {
+  "archanea": [{
       "name": "Legacy of Archanea",
       "published": "December",
       "desc": "Included in the 30th Anniversary Edition of Fire Emblem: Shadow Dragon & the Blade of Light.",
-      "type": "Artbook",
+      "type": ["Artbook"],
       "status": "English Release",
       "translation": [],
       "img": "arc_legacy",
@@ -20,7 +19,7 @@ let entry_data = {
       "name": "Fire Emblem Tactics",
       "published": "",
       "desc": "",
-      "type": "Guidebook",
+      "type": ["Guidebook"],
       "status": "Untranslated",
       "translation": [],
       "img": "arc_tactics",
@@ -36,7 +35,7 @@ let entry_data = {
       "name": "All of Fire Emblem",
       "published": "",
       "desc": "",
-      "type": "Guidebook",
+      "type": ["Guidebook"],
       "status": "Untranslated",
       "translation": [],
       "img": "arc_all",
@@ -52,7 +51,7 @@ let entry_data = {
       "name": "Fire Emblem Wind Mage",
       "published": "",
       "desc": "",
-      "type": "Manga",
+      "type": ["Manga"],
       "art": "Shinshu Ueda",
       "story": "Shinshu Ueda",
       "status": "Untranslated",
@@ -70,7 +69,7 @@ let entry_data = {
       "name": "Enix Super Comic Gekijoh Vol.5",
       "published": "",
       "desc": "",
-      "type": "Manga",
+      "type": ["Manga"],
       "status": "Untranslated",
       "translation": [],
       "img": "arc_gekijoh",
@@ -86,7 +85,7 @@ let entry_data = {
       "name": "Theater Comic Anthology Book 1",
       "published": "",
       "desc": "",
-      "type": "4koma",
+      "type": ["4koma"],
       "status": "Untranslated",
       "translation": [],
       "img": "arc_theater1",
@@ -102,7 +101,7 @@ let entry_data = {
       "name": "Theater Comic Anthology Book 2",
       "published": "",
       "desc": "",
-      "type": "4koma",
+      "type": ["4koma"],
       "status": "Untranslated",
       "translation": [],
       "img": "arc_theater2",
@@ -118,7 +117,7 @@ let entry_data = {
       "name": "Theater Comic Anthology Book 3",
       "published": "",
       "desc": "",
-      "type": "4koma",
+      "type": ["4koma"],
       "status": "Untranslated",
       "translation": [],
       "img": "arc_theater3",
@@ -134,7 +133,7 @@ let entry_data = {
       "name": "Theater Comic Anthology Book 4",
       "published": "",
       "desc": "",
-      "type": "4koma",
+      "type": ["4koma"],
       "status": "Untranslated",
       "translation": [],
       "img": "arc_theater4",
@@ -150,7 +149,7 @@ let entry_data = {
       "name": "Amusement Anthology Series 11",
       "published": "",
       "desc": "",
-      "type": "4koma",
+      "type": ["4koma"],
       "status": "Untranslated",
       "translation": [],
       "img": "arc_amusement",
@@ -166,7 +165,7 @@ let entry_data = {
       "name": "Shounen Oh Comics 4Koma Gag Battle",
       "published": "",
       "desc": "",
-      "type": "4koma",
+      "type": ["4koma"],
       "status": "Untranslated",
       "translation": [],
       "img": "arc_gag",
@@ -182,7 +181,7 @@ let entry_data = {
       "name": "Telephone Pay Card",
       "published": "",
       "desc": "",
-      "type": "Misc",
+      "type": ["Misc"],
       "status": "Untranslated",
       "translation": [],
       "img": "arc_phone",
@@ -198,7 +197,7 @@ let entry_data = {
       "name": "MotE Strategy Guidebook",
       "published": "",
       "desc": "",
-      "type": "Guidebook",
+      "type": ["Guidebook"],
       "status": "Untranslated",
       "translation": [],
       "img": "arc_strategy",
@@ -214,7 +213,7 @@ let entry_data = {
       "name": "MotE Strategy Manual",
       "published": "",
       "desc": "",
-      "type": "Guidebook",
+      "type": ["Guidebook"],
       "status": "Untranslated",
       "translation": [],
       "img": "arc_guide",
@@ -230,7 +229,7 @@ let entry_data = {
       "name": "MotE Manga",
       "published": "",
       "desc": "",
-      "type": "Manga",
+      "type": ["Manga"],
       "art": "Sara Yamaguchi",
       "status": "Untranslated",
       "translation": [],
@@ -247,7 +246,7 @@ let entry_data = {
       "name": "Short Comic Theater",
       "published": "",
       "desc": "",
-      "type": "Manga",
+      "type": ["Manga"],
       "art": "",
       "status": "Untranslated",
       "translation": [],
@@ -264,7 +263,7 @@ let entry_data = {
       "name": "The Legend of Archanea Comic Anthology",
       "published": "",
       "desc": "",
-      "type": "Manga",
+      "type": ["Manga"],
       "art": "",
       "status": "Untranslated",
       "translation": [],
@@ -281,7 +280,7 @@ let entry_data = {
       "name": "Memorial Book Akaneia Chronicle",
       "published": "",
       "desc": "",
-      "type": "Guidebook",
+      "type": ["Guidebook"],
       "status": "Untranslated",
       "translation": [],
       "img": "arc_akaneia",
@@ -298,7 +297,7 @@ let entry_data = {
       "name": "Fire Emblem Gaiden Encyclopedia",
       "published": "",
       "desc": "",
-      "type": "Guidebook",
+      "type": ["Guidebook"],
       "status": "Untranslated",
       "translation": [],
       "img": "gaiden_encyclo",
@@ -310,14 +309,13 @@ let entry_data = {
         "color": "lightpink"
       }]
     },
-
-         { "name": "Gaiden Novel",
+    {
+      "name": "Gaiden Novel",
       "published": "",
       "desc": "",
       "story": "Katsuyuki Ozaki",
-      "art" : "Ichiro & Kazuo Hiroi",
-      
-      "type": "Light Novel",
+      "art": "Ichiro & Kazuo Hiroi",
+      "type": ["Novel"],
       "status": "Partially Translated",
       "translation": [],
       "img": "gaiden_novel",
@@ -329,16 +327,14 @@ let entry_data = {
         "color": "yellow"
       }]
     },
-
     {
-
       "name": "4koma Comic Anthology",
       "published": "",
       "desc": "",
       "story": "",
       "art": "",
       "status": "Fully Translated",
-      "type": "4koma",
+      "type": ["4koma"],
       "translation": [
         "Kantopia"
       ],
@@ -357,7 +353,7 @@ let entry_data = {
       "desc": "",
       "story": "",
       "art": "Hidari",
-      "type": "Artbook",
+      "type": ["Artbook"],
       "status": "Fully Translated",
       "translation": ["Kantopia"],
       "img": "sov_accordion",
@@ -376,7 +372,7 @@ let entry_data = {
       "desc": "",
       "story": "Mitsuki Oosawa",
       "art": "Mitsuki Oosawa",
-      "type": "Manga",
+      "type": ["Manga"],
       "status": "Fully Translated",
       "translation": [
         "Another FE4 Translation",
@@ -398,7 +394,7 @@ let entry_data = {
           "color": "cornflowerblue"
         },
         {
-          "type": "mangadex",
+          "type": ["mangadex"],
           "link": "https://mangadex.org/title/81e9cf75-908b-489e-906d-c7f001673274/fire-emblem-genealogy-of-the-holy-war",
           "note": "Vol 1-16",
           "color": "cornflowerblue"
@@ -411,7 +407,7 @@ let entry_data = {
       "desc": "",
       "story": "Fujimori Nattsu",
       "art": "Fujimori Nattsu",
-      "type": "Manga",
+      "type": ["Manga"],
       "status": "Partially Translated",
       "translation": [
         "TheEnd",
@@ -432,7 +428,7 @@ let entry_data = {
       "desc": "",
       "story": "",
       "art": "",
-      "type": "Artbook",
+      "type": ["Artbook"],
       "status": "Untranslated",
       "translation": [],
       "img": "gothw_treasure",
@@ -448,13 +444,13 @@ let entry_data = {
       "name": "Memorial File",
       "published": "",
       "desc": "",
-      "type": "Artbook/Guidebook",
+      "type": ["Artbook", "Guidebook"],
       "status": "Untranslated",
       "translation": [],
       "img": "gothw_memorial",
       "raws": "",
       "buttons": [{
-        "type": "gdrive",
+        "type": ["gdrive"],
         "link": "https://drive.google.com/drive/folders/1jnvf9LSjU7KPPM6V81olwlEqjqpOB8B-",
         "note": "Scans",
         "color": "lightpink"
@@ -466,7 +462,7 @@ let entry_data = {
       "desc": "",
       "story": "Ginichiro Suzuki",
       "art": "Rika Suzuki",
-      "type": "Light Novel",
+      "type": ["Novel"],
       "status": "Fully Translated",
       "translation": [
         "Leif of Leonster", "garmmy"
@@ -484,7 +480,7 @@ let entry_data = {
       "name": "Final Capture Bible",
       "published": "",
       "desc": "",
-      "type": "Guidebook",
+      "type": ["Guidebook"],
       "status": "Untranslated",
       "translation": [],
       "img": "gothw_final",
@@ -502,7 +498,7 @@ let entry_data = {
       "desc": "",
       "story": "Mitsuki Oosawa",
       "art": "Mitsuki Oosawa",
-      "type": "Manga/Artbook",
+      "type": ["Manga", "Artbook"],
       "status": "Fully Translated",
       "translation": ["Another FE4 Translation"],
       "img": "gothw_gekka",
@@ -527,7 +523,7 @@ let entry_data = {
       "desc": "",
       "story": "",
       "art": "",
-      "type": "Artbook",
+      "type": ["Artbook"],
       "status": "Untranslated",
       "translation": [],
       "img": "gothw_theater",
@@ -543,7 +539,7 @@ let entry_data = {
       "name": "Shounen Oh Short Gag Box",
       "published": "",
       "desc": "",
-      "type": "4koma",
+      "type": ["4koma"],
       "status": "Untranslated",
       "translation": [],
       "img": "gothw_gag",
@@ -561,7 +557,7 @@ let entry_data = {
       "desc": "",
       "story": "",
       "art": "",
-      "type": "Manga",
+      "type": ["Manga"],
       "status": "Untranslated",
       "translation": [],
       "img": "gothw_military",
@@ -579,7 +575,7 @@ let entry_data = {
       "desc": "",
       "story": "",
       "art": "",
-      "type": "Manga",
+      "type": ["Manga"],
       "status": "Untranslated",
       "translation": [],
       "img": "gothw_yaruze",
@@ -595,7 +591,7 @@ let entry_data = {
       "name": "Kobunsha Heaven Short Comic",
       "published": "",
       "desc": "",
-      "type": "Manga",
+      "type": ["Manga"],
       "status": "Untranslated",
       "translation": [],
       "img": "gothw_kobunsha",
@@ -613,7 +609,7 @@ let entry_data = {
       "desc": "",
       "story": "",
       "art": "",
-      "type": "Manga",
+      "type": ["Manga"],
       "status": "Translation in Progress",
       "translation": [
         "Kitsudori"
@@ -638,7 +634,7 @@ let entry_data = {
       "name": "Famitsu Fan Special",
       "published": "",
       "desc": "",
-      "type": "Guidebook",
+      "type": ["Guidebook"],
       "status": "Untranslated",
       "translation": [],
       "img": "gothw_famitsu",
@@ -654,7 +650,7 @@ let entry_data = {
       "name": "Enix Super Comic Gekijoh Vol.7",
       "published": "",
       "desc": "",
-      "type": "Manga",
+      "type": ["Manga"],
       "status": "Untranslated",
       "translation": [],
       "img": "gothw_gekijoh7",
@@ -670,7 +666,7 @@ let entry_data = {
       "name": "Enix Super Comic Gekijoh Vol.2",
       "published": "",
       "desc": "",
-      "type": "Manga",
+      "type": ["Manga"],
       "status": "Untranslated",
       "translation": [],
       "img": "gothw_gekijoh2",
@@ -686,7 +682,7 @@ let entry_data = {
       "name": "Shonen Oh Anthology Manga",
       "published": "",
       "desc": "",
-      "type": "Manga",
+      "type": ["Manga"],
       "status": "Untranslated",
       "translation": [],
       "img": "gothw_antho",
@@ -702,7 +698,7 @@ let entry_data = {
       "name": "Those Who Inherit the Light",
       "published": "",
       "desc": "",
-      "type": "Manga",
+      "type": ["Manga"],
       "art": "Sumi Arisaka",
       "story": "Sumi Arisaka",
       "status": "Untranslated",
@@ -720,7 +716,7 @@ let entry_data = {
       "name": "Genealogy of the Holy War Novel (Takeda)",
       "published": "",
       "desc": "",
-      "type": "Light Novel",
+      "type": ["Novel"],
       "story": "Yuichiro Takeda",
       "status": "Untranslated",
       "translation": [],
@@ -746,7 +742,7 @@ let entry_data = {
       "desc": "",
       "story": "Ginichiro Suzuki",
       "art": "Rika Suzuki",
-      "type": "Light Novel",
+      "type": ["Novel"],
       "status": "Fully Translated",
       "translation": [
         "Leif of Leonster"
@@ -759,11 +755,12 @@ let entry_data = {
         "note": "All Books",
         "color": "cornflowerblue"
       }]
-    }, {
+    },
+    {
       "name": "Gakken Mook Strategy Book",
       "published": "",
       "desc": "",
-      "type": "Guidebook",
+      "type": ["Guidebook"],
       "status": "Untranslated",
       "translation": [],
       "img": "gothw_gakken",
@@ -782,7 +779,7 @@ let entry_data = {
       "desc": "",
       "story": "Takanagi Yuuna",
       "art": "Takanagi Yuuna",
-      "type": "Manga",
+      "type": ["Manga"],
       "status": "Translation in Progress",
       "translation": [
         "Kitsudori"
@@ -809,7 +806,7 @@ let entry_data = {
       "desc": "",
       "story": "Takashi Umemura",
       "art": "Mitsuki Shiina",
-      "type": "Light Novel",
+      "type": ["Novel"],
       "status": "Fully Translated",
       "translation": ["Leif of Leonster"],
       "img": "t776_novel",
@@ -825,7 +822,7 @@ let entry_data = {
       "name": "Enix Super Comic Gekijoh Vol.23",
       "published": "",
       "desc": "",
-      "type": "Manga",
+      "type": ["Manga"],
       "status": "Untranslated",
       "translation": [],
       "img": "t776_gekijoh",
@@ -844,7 +841,7 @@ let entry_data = {
       "desc": "",
       "story": "Hiroshi Izawa",
       "art": "Yamada Koutarou",
-      "type": "Manga",
+      "type": ["Manga"],
       "status": "Completed",
       "translation": [
         "TheEnd"
@@ -869,7 +866,7 @@ let entry_data = {
       "name": "The Binding Blade Anthology Manga",
       "published": "",
       "desc": "",
-      "type": "Manga",
+      "type": ["Manga"],
       "status": "Untranslated",
       "translation": [],
       "img": "fe6_antho",
@@ -885,7 +882,7 @@ let entry_data = {
       "name": "Gag Battle Anthology",
       "published": "",
       "desc": "",
-      "type": "4koma",
+      "type": ["4koma"],
       "status": "Untranslated",
       "translation": [],
       "img": "fe6_gag",
@@ -901,7 +898,7 @@ let entry_data = {
       "name": "Futabasha 4koma",
       "published": "",
       "desc": "",
-      "type": "4koma",
+      "type": ["4koma"],
       "status": "Untranslated",
       "translation": [],
       "img": "fe6_futabasha",
@@ -914,103 +911,91 @@ let entry_data = {
       }]
     }
   ],
-  "blazing": [
-    {
-  "name": "The Blazing Blade Novel",
-  "published": "",
-  "desc": "",
-  "story": "Makasa Kazuyoshi",
-  "art": "Kaneda Eiji",
-  "type": "Light Novel",
-  "status": "Fully Translated",
-  "translation": [
-    "Leif of Leonster"
+  "blazing": [{
+    "name": "The Blazing Blade Novel",
+    "published": "",
+    "desc": "",
+    "story": "Makasa Kazuyoshi",
+    "art": "Kaneda Eiji",
+    "type": ["Novel"],
+    "status": "Fully Translated",
+    "translation": [
+      "Leif of Leonster"
     ],
-  "img": "fe7_novel",
-  "raws": "",
-  "buttons": [
-    {
+    "img": "fe7_novel",
+    "raws": "",
+    "buttons": [{
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1wJ4jmra4GBelMLIT-Y-XM5y_jLhRf3Z5",
       "note": "All Books",
       "color": "cornflowerblue"
-    }
-  ]
-}
+    }]
+  }],
+  "ss": [{
+    "name": "The Sacred Stones Novel",
+    "published": "",
+    "desc": "",
+    "story": "Mie Takase",
+    "art": "Rika Suzuki",
+    "type": ["Novel"],
+    "status": "Fully Translated",
+    "translation": [
+      "Leif of Leonster"
     ],
-  "ss": [
-
-{
-  "name": "The Sacred Stones Novel",
-  "published": "",
-  "desc": "",
-  "story": "Mie Takase",
-  "art": "Rika Suzuki",
-  "type": "Light Novel",
-  "status": "Fully Translated",
-  "translation": [
-    "Leif of Leonster"],
-  "img": "stones_novel",
-  "raws": "",
-  "buttons": [
-    {
+    "img": "stones_novel",
+    "raws": "",
+    "buttons": [{
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1HlaBPNkUGqTeoiOzpuUUiOIJSNh771rE?usp=drive_link",
       "note": "All Books",
       "color": "cornflowerblue"
-    }
-  ]
-}
-
+    }]
+  }],
+  "por": [{
+    "name": "Tellius Recollection Vol. 1",
+    "published": "",
+    "desc": "",
+    "story": "",
+    "art": "Senri Kita",
+    "type": ["Artbook"],
+    "status": "Fully Translated",
+    "translation": [
+      "Kantopia"
     ],
-  "por": [
-    {
-  "name": "Tellius Recollection Vol. 1",
-  "published": "",
-  "desc": "",
-  "story": "",
-  "art": "Senri Kita",
-  "type": "Artbook",
-  "status": "Fully Translated",
-  "translation": [
-    "Kantopia"],
-  "img": "tell_reco1",
-  "raws": "",
-  "buttons": [
-    {
+    "img": "tell_reco1",
+    "raws": "",
+    "buttons": [{
       "type": "external",
       "link": "https://kantopia.wordpress.com/2016/07/31/fire-emblem-por-tellius-recollection-scantranslation-compilation-post/",
       "note": "All Pages",
       "color": "cornflowerblue"
-    }
-  ]
-}],
-  "rd": [    {
-  "name": "Tellius Recollection Vol. 2",
-  "published": "",
-  "desc": "",
-  "story": "",
-  "art": "Senri Kita",
-  "type": "Artbook",
-  "status": "Fully Translated",
-  "translation": [
-    "Kantopia"],
-  "img": "tell_reco2",
-  "raws": "",
-  "buttons": [
-    {
+    }]
+  }],
+  "rd": [{
+    "name": "Tellius Recollection Vol. 2",
+    "published": "",
+    "desc": "",
+    "story": "",
+    "art": "Senri Kita",
+    "type": ["Artbook"],
+    "status": "Fully Translated",
+    "translation": [
+      "Kantopia"
+    ],
+    "img": "tell_reco2",
+    "raws": "",
+    "buttons": [{
       "type": "external",
       "link": "https://kantopia.wordpress.com/2016/11/28/fire-emblem-rd-tellius-recollection-vol-2-scantranslation-compilation-post/",
       "note": "All Pages",
       "color": "cornflowerblue"
-    }
-  ]
-}],
+    }]
+  }],
   "awakening": [{
     "name": "Kozaki Holiday Fan Book",
     "published": "",
     "desc": "",
-    "type": "Artbook",
+    "type": ["Artbook"],
     "art": "Yusuke Kozaki",
     "status": "Untranslated",
     "translation": [],
@@ -1027,7 +1012,7 @@ let entry_data = {
       "name": "Valla Comic Anthology",
       "published": "",
       "desc": "",
-      "type": "Manga",
+      "type": ["Manga"],
       "status": "Untranslated",
       "translation": [],
       "img": "fates_valla",
@@ -1043,7 +1028,7 @@ let entry_data = {
       "name": "Kozaki Holiday Fan Book",
       "published": "",
       "desc": "",
-      "type": "Artbook",
+      "type": ["Artbook"],
       "art": "Yusuke Kozaki",
       "status": "Untranslated",
       "translation": [],
@@ -1064,7 +1049,7 @@ let entry_data = {
       "desc": "",
       "story": "Kazuro Kyou",
       "art": "Kazuro Kyou",
-      "type": "Manga",
+      "type": ["Manga"],
       "status": "Publishing",
       "translation": [
         ""
@@ -1083,7 +1068,7 @@ let entry_data = {
       "published": "January 2023",
       "desc": "",
       "art": "Mika Pikazo",
-      "type": "Artbook",
+      "type": ["Artbook"],
       "status": "English Release",
       "translation": [],
       "img": "engage_se",
@@ -1096,72 +1081,67 @@ let entry_data = {
       }]
     }
   ],
-  "feh" : [{
-  "name": "A Day in the Life",
-  "published": "",
-  "desc": "",
-  "story": "",
-  "art": "",
-  "type": "4koma",
-  "status": "Publishing",
-  "translation": [],
-  "img": "feh_manga",
-  "raws": "",
-  "buttons": [
-    {
-      "type": "external",
-      "link": "https://fire-emblem-heroes.com/en/manga/",
-      "note": "Ch 101-Current",
-      "color": "cornflowerblue"
-    },
+  "feh": [{
+      "name": "A Day in the Life",
+      "published": "",
+      "desc": "",
+      "story": "",
+      "art": "",
+      "type": ["4koma"],
+      "status": "Publishing",
+      "translation": [],
+      "img": "feh_manga",
+      "raws": "",
+      "buttons": [{
+          "type": "external",
+          "link": "https://fire-emblem-heroes.com/en/manga/",
+          "note": "Ch 101-Current",
+          "color": "cornflowerblue"
+        },
         {
-      "type": "mangadex",
-      "link": "https://mangadex.org/title/99830840-8b6f-479f-8524-d220ba162007/fire-emblem-heroes-daily-lives-of-the-heroes?tab=chapters&order=asc",
-      "note": "Ch 0-100",
-      "color": "cornflowerblue"
-    }
-
-  ]
-},
-{
-  "name": "Character Illustrations Vol. 1",
-  "published": "",
-  "desc": "",
-  "story": "",
-  "art": "",
-  "type": "Artbook",
-  "status": "",
-  "translation": [],
-  "img": "feh_char1",
-  "raws": "",
-  "buttons": [
+          "type": "mangadex",
+          "link": "https://mangadex.org/title/99830840-8b6f-479f-8524-d220ba162007/fire-emblem-heroes-daily-lives-of-the-heroes?tab=chapters&order=asc",
+          "note": "Ch 0-100",
+          "color": "cornflowerblue"
+        }
+      ]
+    },
     {
-      "type": "",
-      "link": "",
-      "note": "",
-      "color": ""
-    }
-  ]
-},
-{
-  "name": "Character Illustrations Vol. 2",
-  "published": "",
-  "desc": "",
-  "story": "",
-  "art": "",
-  "type": "Artbook",
-  "status": "",
-  "translation": [],
-  "img": "feh_char2",
-  "raws": "",
-  "buttons": [
+      "name": "Character Illustrations Vol. 1",
+      "published": "",
+      "desc": "",
+      "story": "",
+      "art": "",
+      "type": ["Artbook"],
+      "status": "",
+      "translation": [],
+      "img": "feh_char1",
+      "raws": "",
+      "buttons": [{
+        "type": "",
+        "link": "",
+        "note": "",
+        "color": ""
+      }]
+    },
     {
-      "type": "gdrive",
-      "link": "https://drive.google.com/drive/folders/1IohZEXdxpoiglXlS3iBiG0ATT5x8TO36?usp=sharing",
-      "note": "Concept Pages",
-      "color": "lightpink"
+      "name": "Character Illustrations Vol. 2",
+      "published": "",
+      "desc": "",
+      "story": "",
+      "art": "",
+      "type": ["Artbook"],
+      "status": "",
+      "translation": [],
+      "img": "feh_char2",
+      "raws": "",
+      "buttons": [{
+        "type": "gdrive",
+        "link": "https://drive.google.com/drive/folders/1IohZEXdxpoiglXlS3iBiG0ATT5x8TO36?usp=sharing",
+        "note": "Concept Pages",
+        "color": "lightpink"
+      }]
     }
-  ]
-}],
-  "tmsfe" : []
+  ],
+  "tmsfe": []
 }

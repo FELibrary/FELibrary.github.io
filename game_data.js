@@ -8,7 +8,7 @@ let games = {
     "sov" : {
     "name" : "Gaiden / Shadows of Valentia",
     "summary" : "",
-    "filters" : ['All', 'Artbook', 'Guidebook']
+    "filters" : ['All', 'Artbook', 'Novel', '4koma', 'Guidebook']
   },
 
     "gothw" : {
@@ -85,6 +85,6 @@ let games = {
     "feh" : {
     "name" : "Fire Emblem Heroes",
     "summary" : "",
-    "filters" : ['All', 'Manga', 'Artbook']
+    "filters" : ['All', '4koma', 'Artbook']
   }
 }
