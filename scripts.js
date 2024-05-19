@@ -91,6 +91,9 @@ function mediaPage() {
     if (items[i]['art']) {
       string += `<strong>Art:</strong> ${items[i].art}<br/>`
     }
+        if (items[i]['translation'].length != 0) {
+      string += `<strong>Translation:</strong> ${items[i].translation.join(', ')}<br/>`
+    }
     info_div.innerHTML = string
     div.appendChild(title_div)
     lower_div.appendChild(img_div)

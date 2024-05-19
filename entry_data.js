@@ -1,5 +1,6 @@
 let entry_data = {
-  "archanea": [{
+  "archanea": [
+  {
       "name": "Legacy of Archanea",
       "published": "December",
       "desc": "Included in the 30th Anniversary Edition of Fire Emblem: Shadow Dragon & the Blade of Light.",
@@ -299,7 +300,8 @@ let entry_data = {
       "desc": "",
       "type": ["Guidebook"],
       "status": "Untranslated",
-      "translation": [],
+      "translation": [
+        ],
       "img": "gaiden_encyclo",
       "raws": "",
       "buttons": [{
@@ -317,7 +319,8 @@ let entry_data = {
       "art": "Ichiro & Kazuo Hiroi",
       "type": ["Novel"],
       "status": "Partially Translated",
-      "translation": [],
+      "translation": [
+        "Leif of Leonster"],
       "img": "gaiden_novel",
       "raws": "",
       "buttons": [{
@@ -992,23 +995,102 @@ let entry_data = {
     }]
   }],
   "awakening": [{
-    "name": "Kozaki Holiday Fan Book",
-    "published": "",
-    "desc": "",
-    "type": ["Artbook"],
-    "art": "Yusuke Kozaki",
-    "status": "Untranslated",
-    "translation": [],
-    "img": "fates_kozaki",
-    "raws": "",
-    "buttons": [{
-      "type": "gdrive",
-      "link": "https://drive.google.com/drive/folders/1LmU_rxPERXGI7nEcoRwcmcougdWAsoRV",
-      "note": "Scans",
-      "color": "lightpink"
-    }]
-  }],
+      "name": "Kozaki Holiday Fan Book",
+      "published": "",
+      "desc": "",
+      "type": ["Artbook"],
+      "art": "Yusuke Kozaki",
+      "status": "Untranslated",
+      "translation": [],
+      "img": "fates_kozaki",
+      "raws": "",
+      "buttons": [{
+        "type": "gdrive",
+        "link": "https://drive.google.com/drive/folders/1LmU_rxPERXGI7nEcoRwcmcougdWAsoRV",
+        "note": "Scans",
+        "color": "lightpink"
+      }]
+    },
+    {
+      "name": "4koma Kings",
+      "published": "",
+      "desc": "",
+      "story": "",
+      "art": "",
+      "type": ["4koma"],
+      "status": "Fully Translated",
+      "translation": [
+        "Kantopia"
+      ],
+      "img": "awk_yonkoma",
+      "raws": "",
+      "buttons": [{
+        "type": "external",
+        "link": "https://kantopia.wordpress.com/2015/01/26/fe-a-yonkoma-kings-translation-all-ongoing/",
+        "note": "All Pages",
+        "color": "cornflowerblue"
+      }]
+    }
+  ],
   "fates": [{
+      "name": "Pellucid Crystal",
+      "published": "",
+      "desc": "",
+      "story": "",
+      "art": "Yusuke Kozaki",
+      "type": ["Artbook"],
+      "status": "Untranslated",
+      "translation": [],
+      "img": "fates_crystal",
+      "raws": "",
+      "buttons": [{
+        "type": "external",
+        "link": "https://imgur.com/a/pellucid-crystal-scans-raw-eNmezzA",
+        "note": "Scans",
+        "color": "lightpink"
+      }]
+    },
+    {
+      "name": "4koma Kings",
+      "published": "",
+      "desc": "",
+      "story": "",
+      "art": "",
+      "type": ["4koma"],
+      "status": "Fully Translated",
+      "translation": [
+        "Kantopia"
+      ],
+      "img": "fates_king",
+      "raws": "",
+      "buttons": [{
+        "type": "external",
+        "link": "https://kantopia.wordpress.com/2016/03/04/fire-emblem-iffates-4koma-kings-translations/",
+        "note": "All Pages",
+        "color": "cornflowerblue"
+      }]
+    },
+    {
+      "name": "4koma + Character Book",
+      "published": "",
+      "desc": "",
+      "story": "",
+      "art": "",
+      "type": ["4koma", "Artbook"],
+      "status": "Fully Translated",
+      "translation": [
+        "Kantopia"
+      ],
+      "img": "fates_yonkoma",
+      "raws": "",
+      "buttons": [{
+        "type": "external",
+        "link": "https://kantopia.wordpress.com/2015/09/29/fire-emblem-fates-4koma-character-book-translations/",
+        "note": "All Pages",
+        "color": "cornflowerblue"
+      }]
+    },
+    {
       "name": "Valla Comic Anthology",
       "published": "",
       "desc": "",
@@ -1143,5 +1225,22 @@ let entry_data = {
       }]
     }
   ],
-  "tmsfe": []
+  "tmsfe": [{
+    "name": "Special Edition Artbook",
+    "published": "",
+    "desc": "",
+    "story": "",
+    "art": "",
+    "type": ["Artbook"],
+    "status": "English Release",
+    "translation": [],
+    "img": "tms_se",
+    "raws": "",
+    "buttons": [{
+      "type": "external",
+      "link": "https://idolasphere-performa.tumblr.com/US-SEgoodies/SE_Book",
+      "note": "Scans",
+      "color": "cornflowerblue"
+    }]
+  }]
 }
