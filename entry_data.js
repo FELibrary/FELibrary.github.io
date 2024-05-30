@@ -836,7 +836,59 @@ let entry_data = {
         "note": "Scans",
         "color": "lightpink"
       }]
-    }
+    },
+    {
+      "name": "Kobunsha Gag Battle 1",
+      "published": "",
+      "desc": "",
+      "type": ["4koma"],
+      "status": "Untranslated",
+      "translation": [],
+      "img": "t776_kobunsha1",
+      "raws": "",
+      "buttons": [{
+        "type": "gdrive",
+        "link": "https://drive.google.com/drive/folders/1ODa7h3JJdowtYr9ng8UDGfggRvVkUVtz",
+        "note": "Scans",
+        "color": "lightpink"
+      }]
+    },
+
+        {
+      "name": "Kobunsha Comic Anthology 1",
+      "published": "",
+      "desc": "",
+      "type": ["Manga"],
+      "status": "Untranslated",
+      "translation": [],
+      "img": "t776_kobunsha2",
+      "raws": "",
+      "buttons": [{
+        "type": "gdrive",
+        "link": "https://drive.google.com/drive/folders/1xKf9Pa2rtsq_ZAbLNAId0QtCAEeEFVLf",
+        "note": "Scans",
+        "color": "lightpink"
+      }]
+    },
+
+            {
+      "name": "Kobunsha Comic Anthology 2",
+      "published": "",
+      "desc": "",
+      "type": ["Manga"],
+      "status": "Untranslated",
+      "translation": [],
+      "img": "t776_kobunsha3",
+      "raws": "",
+      "buttons": [{
+        "type": "gdrive",
+        "link": "https://drive.google.com/drive/folders/16wHtpDzJkYmEZPtPEswuoC5mJCTvdUKN",
+        "note": "Scans",
+        "color": "lightpink"
+      }]
+    },
+
+    
   ],
   "binding": [{
       "name": "Another Story - Champion's Sword",

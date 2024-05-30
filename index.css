@@ -33,17 +33,17 @@ body {
 
 #games span {
   font-family: FEH;
-  font-size: 2vw;
+  font-size: 1.6rem;
   color: white;
   text-shadow:
-    -0.1vw -0.1vw 0 #000,
-    0 -0.1vw 0 #000,
-    0.1vw -0.1vw 0 #000,
-    0.1vw 0 0 #000,
-    0.1vw 0.1vw 0 #000,
-    0 0.1vw 0 #000,
-    -0.1vw 0.1vw 0 #000,
-    -0.1vw 0 0 #000;
+    -0.1rem -0.1rem 0 #000,
+    0 -0.1rem 0 #000,
+    0.1rem -0.1rem 0 #000,
+    0.1rem 0 0 #000,
+    0.1rem 0.1rem 0 #000,
+    0 0.1rem 0 #000,
+    -0.1rem 0.1rem 0 #000,
+    -0.1rem 0 0 #000;
   text-align: center;
   -webkit-text-stroke: 0.33px black;
   line-height: 120%;
