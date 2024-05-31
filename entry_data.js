@@ -294,40 +294,24 @@ let entry_data = {
       }]
     }
   ],
-  "sov": [{
-      "name": "Fire Emblem Gaiden Encyclopedia",
-      "published": "",
+  "sov": [
+
+        {
+      "name": "Special Edition Artbook",
+      "published": "May 19 2017",
       "desc": "",
-      "type": ["Guidebook"],
-      "status": "Untranslated",
-      "translation": [
-        ],
-      "img": "gaiden_encyclo",
+      "story": "",
+      "art": "Hidari",
+      "type": ["Artbook"],
+      "status": "English Release",
+      "translation": [],
+      "img": "sov_se",
       "raws": "",
       "buttons": [{
         "type": "gdrive",
-        "link": "https://drive.google.com/drive/folders/1VsCgf4EqbYiGXWdRTZWC0KtGvQZ8VFqn",
+        "link": "https://drive.google.com/drive/folders/1efyUtaypaFusaz_Z3FLkfU8JyKLI8Xjz?usp=sharing",
         "note": "Scans",
-        "color": "lightpink"
-      }]
-    },
-    {
-      "name": "Gaiden Novel",
-      "published": "",
-      "desc": "",
-      "story": "Katsuyuki Ozaki",
-      "art": "Ichiro & Kazuo Hiroi",
-      "type": ["Novel"],
-      "status": "Partially Translated",
-      "translation": [
-        "Leif of Leonster"],
-      "img": "gaiden_novel",
-      "raws": "",
-      "buttons": [{
-        "type": "gdrive",
-        "link": "https://drive.google.com/drive/folders/1VukemM7dNj4vN9xU_lXd8Fgf9hhbOeka",
-        "note": "Book 1",
-        "color": "yellow"
+        "color": "cornflowerblue"
       }]
     },
     {
@@ -366,6 +350,42 @@ let entry_data = {
         "link": "https://kantopia.wordpress.com/2018/04/01/fe-echoes-sov-memorial-book-valentia-accordion-scan-translation-compilation-post/",
         "note": "Translations",
         "color": "cornflowerblue"
+      }]
+    },
+    {
+      "name": "Fire Emblem Gaiden Encyclopedia",
+      "published": "",
+      "desc": "",
+      "type": ["Guidebook"],
+      "status": "Untranslated",
+      "translation": [
+        ],
+      "img": "gaiden_encyclo",
+      "raws": "",
+      "buttons": [{
+        "type": "gdrive",
+        "link": "https://drive.google.com/drive/folders/1VsCgf4EqbYiGXWdRTZWC0KtGvQZ8VFqn",
+        "note": "Scans",
+        "color": "lightpink"
+      }]
+    },
+    {
+      "name": "Gaiden Novel",
+      "published": "",
+      "desc": "",
+      "story": "Katsuyuki Ozaki",
+      "art": "Ichiro & Kazuo Hiroi",
+      "type": ["Novel"],
+      "status": "Partially Translated",
+      "translation": [
+        "Leif of Leonster"],
+      "img": "gaiden_novel",
+      "raws": "",
+      "buttons": [{
+        "type": "gdrive",
+        "link": "https://drive.google.com/drive/folders/1VukemM7dNj4vN9xU_lXd8Fgf9hhbOeka",
+        "note": "Book 1",
+        "color": "yellow"
       }]
     }
   ],
@@ -1192,7 +1212,24 @@ let entry_data = {
       }]
     }
   ],
-  "3h": [],
+  "3h": [        {
+      "name": "Three Hopes Special Edition Artbook",
+      "published": "June 24 2022",
+      "desc": "",
+      "story": "",
+      "art": "Chinatsu Kurahana",
+      "type": ["Artbook"],
+      "status": "English Release",
+      "translation": [],
+      "img": "3h_hopes",
+      "raws": "",
+      "buttons": [{
+        "type": "gdrive",
+        "link": "https://drive.google.com/file/d/1vTiOA9iXZ3seRxf6qk44Kyb4CzUFSe68/view?usp=sharing",
+        "note": "PDF",
+        "color": "cornflowerblue"
+      }]
+    },],
   "engage": [{
       "name": "Fire Emblem Engage (Kazuro Kyou)",
       "published": "",
