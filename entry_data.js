@@ -372,7 +372,7 @@ let entry_data = {
   "gothw": [{
       "name": "Genealogy of the Holy War (Mitsuki Oosawa)",
       "published": "",
-      "desc": "",
+      "desc": "All 16 volumes are grouped in one listing",
       "story": "Mitsuki Oosawa",
       "art": "Mitsuki Oosawa",
       "type": ["Manga"],
@@ -428,7 +428,7 @@ let entry_data = {
     {
       "name": "Fire Emblem Treasure",
       "published": "",
-      "desc": "",
+      "desc": "January 1, 1999",
       "story": "",
       "art": "",
       "type": ["Artbook"],
@@ -446,7 +446,7 @@ let entry_data = {
     {
       "name": "Memorial File",
       "published": "",
-      "desc": "",
+      "desc": " November 1, 1996",
       "type": ["Artbook", "Guidebook"],
       "status": "Untranslated",
       "translation": [],
@@ -497,8 +497,8 @@ let entry_data = {
     },
     {
       "name": "Gekka Ginyu",
-      "published": "",
-      "desc": "",
+      "published": " August 1, 2000",
+      "desc": "Contains Senior Lord Trio Bonus Story Short “Requiem of Time” during their Academy days.  Also has a pin-up poster of the First Generation cast.",
       "story": "Mitsuki Oosawa",
       "art": "Mitsuki Oosawa",
       "type": ["Manga", "Artbook"],
@@ -522,7 +522,7 @@ let entry_data = {
     },
     {
       "name": "Short Comic Theater 2",
-      "published": "",
+      "published": "November 1, 1996",
       "desc": "",
       "story": "",
       "art": "",
@@ -540,7 +540,7 @@ let entry_data = {
     },
     {
       "name": "Shounen Oh Short Gag Box",
-      "published": "",
+      "published": "October 1, 1997",
       "desc": "",
       "type": ["4koma"],
       "status": "Untranslated",
@@ -556,8 +556,8 @@ let entry_data = {
     },
     {
       "name": "Military History of the Continent",
-      "published": "",
-      "desc": "",
+      "published": "August 1, 2000",
+      "desc": "Contains both FE4 and FE5 stories and characters.",
       "story": "",
       "art": "",
       "type": ["Manga"],
@@ -609,7 +609,7 @@ let entry_data = {
     {
       "name": "FE World Tour",
       "published": "",
-      "desc": "",
+      "desc": "All five volumes are grouped together in one listing.",
       "story": "",
       "art": "",
       "type": ["Manga"],
@@ -628,7 +628,7 @@ let entry_data = {
         {
           "type": "gdrive",
           "link": "https://drive.google.com/drive/folders/1JxJOJedTP1AtNJ728LjYrTgkUIDhLXgQ",
-          "note": "Scans",
+          "note": "Scans (Vol 1-5)",
           "color": "lightpink"
         }
       ]
@@ -636,7 +636,7 @@ let entry_data = {
     {
       "name": "Famitsu Fan Special",
       "published": "",
-      "desc": "",
+      "desc": " September 1, 1996",
       "type": ["Guidebook"],
       "status": "Untranslated",
       "translation": [],
@@ -651,7 +651,7 @@ let entry_data = {
     },
     {
       "name": "Enix Super Comic Gekijoh Vol.7",
-      "published": "",
+      "published": " January 1, 1998",
       "desc": "",
       "type": ["Manga"],
       "status": "Untranslated",
@@ -667,8 +667,8 @@ let entry_data = {
     },
     {
       "name": "Enix Super Comic Gekijoh Vol.2",
-      "published": "",
-      "desc": "",
+      "published": "October 1, 1996",
+      "desc": "First half contains FE4, second half contains FE3.",
       "type": ["Manga"],
       "status": "Untranslated",
       "translation": [],
@@ -682,8 +682,8 @@ let entry_data = {
       }]
     },
     {
-      "name": "Shonen Oh Anthology Manga",
-      "published": "",
+      "name": "Holy Legend Comic Anthology",
+      "published": "November 1, 1998",
       "desc": "",
       "type": ["Manga"],
       "status": "Untranslated",
@@ -699,8 +699,8 @@ let entry_data = {
     },
     {
       "name": "Those Who Inherit the Light",
-      "published": "",
-      "desc": "",
+      "published": "February 1, 1997",
+      "desc": "Covers Chapter 6 events only. Contains substitue characters.",
       "type": ["Manga"],
       "art": "Sumi Arisaka",
       "story": "Sumi Arisaka",
@@ -778,8 +778,8 @@ let entry_data = {
   ],
   "t776": [{
       "name": "Thracia 776 (Takanagi Yuuna)",
-      "published": "",
-      "desc": "",
+      "published": "October 2000 - October 2001",
+      "desc": "Covers Prologue to Chapter 14.",
       "story": "Takanagi Yuuna",
       "art": "Takanagi Yuuna",
       "type": ["Manga"],
@@ -804,6 +804,22 @@ let entry_data = {
       ]
     },
     {
+
+    "name": "Thracia 776 (Hino Shiinnosuke)",
+      "published": " June 1, 2000",
+      "desc": "Covers Prologue to post-Chapter 4x.",
+      "story": "Hino Shiinnosuke",
+      "art": "Hino Shiinnosuke",
+      "type": ["Manga"],
+      "status": "Untranslated",
+      "translation": [],
+      "img": "t776_hino",
+      "raws": "",
+      "buttons": []
+    },
+
+
+    {
       "name": "Thracia 776 Novel",
       "published": "",
       "desc": "",
@@ -823,7 +839,7 @@ let entry_data = {
     },
     {
       "name": "Enix Super Comic Gekijoh Vol.23",
-      "published": "",
+      "published": " March 1, 2000",
       "desc": "",
       "type": ["Manga"],
       "status": "Untranslated",
@@ -840,7 +856,7 @@ let entry_data = {
     {
       "name": "Kobunsha Gag Battle 1",
       "published": "",
-      "desc": "",
+      "desc": "Contains several full-page illustrations.",
       "type": ["4koma"],
       "status": "Untranslated",
       "translation": [],
@@ -856,8 +872,8 @@ let entry_data = {
 
         {
       "name": "Kobunsha Comic Anthology 1",
-      "published": "",
-      "desc": "",
+      "published": "December 1, 1999",
+      "desc": "Contains several full-page illustrations from the FE Fan Illus. Club.",
       "type": ["Manga"],
       "status": "Untranslated",
       "translation": [],
@@ -873,8 +889,8 @@ let entry_data = {
 
             {
       "name": "Kobunsha Comic Anthology 2",
-      "published": "",
-      "desc": "",
+      "published": "March 1, 2000",
+      "desc": "Contains several full-page illustrations from the FE Fan Illus. Club.",
       "type": ["Manga"],
       "status": "Untranslated",
       "translation": [],
@@ -1200,7 +1216,7 @@ let entry_data = {
     {
       "name": "Special Edition Artbook",
       "published": "January 2023",
-      "desc": "",
+      "desc": "Included in the US Special Edition Release. Published January 2023",
       "art": "Mika Pikazo",
       "type": ["Artbook"],
       "status": "English Release",

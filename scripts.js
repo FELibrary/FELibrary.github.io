@@ -83,6 +83,7 @@ function mediaPage() {
     }
 
     string = ""
+    string += `<em>${items[i].desc}</em><br/>`
     string += `<strong>Type:</strong> ${items[i].type.join('/')}<br/>`
     string += `<strong>Status:</strong> ${items[i].status}<br/>`
     if (items[i]['story']) {
