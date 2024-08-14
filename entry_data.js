@@ -389,7 +389,8 @@ let entry_data = {
       }]
     }
   ],
-  "gothw": [{
+  "gothw": [
+  {
       "name": "Genealogy of the Holy War (Mitsuki Oosawa)",
       "published": "",
       "desc": "All 16 volumes are grouped in one listing",
@@ -445,6 +446,32 @@ let entry_data = {
         "color": "cornflowerblue"
       }]
     },
+
+        {
+      "name": "Light Inheritors",
+      "published": "",
+      "desc": "",
+      "story": "Fuyuki Nea",
+      "art": "Fuyuki Nea",
+      "type": ["Manga"],
+      "status": "Fully Translated",
+      "translation": [
+        "Dahl"
+    
+      ],
+      "img": "gothw_nea",
+      "raws": "",
+      "buttons": [{
+        "type": "mangadex",
+        "link": "https://mangadex.org/title/d720f17c-473b-410e-adab-a1c5543fcc09/fire-emblem-successor-of-the-light",
+        "note": "Ch 1-21",
+        "color": "cornflowerblue"
+      }]
+    },
+
+
+
+    
     {
       "name": "Fire Emblem Treasure",
       "published": "",
@@ -796,7 +823,8 @@ let entry_data = {
       }]
     },
   ],
-  "t776": [{
+  "t776": [
+  {
       "name": "Thracia 776 (Takanagi Yuuna)",
       "published": "October 2000 - October 2001",
       "desc": "Covers Prologue to Chapter 14.",
@@ -926,7 +954,8 @@ let entry_data = {
 
     
   ],
-  "binding": [{
+  "binding": [
+  {
       "name": "Another Story - Champion's Sword",
       "published": "",
       "desc": "",
@@ -1138,6 +1167,26 @@ let entry_data = {
         "color": "lightpink"
       }]
     },
+
+    {
+      "name": "Special Edition Artbook",
+      "published": "February 19, 2016",
+      "desc": "",
+      "story": "",
+      "art": "Yusuke Kozaki",
+      "type": ["Artbook"],
+      "status": "English Release",
+      "translation": [],
+      "img": "fates_se",
+      "raws": "",
+      "buttons": [{
+        "type": "gdrive",
+        "link": "https://drive.google.com/drive/folders/1c33OrsiL6UEFeOOQJTDtynIY0dK3Q-1K?usp=sharing",
+        "note": "Scans",
+        "color": "cornflowerblue"
+      }]
+    },
+
     {
       "name": "4koma Kings",
       "published": "",
@@ -1295,8 +1344,8 @@ let entry_data = {
     },
     {
       "name": "Character Illustrations Vol. 1",
-      "published": "",
-      "desc": "",
+      "published": "December 24th, 2021",
+      "desc": "A compilation of Hero artwork from Book I to Book III, with 453 Heroes represented.",
       "story": "",
       "art": "",
       "type": ["Artbook"],
@@ -1305,16 +1354,16 @@ let entry_data = {
       "img": "feh_char1",
       "raws": "",
       "buttons": [{
-        "type": "",
-        "link": "",
-        "note": "",
-        "color": ""
+        "type": "gdrive",
+        "link": "https://drive.google.com/drive/folders/1K67jDK5GUjFSrkUQ3Pdy2AzJGIhBjk5T?usp=sharing",
+        "note": "Concept Pages",
+        "color": "lightpink"
       }]
     },
     {
       "name": "Character Illustrations Vol. 2",
-      "published": "",
-      "desc": "",
+      "published": "May 27th, 2022",
+      "desc": "A compilation of Hero artwork from Book IV to Book V, with 328 Heroes represented.",
       "story": "",
       "art": "",
       "type": ["Artbook"],
@@ -1346,6 +1395,28 @@ let entry_data = {
       "link": "https://idolasphere-performa.tumblr.com/US-SEgoodies/SE_Book",
       "note": "Scans",
       "color": "cornflowerblue"
+    }]
+  }],
+
+
+
+
+  "series": [{
+    "name": "20th Anniversary Encyclopedia",
+    "published": "",
+    "desc": "",
+    "story": "",
+    "art": "",
+    "type": ["Artbook"],
+    "status": "Untranslated",
+    "translation": [],
+    "img": "series_20",
+    "raws": "",
+    "buttons": [{
+      "type": "gdrive",
+      "link": "https://drive.google.com/file/d/1R_JET3GOikA97kLfqjzKkiMdq4SVpoqp/view?usp=sharing",
+      "note": "Scans",
+      "color": "lightpink"
     }]
   }]
 }

@@ -14,7 +14,8 @@ arr = [
   '3h',
   'engage',
   'feh',
-  'tmsfe'
+  'tmsfe',
+  'series'
 ]
 let game = ''
 
