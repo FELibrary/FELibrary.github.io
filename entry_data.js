@@ -518,7 +518,7 @@ let entry_data = {
     {
       "name": "Gekka Ginyu",
       "published": " August 1, 2000",
-      "desc": "Contains Senior Lord Trio Bonus Story Short “Requiem of Time” during their Academy days.  Also has a pin-up poster of the First Generation cast.",
+      "desc": "Contains Senior Lord Trio Bonus Story Short \"Requiem of Time\" during their Academy days.  Also has a pin-up poster of the First Generation cast.",
       "story": "Mitsuki Oosawa",
       "art": "Mitsuki Oosawa",
       "type": ["Manga", "Artbook"],

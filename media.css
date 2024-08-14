@@ -161,6 +161,7 @@ body {
 .info_box {
 
   height: 100%;
+  min-width: 200px;
   flex-grow: 1;
   border-style: solid;
   border-color: black;
