@@ -40,9 +40,9 @@ body {
 .line {
   width: 100%;
 
-  border-style: solid;
+  /*border-style: solid;
   border-color: black;
-  border-width: 1px;
+  border-width: 1px;*/
 }
 
 .src_btn {
@@ -59,10 +59,11 @@ body {
 
   flex-grow: 1;
   min-width: 200px;
-  border-style: solid;
+  /*border-style: solid;
   border-color: black;
+  border-width: 1px;*/
   flex-basis: 0%;
-  border-width: 1px;
+
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -81,9 +82,17 @@ body {
 }
 
 .buttons_box button {
-  border: none;
-  background-size: cover;
   width: 95%;
+  min-width: 80px;
+  min-height: 70px;
+  border: none;
+  background-image: url('./assets/scan.png');
+background-size: 100%;
+  background-position: 50% 50%;
+  background-color: transparent;
+
+  background-repeat: no-repeat;
+
   margin-left: 2.5%;
 
   position: relative;
@@ -91,10 +100,7 @@ body {
   cursor: pointer;
 }
 
-.buttons_box button img {
-  width: 100%;
 
-}
 
 .buttons_box button span {
   width: 100%;
@@ -115,10 +121,11 @@ body {
   -webkit-text-stroke: 0.33px black;
 }
 
+
 .media_box {
-  border-style: solid;
+  /*border-style: solid;
   border-color: black;
-  border-width: 1px;
+  border-width: 1px;*/
   width: 90%;
   height: 30%;
   position: relative;
@@ -131,9 +138,9 @@ body {
 }
 
 .lower_box {
-  border-style: solid;
+  /*border-style: solid;
   border-color: black;
-  border-width: 1px;
+  border-width: 1px;*/
   width: 100%;
   height: 85%;
   top: 15%;
@@ -146,9 +153,9 @@ body {
   width: 100%;
   height: 15%;
   min-width: 700px;
-  border-style: solid;
+  /*border-style: solid;
   border-color: black;
-  border-width: 1px;
+  border-width: 1px;*/
 }
 
 .img_box {
@@ -156,9 +163,9 @@ body {
   height: 100%;
   float: left;
   aspect-ratio: 586/811;
-  border-style: solid;
+  /*border-style: solid;
   border-color: black;
-  border-width: 1px;
+  border-width: 1px;*/
 }
 
 
@@ -168,9 +175,9 @@ body {
   min-width: 200px;
   flex-basis: 0%;
   flex-grow: 1;
-  border-style: solid;
+  /*border-style: solid;
   border-color: black;
-  border-width: 1px;
+  border-width: 1px;*/
   font-family: arial;
 }
 
@@ -206,9 +213,9 @@ body {
 tr,
 td {
 
-  border-style: solid;
+  /*border-style: solid;
   border-color: black;
-  border-width: 1px;
+  border-width: 1px;*/
 
 
 }

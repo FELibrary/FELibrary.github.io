@@ -75,7 +75,8 @@ function mediaPage() {
       a.target = '_blank'
       let button = document.createElement('button')
       let span = document.createElement('span')
-      button.style.backgroundColor = items[i].buttons[j].color
+      //button.style.backgroundColor = items[i].buttons[j].color
+
       span.innerHTML = items[i].buttons[j].note
       //button.style.background = `url('./assets/${items[i].buttons[j].type}.png')`
       a.appendChild(button)
