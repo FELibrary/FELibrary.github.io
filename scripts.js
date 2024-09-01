@@ -1,4 +1,3 @@
-
 arr = [
   'archanea',
   'sov',
@@ -76,28 +75,56 @@ function mediaPage() {
       let button = document.createElement('button')
       let span = document.createElement('span')
       //button.style.backgroundColor = items[i].buttons[j].color
-
       span.innerHTML = items[i].buttons[j].note
       //button.style.background = `url('./assets/${items[i].buttons[j].type}.png')`
       a.appendChild(button)
       button.appendChild(span)
       buttons_div.appendChild(a)
     }
-
     string = ""
     string += `<em>${items[i].desc}</em><br/>`
-    string += `<strong>Type:</strong> ${items[i].type.join('/')}<br/>`
-    string += `<strong>Status:</strong> ${items[i].status}<br/>`
+    tbl = document.createElement('table');
+    let heading_arr = ["Type", "Status"]
+    let info_arr = [items[i].type.join('/'), items[i].status]
     if (items[i]['story']) {
-      string += `<strong>Story:</strong> ${items[i].story}<br/>`
+      heading_arr.push("Story")
+      info_arr.push(items[i].story)
     }
     if (items[i]['art']) {
-      string += `<strong>Art:</strong> ${items[i].art}<br/>`
+      heading_arr.push("Art")
+      info_arr.push(items[i].art)
     }
-        if (items[i]['translation'].length != 0) {
-      string += `<strong>Translation:</strong> ${items[i].translation.join(', ')}<br/>`
+    if (items[i]['translation']) {
+      heading_arr.push("Translation")
+      info_arr.push(items[i].translation.join(', '))
     }
+    for (let i = 0; i < info_arr.length; i++) {
+      const tr = tbl.insertRow();
+      for (let j = 0; j < 2; j++) {
+        const td = tr.insertCell();
+        if (j == 0) {
+          td.innerHTML = `<strong>${heading_arr[i]}:</strong>`
+        } else {
+          td.innerHTML = info_arr[i]
+        }
+      }
+    }
+    /*
+        
+        string += `<strong>Type:</strong> ${items[i].type.join('/')}<br/>`
+        string += `<strong>Status:</strong> ${items[i].status}<br/>`
+        if (items[i]['story']) {
+          string += `<strong>Story:</strong> ${items[i].story}<br/>`
+        }
+        if (items[i]['art']) {
+          string += `<strong>Art:</strong> ${items[i].art}<br/>`
+        }
+            if (items[i]['translation'].length != 0) {
+          string += `<strong>Translation:</strong> ${items[i].translation.join(', ')}<br/>`
+        }
+      */
     info_div.innerHTML = string
+    info_div.appendChild(tbl)
     div.appendChild(title_div)
     lower_div.appendChild(img_div)
     lower_div.appendChild(info_div)
