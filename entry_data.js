@@ -19,7 +19,7 @@ let entry_data = {
     {
       "name": "Fire Emblem Tactics",
       "published": "",
-      "desc": "",
+      "desc": "An obscure tactical booklet for the original Fire Emblem. Each chapter is given a full map view and a medieval fantasy illustration.",
       "type": ["Guidebook"],
       "status": "Untranslated",
       "translation": [],
@@ -197,7 +197,7 @@ let entry_data = {
     {
       "name": "MotE Strategy Guidebook",
       "published": "",
-      "desc": "",
+      "desc": "Covers all maps from Book 1 & 2 with full map screens and important information.",
       "type": ["Guidebook"],
       "status": "Untranslated",
       "translation": [],
@@ -355,7 +355,7 @@ let entry_data = {
     {
       "name": "Fire Emblem Gaiden Encyclopedia",
       "published": "",
-      "desc": "",
+      "desc": "Contains the old official art from the game, and a detailed overview of each battle maps with tips and tricks.",
       "type": ["Guidebook"],
       "status": "Untranslated",
       "translation": [
@@ -1302,7 +1302,7 @@ let entry_data = {
     {
       "name": "Special Edition Artbook",
       "published": "January 2023",
-      "desc": "Included in the US Special Edition Release. Published January 2023",
+      "desc": "Included in the US Special Edition Release. Contains artwork of characters, locations, and items.",
       "art": "Mika Pikazo",
       "type": ["Artbook"],
       "status": "English Release",

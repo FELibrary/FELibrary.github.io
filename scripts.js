@@ -73,12 +73,24 @@ function mediaPage() {
       a.href = items[i].buttons[j].link
       a.target = '_blank'
       let button = document.createElement('button')
-      let span = document.createElement('span')
+      button_tbl = document.createElement('table')
+      const tr = button_tbl.insertRow()
+      const td1 = tr.insertCell()
+      const td2 = tr.insertCell()
+      td2.innerHTML = items[i].buttons[j].note
+      td1.classList.toggle(items[i].buttons[j].type)
+      td1.classList.toggle('button_img')
+      td2.classList.toggle('button_note')
+
+
+
+      //let span = document.createElement('span')
       //button.style.backgroundColor = items[i].buttons[j].color
-      span.innerHTML = items[i].buttons[j].note
+      //span.innerHTML = items[i].buttons[j].note
       //button.style.background = `url('./assets/${items[i].buttons[j].type}.png')`
       a.appendChild(button)
-      button.appendChild(span)
+      //button.appendChild(span)
+      button.appendChild(button_tbl)
       buttons_div.appendChild(a)
     }
     string = ""
@@ -86,6 +98,10 @@ function mediaPage() {
     tbl = document.createElement('table');
     let heading_arr = ["Type", "Status"]
     let info_arr = [items[i].type.join('/'), items[i].status]
+    if (items[i]['published']) {
+      heading_arr.push("Published")
+      info_arr.push(items[i].published)
+    }
     if (items[i]['story']) {
       heading_arr.push("Story")
       info_arr.push(items[i].story)

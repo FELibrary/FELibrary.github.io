@@ -18,6 +18,11 @@ body {
 
 }
 
+.break {
+  color: transparent;
+  opacity: 0;
+}
+
 #filter_bar {
   text-align: center;
   display: flex;
@@ -58,6 +63,7 @@ body {
   height: 100%;
 
   flex-grow: 1;
+
   min-width: 200px;
   /*border-style: solid;
   border-color: black;
@@ -87,7 +93,7 @@ body {
   min-height: 70px;
   border: none;
   background-image: url('./assets/scan.png');
-background-size: 100%;
+  background-size: 100%;
   background-position: 50% 50%;
   background-color: transparent;
 
@@ -135,6 +141,9 @@ background-size: 100%;
   margin-top: 2%;
   margin-left: auto;
   margin-right: auto;
+ 
+
+
 }
 
 .lower_box {
@@ -145,6 +154,7 @@ background-size: 100%;
   height: 85%;
   top: 15%;
   position: absolute;
+     background-color: rgba(166, 127, 65, 0.1);
   display: flex;
 }
 
@@ -162,6 +172,7 @@ background-size: 100%;
 
   height: 100%;
   float: left;
+
   aspect-ratio: 586/811;
   /*border-style: solid;
   border-color: black;
@@ -173,7 +184,10 @@ background-size: 100%;
 
   height: 100%;
   min-width: 200px;
+  margin-left: 2%;
+  margin-top: 1%;
   flex-basis: 0%;
+ 
   flex-grow: 1;
   /*border-style: solid;
   border-color: black;
@@ -257,6 +271,49 @@ td {
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+
+.external {
+  background: url('./assets/external.png');
+
+}
+
+.gdrive {
+  background: url('./assets/gdrive.png');
+
+}
+
+.mangadex {
+  background: url('./assets/mangadex.png');
+
+}
+
+.button_img {
+  min-width: 15.5px;
+  width: 30%;
+  height: 90%;
+  background-size: contain;
+  background-position: 70% 50%;
+  background-repeat: no-repeat;
+  aspect-ratio: 1/1;
+}
+
+.button_note {
+  width: 70%;
+  text-align: left;
+  font-size: 2vw;
+}
+
+
+.buttons_box table {
+  width: 100%;
+  font-family: FEH;
+  color: white;
+}
+
+
+
+
+
 
 #linksTable {
   text-align: center;
