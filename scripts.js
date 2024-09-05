@@ -94,7 +94,7 @@ function mediaPage() {
       buttons_div.appendChild(a)
     }
     string = ""
-    string += `<em>${items[i].desc}</em><br/>`
+    string += `<em>${items[i].desc}</em><br><br>`
     tbl = document.createElement('table');
     let heading_arr = ["Type", "Status"]
     let info_arr = [items[i].type.join('/'), items[i].status]

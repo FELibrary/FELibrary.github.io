@@ -17,11 +17,8 @@ FE4 4koma ~ Comic Theater (5)
 FE4 4koma ~ Comic Theater (6)
 FE4 4koma ~ Gag Battle Reset edition (Sara)
 FE4 Game Book / CYoA
-FE4 Light Inheritors (Mangadex)
-FE4 Manual (in progress)
 
 Thracia 776 Illustrated Works
-Thracia 776 32 Picture Postcard Book (Archive)
 FE5 Comic Anthology ~ Thracia 776 FE New World Tour (Yosi)
 FE5 Comic Anthology ~ Thracia 776 Short Comic Heaven
 
@@ -29,8 +26,6 @@ FE5 4koma ~ Thracia 776 Gag Theater
 FE5 4koma ~ Thracia 776 Theater (1)
 FE5 4koma ~ Thracia 776 Theater (2)
 Fe5 Novel (3 Vols)(Sami Shinosaki)
-FE5 Manual (Spanish)
-
 
 FE1 Novel (1 Vol) (Hiroshi Yamaguch)
 FE1 Novel (1 Vol) (Sami Shinosaki)
@@ -40,6 +35,7 @@ FE3 Novel (4 Vols) (Hideo Takayashiki)
 FE3 Choose Your own Adventure
 
 Fe6 Novel (1 Vol) (Kazuyoshi Masaka)
+https://archive.org/details/FEPicturePostcards/Maki%20Hakoda%20Picture%20Postcards/1.png
 
 TMS Visual Works
 

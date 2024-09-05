@@ -203,9 +203,9 @@ body {
 .button_img {
   min-width: 15.5px;
   width: 30%;
-  height: 90%;
+  height: 95%;
   background-size: contain;
-  background-position: 70% 50%;
+  background-position: 80% 50%;
   background-repeat: no-repeat;
   aspect-ratio: 1/1;
 }
