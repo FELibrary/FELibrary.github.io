@@ -197,6 +197,143 @@ let entry_data = {
       "note": "Scans (JP)"
     }]
   },
+
+      {
+    "name": "SD Novelization",
+    "published": "",
+    "story" : "Sami Shinosaki",
+    "desc": "1 Book",
+    "type": ["Novel"],
+    "status": "Untranslated",
+    "translation": false,
+    "img": "arc_shinosaki1",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "",
+      "note": "Scans (JP)"
+    }]
+  },
+
+      {
+    "name": "MotE Manga",
+    "published": "",
+    "story" : "Hideo Takayashiki",
+    "desc": "4 Volumes",
+    "type": ["Manga"],
+    "status": "Untranslated",
+    "translation": false,
+    "img": "arc_takayashiki",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "",
+      "note": "Scans (JP)"
+    }]
+  },
+
+       {
+    "name": "Fire Emblem Manga",
+    "published": "",
+    "story" : "Hirokazu Simada",
+    "desc": "1 Volume",
+    "type": ["Manga"],
+    "status": "Untranslated",
+    "translation": false,
+    "img": "arc_simada",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "",
+      "note": "Scans (JP)"
+    }]
+  },
+
+         {
+    "name": "Fire Emblem Manga",
+    "published": "",
+    "story" : "Masaki Sano & Kyo Watanabe",
+    "art" : "Masaki Sano & Kyo Watanabe",
+    "desc": "5 Volumes",
+    "type": ["Manga"],
+    "status": "Untranslated",
+    "translation": false,
+    "img": "arc_mskw",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "",
+      "note": "Scans (JP)"
+    }]
+  },
+
+    {
+    "name": "MotE Novelization",
+    "published": "",
+    "story" : "Sami Shinosaki",
+    "desc": "2 Books",
+    "type": ["Novel"],
+    "status": "Untranslated",
+    "translation": false,
+    "img": "arc_shinosaki2",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "",
+      "note": "Scans (JP)"
+    }]
+  },
+
+      {
+    "name": "MotE Choose Your own Adventure",
+    "published": "",
+    "story" : "",
+    "desc": "",
+    "type": ["Novel"],
+    "status": "Untranslated",
+    "translation": false,
+    "img": "arc_cyoa",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "",
+      "note": "Scans (JP)"
+    }]
+  },
+
+    {
+    "name": "FE1 Encyclopedia",
+    "published": "",
+    "desc": "",
+    "type": ["Guidebook"],
+    "status": "Untranslated",
+    "translation": false,
+    "img": "arc_ape1",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1SlSxT18j4Sk_Hd545l9CRIYaqziliif9?usp=drive_link",
+      "note": "Scans (JP)"
+    }]
+  },
+
+
+    {
+    "name": "FE3 APE",
+    "published": "",
+    "desc": "",
+    "type": ["Guidebook"],
+    "status": "Untranslated",
+    "translation": false,
+    "img": "arc_ape3",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1zwPkwxjF2Obd70YIScdPzJzUxjB78yK1?usp=drive_link",
+      "note": "Scans (JP)"
+    }]
+  },
+
   {
     "name": "MotE Strategy Manual",
     "published": "",
@@ -305,6 +442,53 @@ let entry_data = {
       "type": "external",
       "link": "https://serenesforest.net/gallery/recollections-of-fire-emblem/",
       "note": "Scans (JP)"
+    }]
+  },
+  {
+    "name": "Picture Postcards",
+    "published": "",
+    "art": "Maki Hakoda",
+    "desc": "",
+    "type": ["Artbook"],
+    "status": "",
+    "translation": false,
+    "img": "arc_postcard",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "",
+      "note": "Scans (JP)"
+    }]
+  },
+  {
+    "name": "Maki Hakoda Draws",
+    "published": "",
+    "art": "Maki Hakoda",
+    "desc": "",
+    "type": ["Artbook"],
+    "status": "",
+    "translation": false,
+    "img": "arc_hakoda2",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "",
+      "note": "Scans (JP)"
+    }]
+  },
+  {
+    "name": "Shadow Dragon Game Manual",
+    "published": "",
+    "desc": "",
+    "type": ["Misc"],
+    "status": "English Release",
+    "translation": false,
+    "img": "arc_manual",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "",
+      "note": "Scans (EN)"
     }]
   }],
   "sov": [
@@ -585,13 +769,16 @@ let entry_data = {
     "name": "Military History of the Continent",
     "published": "August 1, 2000",
     "desc": "Contains both FE4 and FE5 stories and characters.",
-    "story": "",
-    "art": "",
     "type": ["Manga"],
-    "status": "Untranslated",
-    "translation": false,
+    "status": "Partially Translated",
+    "translation": ['Kitsudori'],
     "img": "gothw_military",
     "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1KaesxvO81PMYwaAqUp2Sr6VXSuM0uxzi?usp=drive_link",
+      "note": "Translations"
+    },
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1XD_OfV3wKYwXVhyjC0WFTLEkGMW_FOBD",
@@ -730,7 +917,7 @@ let entry_data = {
     "translation": ['Another FE4 Translation'],
     "img": "gothw_arisaka",
     "buttons": [
-      {
+    {
       "type": "mangadex",
       "link": "https://mangadex.org/title/a8ffcf08-5cb9-4ed1-bd40-d73b7450ac74/fire-emblem-genealogy-of-the-holy-war-those-who-inherit-the-light",
       "note": "Translations (EN)"
@@ -828,12 +1015,12 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1vqlwDa8fKrzQ4r-lvMYmAZc9qLxgi8Cy?usp=sharing]",
-      "note": "Translations (EN)"
+      "note": "Translations"
     },
     {
       "type": "mangadex",
       "link": "https://mangadex.org/title/bb1792a0-5887-4dcf-abc4-a733934f6eb1/fire-emblem-thracia-776?tab=art",
-      "note": "Translations (EN)"
+      "note": "Translations"
     }]
   },
   {
@@ -846,7 +1033,12 @@ let entry_data = {
     "status": "Untranslated",
     "translation": false,
     "img": "t776_hino",
-    "buttons": []
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1qeR4xZMT1vRPTX3xks3AiAhrPZreBml-?usp=drive_link",
+      "note": "Scans (JP)"
+    }]
   },
   {
     "name": "Thracia 776 Novel",
@@ -866,6 +1058,26 @@ let entry_data = {
     }]
   },
   {
+    "name": "Military History of the Continent",
+    "published": "August 1, 2000",
+    "desc": "Contains both FE4 and FE5 stories and characters.",
+    "type": ["Manga"],
+    "status": "Partially Translated",
+    "translation": ['Kitsudori'],
+    "img": "gothw_military",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1KaesxvO81PMYwaAqUp2Sr6VXSuM0uxzi?usp=drive_link",
+      "note": "Translations"
+    },
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1XD_OfV3wKYwXVhyjC0WFTLEkGMW_FOBD",
+      "note": "Scans (JP)"
+    }]
+  },
+  {
     "name": "Enix Super Comic Gekijoh Vol.23",
     "published": " March 1, 2000",
     "desc": "",
@@ -881,6 +1093,21 @@ let entry_data = {
     }]
   },
   {
+    "name": "Enix 4koma",
+    "published": "",
+    "desc": "",
+    "type": ["Manga"],
+    "status": "Untranslated",
+    "translation": false,
+    "img": "t776_enix",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1e7WldML3PKkmwVjlri1WVJbb6OClY-iy?usp=drive_link",
+      "note": "Scans (JP)"
+    }]
+  },
+  {
     "name": "Kobunsha Gag Battle 1",
     "published": "",
     "desc": "Contains several full-page illustrations.",
@@ -892,6 +1119,21 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1ODa7h3JJdowtYr9ng8UDGfggRvVkUVtz",
+      "note": "Scans (JP)"
+    }]
+  },
+  {
+    "name": "Kobunsha Gag Battle 2",
+    "published": "",
+    "desc": "",
+    "type": ["Manga"],
+    "status": "Untranslated",
+    "translation": false,
+    "img": "t776_kobunsha4",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1HUY_9BzMQxDb0O7oFkTwV2a0fh7ozUvG?usp=drive_link",
       "note": "Scans (JP)"
     }]
   },
@@ -922,6 +1164,36 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/16wHtpDzJkYmEZPtPEswuoC5mJCTvdUKN",
+      "note": "Scans (JP)"
+    }]
+  },
+  {
+    "name": "Kobunsha Short Comics",
+    "published": "",
+    "desc": "",
+    "type": ["Manga"],
+    "status": "Untranslated",
+    "translation": false,
+    "img": "t776_kobunsha5",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1E1U0RrIS6Nc74J6jLbsQXa9IfbUCuNiz?usp=drive_link",
+      "note": "Scans (JP)"
+    }]
+  },
+  {
+    "name": "Romanticist",
+    "published": "",
+    "desc": "",
+    "type": ["Manga"],
+    "status": "Untranslated",
+    "translation": false,
+    "img": "t776_romanticist",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1bVizG0_FAxaUmBlMQfnav3Q-6NtsmzyR?usp=drive_link",
       "note": "Scans (JP)"
     }]
   },
@@ -1442,6 +1714,73 @@ let entry_data = {
       "type": "gdrive",
       "link": "https://drive.google.com/file/d/1R_JET3GOikA97kLfqjzKkiMdq4SVpoqp/view?usp=sharing",
       "note": "Scans (JP)"
+    }]
+  },
+  {
+    "name": "The Making of Fire Emblem",
+    "published": "",
+    "desc": "",
+    "art": "Various",
+    "type": ["Artbook"],
+    "status": "Fully Translated",
+    "translation": false,
+    "img": "series_making",
+    "buttons": [
+    {
+      "type": "external",
+      "link": "https://kantopia.wordpress.com/2015/12/10/fire-emblem-25th-anniversary-book-scantranslation-compilation-post/",
+      "note": "Translations"
+    }]
+  },
+  {
+    "name": "The Complete",
+    "published": "",
+    "desc": "",
+    "story": "",
+    "art": "",
+    "type": ["Artbook"],
+    "status": "Untranslated",
+    "translation": false,
+    "img": "series_complete",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "",
+      "note": "Scans (JP)"
+    }]
+  },
+  {
+    "name": "Official Staff Book",
+    "published": "",
+    "desc": "",
+    "story": "",
+    "art": "",
+    "type": ["Artbook"],
+    "status": "Untranslated",
+    "translation": false,
+    "img": "series_staff",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "",
+      "note": "Scans (JP)"
+    }]
+  },
+  {
+    "name": "Warriors Treasure Box Artbook",
+    "published": "",
+    "desc": "",
+    "story": "",
+    "art": "",
+    "type": ["Artbook"],
+    "status": "English Release",
+    "translation": false,
+    "img": "series_warriors",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "",
+      "note": "Scans"
     }]
   }]
 }
