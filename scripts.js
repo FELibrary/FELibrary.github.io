@@ -81,16 +81,24 @@ function mediaPage() {
       td1.classList.toggle(items[i].buttons[j].type)
       td1.classList.toggle('button_img')
       td2.classList.toggle('button_note')
+   
+      
+
 
 
 
       //let span = document.createElement('span')
       //button.style.backgroundColor = items[i].buttons[j].color
       //span.innerHTML = items[i].buttons[j].note
-      //button.style.background = `url('./assets/${items[i].buttons[j].type}.png')`
+      if (items[i].buttons[j].glow)
+        button.id = "glow_btn"
+      else
+        button.id = 'blk_btn'
+
+      button.appendChild(button_tbl)
       a.appendChild(button)
       //button.appendChild(span)
-      button.appendChild(button_tbl)
+      
       buttons_div.appendChild(a)
     }
     string = ""
@@ -159,19 +167,23 @@ function mediaPage() {
 
 function filter_bar(game) {
   filter_bar = document.getElementById('filter_bar')
-  console.log(game)
+ 
   let filters = games[game].filters
-  console.log(entry_data[game])
+
   for (let i = 0; i < filters.length; i++) {
     let button = document.createElement('button')
+    let img = document.createElement('img')
+    img.id = filters[i] + 'Img'
+    button.appendChild(img)
     button.id = filters[i]
     if (i == 0) {
       button.setAttribute('onclick', `showAll()`)
-      button.style.backgroundColor = 'yellow'
+      img.src = `buttons/all_glow.png`
     } else {
       button.setAttribute('onclick', `filter('${filters[i]}')`)
+      img.src = "buttons/" + filters[i].toLowerCase() + `.png`
     }
-    button.innerHTML = filters[i]
+    //button.innerHTML = filters[i]
     filter_bar.appendChild(button)
   }
 }
@@ -180,14 +192,16 @@ function filter(type) {
   let keys = games[game].filters
   for (let i = 0; i < keys.length; i++) {
     let nodes = document.getElementsByClassName(`${keys[i]}`)
-    document.getElementById(keys[i]).style.backgroundColor = 'buttonface'
+    //document.getElementById(keys[i] + 'Img').style.backgroundColor = 'buttonface'
+    document.getElementById(keys[i] + 'Img').src =  "buttons/" + keys[i].toLowerCase() + `.png`
     for (let j = 0; j < nodes.length; j++) {
       let entry = nodes[j];
       entry.style.display = 'none';
     }
   }
   let keep = document.getElementsByClassName(type)
-  document.getElementById(type).style.backgroundColor = 'yellow'
+  //document.getElementById(type).style.backgroundColor = 'yellow'
+  document.getElementById(type + 'Img').src =  "buttons/" + type.toLowerCase() + `_glow.png`
   for (let i = 0; i < keep.length; i++) {
     let entry = keep[i];
     entry.style.display = 'block';
@@ -198,11 +212,11 @@ function showAll() {
   let keys = games[game].filters
   for (let i = 0; i < keys.length; i++) {
     let nodes = document.getElementsByClassName(`${keys[i]}`)
-    document.getElementById(keys[i]).style.backgroundColor = 'buttonface'
+    document.getElementById(keys[i] + 'Img').src =  "buttons/" + keys[i].toLowerCase() + `.png`
     for (let j = 0; j < nodes.length; j++) {
       let entry = nodes[j];
       entry.style.display = 'block';
     }
   }
-  document.getElementById('All').style.backgroundColor = 'yellow'
+  document.getElementById('AllImg').src =  "buttons/all_glow.png"
 }

@@ -56,8 +56,19 @@ body {
 }
 
 #filter_bar button {
-  font-family: 'FEH';
-  font-size: 125%;
+  background: transparent;
+  cursor: pointer;
+  border-color: transparent;
+  width: fit-content;
+  height: auto;
+  padding: 0px 0px 0px 0px;
+}
+
+#filter_bar button img {
+  cursor: pointer;
+  max-height: 100%;
+  max-width: 100%;
+
 }
 
 .break {
@@ -167,20 +178,34 @@ body {
   min-width: 80px;
   min-height: 70px;
   border: none;
-  background-image: url('./assets/scan.png');
-  background-size: 100%;
-  background-position: 50% 50%;
   background-color: transparent;
-  background-repeat: no-repeat;
   margin-left: 2.5%;
   position: relative;
   cursor: pointer;
+
+
+}
+
+#glow_btn {
+  background: url('./assets/entry_glow.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+
+#blk_btn {
+  background: url('./assets/entry.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100%;
 }
 
 .buttons_box table {
   width: 100%;
   font-family: FEH;
   color: white;
+
+
 }
 
 .button_note {
