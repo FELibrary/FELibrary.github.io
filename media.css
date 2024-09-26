@@ -177,6 +177,7 @@ body {
   width: 95%;
   min-width: 80px;
   min-height: 70px;
+  aspect-ratio: 302/53;
   border: none;
   background-color: transparent;
   margin-left: 2.5%;
