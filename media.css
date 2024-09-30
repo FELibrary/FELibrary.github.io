@@ -93,7 +93,10 @@ body {
   top: 25%;
 }
 
-
+#media_div {
+  display: flex;
+  flex-direction: column;
+}
 
 .media_box {
   width: 90%;

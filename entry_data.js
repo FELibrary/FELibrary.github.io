@@ -448,6 +448,12 @@ let entry_data = {
     "translation": [],
     "img": "arc_hakoda",
     "buttons": [
+      {
+      "type": "mangadex",
+      "link": "https://mangadex.org/title/97f5faa3-538f-4a03-91e3-0ea92a72fa7e/fire-emblem-shadow-dragon-and-the-sword-of-light",
+      "glow": true,
+      "note": "Vol 1-12 (EN)"
+    },
     {
       "type": "external",
       "link": "https://serenesforest.net/gallery/manga/dark-dragon-and-sword-of-light/",
@@ -455,6 +461,8 @@ let entry_data = {
       "note": "Vol 1-12 (EN)"
     }]
   },
+
+  
   {
     "name": "The Recollections of Fire Emblem",
     "published": "",
@@ -517,8 +525,8 @@ let entry_data = {
     "buttons": [
     {
       "type": "gdrive",
-      "link": "",
-      "glow": false,
+      "link": "https://drive.google.com/file/d/1e_kF6E6z9xiTBTGQcgj-jq8GeTQZ6MiZ/view?usp=sharing",
+      "glow": true,
       "note": "Scans (EN)"
     }]
   }],
@@ -526,8 +534,8 @@ let entry_data = {
   {
     "name": "Special Edition Artbook",
     "published": "May 19, 2017",
-    "desc": "",
-    "story": "Bundled with the US Special Edition release of Shadows of Valentia. Contains character concept art and illustrations, as well as some weapon, class and background concepts.",
+    "desc": "Bundled with the US Special Edition release of Shadows of Valentia. Contains character concept art and illustrations, as well as some weapon, class and background concepts.",
+
     "art": "Hidari",
     "type": ["Artbook"],
     "status": "English Release",
@@ -541,31 +549,60 @@ let entry_data = {
       "note": "Scans (EN)"
     }]
   },
-  {
-    "name": "4koma Comic Anthology",
-    "published": "",
+    {
+    "name": "Gaiden Manga",
+    "published": "1993",
     "desc": "",
-    "story": "",
-    "art": "",
+    "story": "Masaki Sano & Kyo Watanabe",
+    "art": "Masaki Sano & Kyo Watanabe",
     "status": "Fully Translated",
-    "type": ["4koma"],
+    "type": ["Manga"],
     "translation": [
-      "Kantopia"
+      "TheEnd"
     ],
-    "img": "sov_antho",
+    "img": "sov_mskw",
     "buttons": [
     {
-      "type": "external",
-      "link": "https://kantopia.wordpress.com/2018/01/28/fire-emblem-echoes-shadows-of-valentia-comic-anthology-4koma-translations-all/",
+      "type": "mangadex",
+      "link": "https://mangadex.org/title/eb17cb9f-3b06-424a-a90c-6e978dda8bf9/fire-emblem-gaiden",
       "glow": true,
       "note": "Translations"
     }]
   },
+
+  {
+    "name": "4koma & Comic Anthology",
+    "published": "October 26, 2017",
+    "desc": "A collectio of 4komas and short comics based on Shadows of Valentia.",
+    "story": "Various",
+    "art": "Various",
+    "status": "Fully Translated",
+    "type": ["4koma", "Manga"],
+    "translation": [
+      "Kantopia", "Mystletainn"
+    ],
+    "img": "sov_antho",
+    "buttons": [
+      {
+      "type": "mangadex",
+      "link": "  https://mangadex.org/title/241f4867-e8c7-4c94-89da-6468b94d46ed/fire-emblem-echoes-mou-hitori-no-eiyuu-ou-comic-anthology",
+      "glow": true,
+      "note": "All"
+    },
+    {
+      "type": "external",
+      "link": "https://kantopia.wordpress.com/2018/01/28/fire-emblem-echoes-shadows-of-valentia-comic-anthology-4koma-translations-all/",
+      "glow": true,
+      "note": "4komas"
+    }]
+  },
+
+
+
   {
     "name": "Valentia Accordion",
     "published": "March 30, 2018",
     "desc": "Contains 5 chapters: Visual Gallery, World & Story, Character Archive, Concept Art, and Extras",
-    "story": "",
     "art": "Hidari",
     "type": ["Artbook"],
     "status": "Fully Translated",
@@ -618,7 +655,7 @@ let entry_data = {
   "gothw": [
   {
     "name": "Genealogy of the Holy War (Mitsuki Oosawa)",
-    "published": "",
+    "published": "October 1999 - October 2001",
     "desc": "A 16-volume adapation of Genealogy of the Holy War. Chapters 1-55 cover Generation 1, and Chapters 56-99 cover Generation 2 until the end of Chapter 10. This manga has three different releases, a SC deluxe version and two MF (Media Factory) versions. There is not much difference between the versions other than different color pages and the sizes of the volumes.",
     "story": "Mitsuki Oosawa",
     "art": "Mitsuki Oosawa",
@@ -646,7 +683,7 @@ let entry_data = {
   },
   {
     "name": "Genealogy of the Holy War (Fujimori Nattsu)",
-    "published": "",
+    "published": "November 1997 - October 2001",
     "desc": "A 6-volume comedic adapation of Genealogy of the Holy War. It covers part of Generation 1.",
     "story": "Fujimori Nattsu",
     "art": "Fujimori Nattsu",
@@ -674,7 +711,7 @@ let entry_data = {
     "type": ["Manga"],
     "status": "Fully Translated",
     "translation": [
-      "Dahl"
+      "TheEnd"
     ],
     "img": "gothw_nea",
     "buttons": [
@@ -721,7 +758,7 @@ let entry_data = {
   },
   {
     "name": "Short Story Collection",
-    "published": "",
+    "published": "December 1, 1997 / January 1, 1998",
     "desc": "Contains a total of 15 short stories across 2 volumes.<br><strong>Volume 1:</strong> The Last of the Earth Dragon Tribe, The Spirit Forest, General Aida, The Three Witches, Their Sealed Pasts, A Thief's Vow, The Killing Blow, The Phantom Horse<br><strong>Volume 2:</strong> The Wind Mage, My Child Loptous, The Flying Warrior, Bonds, Arion, Vampire, The Forested Land of the Lake",
     "story": "Ginichiro Suzuki",
     "art": "Rika Suzuki",
@@ -757,7 +794,7 @@ let entry_data = {
   },
   {
     "name": "Gekka Ginyu",
-    "published": " August 1, 2000",
+    "published": "August 1, 2000",
     "desc": "Contains Senior Lord Trio Bonus Story Short \"Requiem of Time\" during their Academy days.  Also has a pin-up poster of the First Generation cast.",
     "story": "Mitsuki Oosawa",
     "art": "Mitsuki Oosawa",
@@ -766,6 +803,15 @@ let entry_data = {
     "translation": ["Another FE4 Translation"],
     "img": "gothw_gekka",
     "buttons": [
+
+     
+
+          {
+      "type": "mangadex",
+      "link": "https://mangadex.org/title/bf2109c7-2250-42bf-b6ca-e3b2903653fb/fire-emblem-genealogy-of-the-holy-war-gekka-ginyu",
+      "glow": true,
+      "note": "Story (EN)"
+    },
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1aZD5YEqVH_udy2sUO_MWxBBqxZ08EfDW",
@@ -785,7 +831,7 @@ let entry_data = {
     "desc": "",
     "story": "",
     "art": "",
-    "type": ["Artbook"],
+    "type": ["Manga"],
     "status": "Untranslated",
     "translation": false,
     "img": "gothw_theater",
@@ -1092,6 +1138,26 @@ let entry_data = {
       "note": "Translations"
     }]
   },
+
+    {
+    "name": "Illustrated Works",
+    "published": "April 1, 2000",
+    "desc": "Contains the story 'Leonster's Fall', character artwork and descriptions, battle information and bonus illustrations.",
+    "story": "",
+    "art": "Mayumi Hirota",
+    "type": ["Artbook"],
+    "status": "Untranslated",
+    "translation": false,
+    "img": "t776_illus",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1WG6zJaA0SjXBcEYXkDXtXQhyK4yGla9q?usp=drive_link",
+      "glow": false,
+      "note": "Scans (JP)"
+    }]
+  },
+
   {
     "name": "Thracia 776 (Hino Shiinnosuke)",
     "published": " June 1, 2000",
@@ -1514,7 +1580,7 @@ let entry_data = {
     "name": "Game Manual",
     "published": "",
     "desc": "",
-    "type": ["Guidebook"],
+    "type": ["Misc"],
     "status": "English Release",
     "translation": false,
     "img": "tell_rdmanual",
@@ -1557,6 +1623,14 @@ let entry_data = {
     ],
     "img": "awk_yonkoma",
     "buttons": [
+
+      
+      {
+      "type": "mangadex",
+      "link": "https://mangadex.org/title/8bcfdcc4-d07e-4aa8-9f91-0f2a89b988b2/fire-emblem-kakusei-4-koma-kings",
+      "glow": true,
+      "note": "Translations"
+    },
     {
       "type": "external",
       "link": "https://kantopia.wordpress.com/2015/01/26/fe-a-yonkoma-kings-translation-all-ongoing/",
@@ -1600,12 +1674,33 @@ let entry_data = {
       "note": "Scans (EN)"
     }]
   },
+    {
+    "name": "Crown of Nibelung",
+    "published": "September 2017 - July 2018",
+    "desc": "A manga whose plotline focuses mainly on Leo, the second royal prince of Nohr. It follows the Revelation route, and Corrin is depicted in her female incarnation.",
+    "story": "Yugyoji Tama",
+    "art": "Yugyoji Tama",
+    "type": ["Manga"],
+    "status": "Fully Translated",
+    "translation": [
+      "corsair"
+    ],
+    "img": "fates_crown",
+    "buttons": [
+    {
+      "type": "mangadex",
+      "link": "https://mangadex.org/title/0f7ef4b8-d6c1-4b0c-901c-41f3490d79e3/fire-emblem-fates-crown-of-nibelung",
+      "glow": true,
+      "note": "Translations"
+    }]
+  },
+
   {
     "name": "4koma Kings",
     "published": "",
     "desc": "",
     "story": "",
-    "art": "",
+    "art": "Various",
     "type": ["4koma"],
     "status": "Fully Translated",
     "translation": [
@@ -1613,6 +1708,14 @@ let entry_data = {
     ],
     "img": "fates_king",
     "buttons": [
+      {
+      "type": "mangadex",
+      "link": " https://mangadex.org/title/3ac5ae4c-33b9-40b2-9c88-16f6c004d9c8/fire-emblem-if-fates-4koma-kings",
+      "glow": true,
+      "note": "Translations"
+    },
+
+     
     {
       "type": "external",
       "link": "https://kantopia.wordpress.com/2016/03/04/fire-emblem-iffates-4koma-kings-translations/",
