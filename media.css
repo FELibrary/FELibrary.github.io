@@ -154,7 +154,6 @@ body {
   flex-basis: 0%;
   flex-grow: 1;
   font-family: arial;
-  font-size: 1.25vw;
 }
 
 .buttons_box {
@@ -207,6 +206,7 @@ body {
 .buttons_box table {
 
   height: 62.5%;
+  width: 100%;
   font-family: FEH;
   color: white;
 
@@ -214,7 +214,7 @@ body {
 }
 
 .button_note {
-  width: 70%;
+  width: 80%;
   text-align: left;
   font-size: 2.2vw;
 
@@ -233,9 +233,9 @@ body {
 }
 
 .button_img {
-  width: 40%;
-    background-size: contain;
-  background-position: 60% 50%;
+  width: 20%;
+  background-size: contain;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   aspect-ratio: 1/1;
 }

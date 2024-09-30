@@ -3,7 +3,7 @@ let entry_data = {
   {
     "name": "Legacy of Archanea",
     "published": "December 4, 2020",
-    "desc": "Included in the 30th Anniversary Edition of Fire Emblem: Shadow Dragon & the Blade of Light.",
+    "desc": "Included in the 30th Anniversary Edition of Fire Emblem: Shadow Dragon & the Blade of Light. Contains an Archanea timeline, introductions for each game, character artwork and full page Cipher artworks.",
     "type": ["Artbook"],
     "status": "English Release",
     "translation": false,
@@ -215,7 +215,7 @@ let entry_data = {
     "name": "SD Novelization",
     "published": "",
     "story" : "Sami Shinosaki",
-    "desc": "1 Book",
+    "desc": "A 1-volume adapation of Shadow Dragon and the Blade of Light.",
     "type": ["Novel"],
     "status": "Untranslated",
     "translation": false,
@@ -233,7 +233,7 @@ let entry_data = {
     "name": "MotE Manga",
     "published": "",
     "story" : "Hideo Takayashiki",
-    "desc": "4 Volumes",
+    "desc": "A 4-volume adapation of Mystery of the Emblem",
     "type": ["Manga"],
     "status": "Untranslated",
     "translation": false,
@@ -265,12 +265,12 @@ let entry_data = {
     }]
   },
 
-         {
+  {
     "name": "Fire Emblem Manga",
     "published": "",
     "story" : "Masaki Sano & Kyo Watanabe",
     "art" : "Masaki Sano & Kyo Watanabe",
-    "desc": "5 Volumes",
+    "desc": "A 5-volume adapation of Shadow Dragon and the Blade of Light and Mystery of the Emblem",
     "type": ["Manga"],
     "status": "Untranslated",
     "translation": false,
@@ -286,7 +286,7 @@ let entry_data = {
 
     {
     "name": "MotE Novelization",
-    "published": "",
+    "published": "A 2-volume novel adaptation of Mystery of the Emblem.",
     "story" : "Sami Shinosaki",
     "desc": "2 Books",
     "type": ["Novel"],
@@ -442,7 +442,7 @@ let entry_data = {
     "name": "Dark Dragon and Sword of Light",
     "published": "",
     "art": "Maki Hakoda",
-    "desc": "",
+    "desc": "A 12-volume adaptation of Shadow Dragon and the Blade of Light.",
     "type": ["Manga"],
     "status": "Fully Translated",
     "translation": [],
@@ -527,7 +527,7 @@ let entry_data = {
     "name": "Special Edition Artbook",
     "published": "May 19, 2017",
     "desc": "",
-    "story": "",
+    "story": "Bundled with the US Special Edition release of Shadows of Valentia. Contains character concept art and illustrations, as well as some weapon, class and background concepts.",
     "art": "Hidari",
     "type": ["Artbook"],
     "status": "English Release",
@@ -564,7 +564,7 @@ let entry_data = {
   {
     "name": "Valentia Accordion",
     "published": "March 30, 2018",
-    "desc": "",
+    "desc": "Contains 5 chapters: Visual Gallery, World & Story, Character Archive, Concept Art, and Extras",
     "story": "",
     "art": "Hidari",
     "type": ["Artbook"],
@@ -598,7 +598,7 @@ let entry_data = {
   {
     "name": "Gaiden Novel",
     "published": "",
-    "desc": "",
+    "desc": "A 2-volume novel adapation of Gaiden. The first book has been translated so far.",
     "story": "Katsuyuki Ozaki",
     "art": "Ichiro & Kazuo Hiroi",
     "type": ["Novel"],
@@ -1297,12 +1297,12 @@ let entry_data = {
   "binding": [
   {
     "name": "Another Story - Champion's Sword",
-    "published": "",
-    "desc": "",
+    "published": "November 2001 - July 2005",
+    "desc": "A pseudo-adaptation of Fire Emblem: The Binding Blade serialized in Monthly Shonen Jump spanning forty-five chapters. Initially acting as a side-story, portraying the adventure of a young boy named Al and his companions as they seek out the Fire Emblem, it eventually became an alternate retelling of the game's events, bringing in a number of original characters and concepts.",
     "story": "Hiroshi Izawa",
     "art": "Yamada Koutarou",
     "type": ["Manga"],
-    "status": "Completed",
+    "status": "Fully Translated",
     "translation": [
       "TheEnd"
     ],
@@ -1383,7 +1383,7 @@ let entry_data = {
   {
     "name": "The Blazing Blade Novel",
     "published": "",
-    "desc": "",
+    "desc": "A 2-volume novel adapation of The Blazing Blade.",
     "story": "Makasa Kazuyoshi",
     "art": "Kaneda Eiji",
     "type": ["Novel"],
@@ -1404,7 +1404,7 @@ let entry_data = {
   {
     "name": "The Sacred Stones Novel",
     "published": "",
-    "desc": "",
+    "desc": "A 2-volume novel adapation of The Sacred Stones.",
     "story": "Mie Takase",
     "art": "Rika Suzuki",
     "type": ["Novel"],
@@ -1425,7 +1425,7 @@ let entry_data = {
   {
     "name": "Tellius Recollection Vol. 1",
     "published": "July 29 2016",
-    "desc": "The book provides a compilation of official documents from Intelligent Systems, revealing three aspects of character designs, such as their background in this world, and rough sketches of their original illustrations. In addition, the book features info on the full story, setting, every support conversation, a directory of character names (even enemy commanders), and more.",
+    "desc": "The book provides a compilation of official documents from Intelligent Systems revealing aspects of character designs, such as their background in this world, and rough sketches of their original illustrations. In addition, the book features info on the full story, setting, every support conversation, a directory of character names (even enemy commanders), and more.",
     "story": "",
     "art": "Senri Kita",
     "type": ["Artbook"],
@@ -1478,7 +1478,7 @@ let entry_data = {
   {
     "name": "Tellius Recollection Vol. 2",
     "published": "November 25, 2016",
-    "desc": "",
+    "desc": "The book provides a compilation of official documents from Intelligent Systems revealing aspects of character designs, such as their background in this world, and rough sketches of their original illustrations. In addition, the book features info on the full story, setting, every support conversation, a directory of character names (even enemy commanders), and more.",
     "art": "Senri Kita",
     "type": ["Artbook"],
     "status": "Fully Translated",
@@ -1567,8 +1567,8 @@ let entry_data = {
   "fates": [
   {
     "name": "Pellucid Crystal",
-    "published": "",
-    "desc": "",
+    "published": "April 25, 2019",
+    "desc": "A design document book for Fire Emblem Fates / if.",
     "story": "",
     "art": "Yusuke Kozaki",
     "type": ["Artbook"],
@@ -1586,8 +1586,7 @@ let entry_data = {
   {
     "name": "Special Edition Artbook",
     "published": "February 19, 2016",
-    "desc": "",
-    "story": "",
+    "desc": "Bundled with the US Special Edition release. Contains character sketches, class, weapon, and background designs as well as photos of many in-game cutscenes. ",
     "art": "Yusuke Kozaki",
     "type": ["Artbook"],
     "status": "English Release",
@@ -1678,7 +1677,7 @@ let entry_data = {
   {
     "name": "Three Hopes Special Edition Artbook",
     "published": "June 24, 2022",
-    "desc": "",
+    "desc": "Bundled with the European Special Edition release of Warriors: Three Hopes.",
     "story": "",
     "art": "Chinatsu Kurahana",
     "type": ["Artbook"],
@@ -1696,8 +1695,8 @@ let entry_data = {
   "engage": [
   {
     "name": "Fire Emblem Engage (Kazuro Kyou)",
-    "published": "",
-    "desc": "",
+    "published": "2023 - Present",
+    "desc": "An ongoing manga adapation of Engage.",
     "story": "Kazuro Kyou",
     "art": "Kazuro Kyou",
     "type": ["Manga"],
@@ -1733,7 +1732,7 @@ let entry_data = {
   {
     "name": "A Day in the Life",
     "published": "",
-    "desc": "",
+    "desc": "A comedic 4koma series that showcases the Summoner's interactions with various heroes in Askr, published every week on the official FEH website. The character comics and first 100 chapters were not officially translated and can be found on Mangadex.",
     "story": "Various",
     "art": "Various",
     "type": ["4koma"],
@@ -1806,14 +1805,14 @@ let entry_data = {
       "type": "external",
       "link": "https://idolasphere-performa.tumblr.com/US-SEgoodies/SE_Book",
       "glow": true,
-      "note": "Scans (EN)"
+      "note": "Images (EN)"
     }]
   }],
   "series": [
   {
     "name": "20th Anniversary Encyclopedia",
-    "published": "",
-    "desc": "",
+    "published": "June 30, 2010",
+    "desc": "A fan book that covers the series from the first installment, Shadow Dragon and the Blade of Light to New Mystery of the Emblem. It contains messages, illustrations, interviews, and a World Guide that is seperated by continents rather than games.",
     "story": "",
     "art": "",
     "type": ["Artbook"],
@@ -1830,9 +1829,9 @@ let entry_data = {
   },
   {
     "name": "The Making of Fire Emblem",
-    "published": "",
-    "desc": "",
-    "art": "Various",
+    "published": "November 11, 2015",
+    "desc": "A design book providing the developement information and secrets of the Fire Emblem series, from the beginning of the series to the latest releases at the time, Fire Emblem Awakening and Fire Emblem Fates.",
+    "art": "",
     "type": ["Artbook"],
     "status": "Fully Translated",
     "translation": ["Kantopia"],
@@ -1847,10 +1846,10 @@ let entry_data = {
   },
   {
     "name": "The Complete",
-    "published": "",
-    "desc": "",
+    "published": "May 1996",
+    "desc": "An artbook providing artworks, comics, and information of characters from Shadow Dragon and the Blade of Light, Fire Emblem Gaiden, and Mystery of the Emblem.",
     "story": "",
-    "art": "",
+    "art": "Various",
     "type": ["Artbook"],
     "status": "Untranslated",
     "translation": false,
