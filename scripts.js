@@ -124,6 +124,7 @@ function mediaPage()
       heading_arr.push("Translation")
       info_arr.push(items[i].translation.join(', '))
     }
+
     for (let i = 0; i < info_arr.length; i++)
     {
       const tr = tbl.insertRow();
@@ -139,19 +140,19 @@ function mediaPage()
           td.innerHTML = info_arr[i]
         }
       }
-      info_div.innerHTML = string
-      info_div.appendChild(tbl)
-      div.appendChild(title_div)
-      lower_div.appendChild(img_div)
-      lower_div.appendChild(info_div)
-      lower_div.appendChild(buttons_div)
-      div.appendChild(lower_div)
-      for (let j = 0; j < items[i].type.length; j++)
-      {
-        div.classList.toggle(items[i].type[j])
-      }
-      media_div.appendChild(div)
     }
+    info_div.innerHTML = string
+    info_div.appendChild(tbl)
+    div.appendChild(title_div)
+    lower_div.appendChild(img_div)
+    lower_div.appendChild(info_div)
+    lower_div.appendChild(buttons_div)
+    div.appendChild(lower_div)
+    for (let j = 0; j < items[i].type.length; j++)
+    {
+      div.classList.toggle(items[i].type[j])
+    }
+    media_div.appendChild(div)
   }
 }
 
