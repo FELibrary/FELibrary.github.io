@@ -11,7 +11,7 @@ let games = {
 
     "gothw" : {
     "name" : "Genealogy of the Holy War",
-    "filters" : ['All', 'Manga', 'Novel', 'Artbook', '4koma', 'Guidebook']
+    "filters" : ['All', 'Manga', 'Novel', 'Artbook', '4koma', 'Guidebook', 'Misc']
   },
 
     "t776" : {

@@ -154,6 +154,7 @@ body {
   flex-basis: 0%;
   flex-grow: 1;
   font-family: arial;
+  font-size: 1.25vw;
 }
 
 .buttons_box {
@@ -169,6 +170,7 @@ body {
 
 .buttons_box a {
   width: 95%;
+  aspect-ratio: 302/53;
   margin-left: 2.5%;
   height: auto;
 }
@@ -176,7 +178,6 @@ body {
 .buttons_box button {
   width: 95%;
   min-width: 80px;
-  min-height: 70px;
   aspect-ratio: 302/53;
   border: none;
   background-color: transparent;
@@ -190,6 +191,7 @@ body {
 #glow_btn {
   background: url('./assets/entry_glow.png');
   background-repeat: no-repeat;
+  aspect-ratio: 302/53;
   background-position: 50% 50%;
   background-size: 100%;
 }
@@ -197,12 +199,14 @@ body {
 #blk_btn {
   background: url('./assets/entry.png');
   background-repeat: no-repeat;
+  aspect-ratio: 302/53;
   background-position: 50% 50%;
   background-size: 100%;
 }
 
 .buttons_box table {
-  width: 100%;
+
+  height: 62.5%;
   font-family: FEH;
   color: white;
 
@@ -212,7 +216,8 @@ body {
 .button_note {
   width: 70%;
   text-align: left;
-  font-size: 2vw;
+  font-size: 2.2vw;
+
 }
 
 .external {
@@ -228,11 +233,9 @@ body {
 }
 
 .button_img {
-  min-width: 15.5px;
-  width: 30%;
-  height: 95%;
-  background-size: contain;
-  background-position: 80% 50%;
+  width: 40%;
+    background-size: contain;
+  background-position: 60% 50%;
   background-repeat: no-repeat;
   aspect-ratio: 1/1;
 }

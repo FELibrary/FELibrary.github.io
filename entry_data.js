@@ -619,7 +619,7 @@ let entry_data = {
   {
     "name": "Genealogy of the Holy War (Mitsuki Oosawa)",
     "published": "",
-    "desc": "All 16 volumes are grouped in one listing",
+    "desc": "A 16-volume adapation of Genealogy of the Holy War. Chapters 1-55 cover Generation 1, and Chapters 56-99 cover Generation 2 until the end of Chapter 10. This manga has three different releases, a SC deluxe version and two MF (Media Factory) versions. There is not much difference between the versions other than different color pages and the sizes of the volumes.",
     "story": "Mitsuki Oosawa",
     "art": "Mitsuki Oosawa",
     "type": ["Manga"],
@@ -647,7 +647,7 @@ let entry_data = {
   {
     "name": "Genealogy of the Holy War (Fujimori Nattsu)",
     "published": "",
-    "desc": "",
+    "desc": "A 6-volume comedic adapation of Genealogy of the Holy War. It covers part of Generation 1.",
     "story": "Fujimori Nattsu",
     "art": "Fujimori Nattsu",
     "type": ["Manga"],
@@ -668,7 +668,7 @@ let entry_data = {
   {
     "name": "Light Inheritors",
     "published": "",
-    "desc": "",
+    "desc": "A 5-volume adapation of Genealogy of the Holy War that covers Generation 2 from Chapters 6 through 9. It notably includes the pairing Ares/Julia.",
     "story": "Fuyuki Nea",
     "art": "Fuyuki Nea",
     "type": ["Manga"],
@@ -688,9 +688,9 @@ let entry_data = {
   {
     "name": "Fire Emblem Treasure",
     "published": "January 1, 1999",
-    "desc": "",
+    "desc": "The book is split into two sections: 'Establishment' (World, Lore, Setting, Character Profiles, Designer's Notes, Kaga Interviews), and 'Special Data' (Character Stats/Parameters, Unit Data, Opening Demo Collection, and Postscript)",
     "story": "",
-    "art": "",
+    "art": "Mayumi Hirota",
     "type": ["Artbook"],
     "status": "Untranslated",
     "translation": false,
@@ -722,7 +722,7 @@ let entry_data = {
   {
     "name": "Short Story Collection",
     "published": "",
-    "desc": "",
+    "desc": "Contains a total of 15 short stories across 2 volumes.<br><strong>Volume 1:</strong> The Last of the Earth Dragon Tribe, The Spirit Forest, General Aida, The Three Witches, Their Sealed Pasts, A Thief's Vow, The Killing Blow, The Phantom Horse<br><strong>Volume 2:</strong> The Wind Mage, My Child Loptous, The Flying Warrior, Bonds, Arion, Vampire, The Forested Land of the Lake",
     "story": "Ginichiro Suzuki",
     "art": "Rika Suzuki",
     "type": ["Novel"],
@@ -876,7 +876,7 @@ let entry_data = {
     "story": "",
     "art": "",
     "type": ["Manga"],
-    "status": "Translation in Progress",
+    "status": "Partially Translated",
     "translation": [
       "Kitsudori"
     ],
@@ -898,17 +898,18 @@ let entry_data = {
   {
     "name": "Famitsu Fan Special",
     "published": "September 1, 1996",
-    "desc": "",
-    "type": ["Guidebook"],
+    "desc": "Contains the short story 'Fateful Encounter at the Doors of Destiny', centered on Quan.",
+    "story" : "Jindai Sou",
+    "type": ["Guidebook", "Novel"],
     "status": "Untranslated",
-    "translation": false,
+    "translation": ['Kitsudori'],
     "img": "gothw_famitsu",
     "buttons": [
     {
       "type": "gdrive",
       "link": "https://docs.google.com/document/d/1tMrg68NdvlA7HJOy0Br-mLdC2SVqVG23WW7-11nA2yQ/edit?usp=sharing",
       "glow": true,
-      "note": "Story Translation"
+      "note": "Story (EN)"
     },
     {
       "type": "gdrive",
@@ -968,7 +969,7 @@ let entry_data = {
   {
     "name": "Those Who Inherit the Light",
     "published": "February 1, 1997",
-    "desc": "Covers Chapter 6 events only. Contains substitue characters.",
+    "desc": "An adapation of Chapter 6 of Genealogy of the Holy War. Contains substitue characters.",
     "type": ["Manga"],
     "art": "Sumi Arisaka",
     "story": "Sumi Arisaka",
@@ -1015,7 +1016,7 @@ let entry_data = {
   {
     "name": "Genealogy of the Holy War Novel (Suzuki)",
     "published": "",
-    "desc": "",
+    "desc": "A 3-volume novel adapation of Genealogy of the Holy War. Books 1 & 2 cover Generation 1, and Book 3 covers Generation 2.",
     "story": "Ginichiro Suzuki",
     "art": "Rika Suzuki",
     "type": ["Novel"],
@@ -1068,7 +1069,7 @@ let entry_data = {
   {
     "name": "Thracia 776 (Takanagi Yuuna)",
     "published": "October 2000 - October 2001",
-    "desc": "Covers Prologue to Chapter 14.",
+    "desc": "A partial adapation of Thracia 776 that covers from Chapter 1 to Chapter 14 (Siege of Tarrah).",
     "story": "Takanagi Yuuna",
     "art": "Takanagi Yuuna",
     "type": ["Manga"],
@@ -1094,7 +1095,7 @@ let entry_data = {
   {
     "name": "Thracia 776 (Hino Shiinnosuke)",
     "published": " June 1, 2000",
-    "desc": "Covers Prologue to post-Chapter 4x.",
+    "desc": "A partial adapation of Thracia 776 that covers Chapter 1 through Chapter 4x (Hero on the Wind).",
     "story": "Hino Shiinnosuke",
     "art": "Hino Shiinnosuke",
     "type": ["Manga"],
@@ -1112,7 +1113,7 @@ let entry_data = {
   {
     "name": "Thracia 776 Novel",
     "published": "",
-    "desc": "",
+    "desc": "A 2-volume novel adapation of Thracia 776. Book 1 covers Chapters 1-19, and Book 2 covers the remaining chapters.",
     "story": "Takashi Umemura",
     "art": "Mitsuki Shiina",
     "type": ["Novel"],
