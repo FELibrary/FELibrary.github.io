@@ -180,8 +180,8 @@ let entry_data = {
   },
   {
     "name": "Telephone Pay Card",
-    "published": "",
-    "desc": "",
+    "published": "1994",
+    "desc": "A telephone card that was given away in a raffle for buying the FE3 official guidebook in 1994. Only 20 winners were selected.",
     "type": ["Misc"],
     "status": "Untranslated",
     "translation": false,
@@ -195,7 +195,7 @@ let entry_data = {
     }]
   },
   {
-    "name": "MotE Strategy Guidebook",
+    "name": "Mystery of the Emblem Strategy Guidebook",
     "published": "",
     "desc": "Covers all maps from Book 1 & 2 with full map screens and important information.",
     "type": ["Guidebook"],
@@ -210,11 +210,11 @@ let entry_data = {
       "note": "Scans (JP)"
     }]
   },
-
-      {
-    "name": "SD Novelization",
-    "published": "",
-    "story" : "Sami Shinosaki",
+  {
+    "name": "Shadow Dragon Novel (Shinosaki)",
+    "published": "2000",
+    "story": "Sami Shinosaki",
+    "art": "Hino Shinnosuke",
     "desc": "A 1-volume adapation of Shadow Dragon and the Blade of Light.",
     "type": ["Novel"],
     "status": "Untranslated",
@@ -228,13 +228,13 @@ let entry_data = {
       "note": "Scans (JP)"
     }]
   },
-
-      {
-    "name": "MotE Manga",
+  {
+    "name": "Mystery of the Emblem Novel (Takayashiki)",
     "published": "",
-    "story" : "Hideo Takayashiki",
+    "story": "Hideo Takayashiki",
+    "art": "Yoshihiko Ochi",
     "desc": "A 4-volume adapation of Mystery of the Emblem",
-    "type": ["Manga"],
+    "type": ["Novel"],
     "status": "Untranslated",
     "translation": false,
     "img": "arc_takayashiki",
@@ -246,11 +246,10 @@ let entry_data = {
       "note": "Scans (JP)"
     }]
   },
-
-       {
-    "name": "Fire Emblem Manga",
-    "published": "",
-    "story" : "Hirokazu Simada",
+  {
+    "name": "Shadow Dragon Manga (Simada)",
+    "published": "1990",
+    "story": "Hirokazu Simada",
     "desc": "1 Volume",
     "type": ["Manga"],
     "status": "Untranslated",
@@ -258,18 +257,17 @@ let entry_data = {
     "img": "arc_simada",
     "buttons": [
     {
-      "type": "gdrive",
-      "link": "",
+      "type": "archive",
+      "link": "https://archive.org/details/FEhirokazusimada",
       "glow": false,
       "note": "Scans (JP)"
     }]
   },
-
   {
-    "name": "Fire Emblem Manga",
+    "name": "SD & MotE Manga (MSKW)",
     "published": "",
-    "story" : "Masaki Sano & Kyo Watanabe",
-    "art" : "Masaki Sano & Kyo Watanabe",
+    "story": "Masaki Sano & Kyo Watanabe",
+    "art": "Masaki Sano & Kyo Watanabe",
     "desc": "A 5-volume adapation of Shadow Dragon and the Blade of Light and Mystery of the Emblem",
     "type": ["Manga"],
     "status": "Untranslated",
@@ -283,11 +281,11 @@ let entry_data = {
       "note": "Scans (JP)"
     }]
   },
-
-    {
-    "name": "MotE Novelization",
+  {
+    "name": "Mystery of the Emblem Novel (Shinosaki)",
     "published": "A 2-volume novel adaptation of Mystery of the Emblem.",
-    "story" : "Sami Shinosaki",
+    "story": "Sami Shinosaki",
+    "art": "Hino Shinnosuke",
     "desc": "2 Books",
     "type": ["Novel"],
     "status": "Untranslated",
@@ -301,27 +299,26 @@ let entry_data = {
       "note": "Scans (JP)"
     }]
   },
-
-      {
+  {
     "name": "MotE Choose Your own Adventure",
-    "published": "",
-    "story" : "",
-    "desc": "",
+    "published": "October 10, 1995",
+    "story": "",
+    "art": "Naochika Morishita",
+    "desc": "A choose your own adventure game book based on Fire Emblem: Mystery of the Emblem, published by Enix.",
     "type": ["Novel"],
     "status": "Untranslated",
     "translation": false,
     "img": "arc_cyoa",
     "buttons": [
     {
-      "type": "gdrive",
-      "link": "",
+      "type": "archive",
+      "link": "https://archive.org/details/femota-cyoa",
       "glow": false,
       "note": "Scans (JP)"
     }]
   },
-
-    {
-    "name": "FE1 Encyclopedia",
+  {
+    "name": "Shadow Dragon Encyclopedia",
     "published": "",
     "desc": "",
     "type": ["Guidebook"],
@@ -336,10 +333,8 @@ let entry_data = {
       "note": "Scans (JP)"
     }]
   },
-
-
-    {
-    "name": "FE3 APE",
+  {
+    "name": "Mystery of the Emblem APE Guide",
     "published": "",
     "desc": "",
     "type": ["Guidebook"],
@@ -354,9 +349,8 @@ let entry_data = {
       "note": "Scans (JP)"
     }]
   },
-
   {
-    "name": "MotE Strategy Manual",
+    "name": "Mystery of the Emblem Strategy Manual",
     "published": "",
     "desc": "",
     "type": ["Guidebook"],
@@ -372,7 +366,7 @@ let entry_data = {
     }]
   },
   {
-    "name": "MotE Manga",
+    "name": "Mystery of the Emblem Manga (Yamaguchi)",
     "published": "",
     "desc": "",
     "type": ["Manga"],
@@ -448,7 +442,7 @@ let entry_data = {
     "translation": [],
     "img": "arc_hakoda",
     "buttons": [
-      {
+    {
       "type": "mangadex",
       "link": "https://mangadex.org/title/97f5faa3-538f-4a03-91e3-0ea92a72fa7e/fire-emblem-shadow-dragon-and-the-sword-of-light",
       "glow": true,
@@ -461,8 +455,6 @@ let entry_data = {
       "note": "Vol 1-12 (EN)"
     }]
   },
-
-  
   {
     "name": "The Recollections of Fire Emblem",
     "published": "",
@@ -482,34 +474,34 @@ let entry_data = {
   },
   {
     "name": "Picture Postcards",
-    "published": "",
+    "published": "1996",
     "art": "Maki Hakoda",
-    "desc": "",
+    "desc": "Contains 32 picture postcards",
     "type": ["Artbook"],
-    "status": "",
+    "status": "Translation not Required",
     "translation": false,
     "img": "arc_postcard",
     "buttons": [
     {
-      "type": "gdrive",
-      "link": "",
-      "glow": false,
-      "note": "Scans (JP)"
+      "type": "archive",
+      "link": "https://archive.org/details/FEPicturePostcards",
+      "glow": true,
+      "note": "Scans"
     }]
   },
   {
     "name": "Maki Hakoda Draws",
-    "published": "",
+    "published": "1995",
     "art": "Maki Hakoda",
-    "desc": "",
+    "desc": "An artbook featuring illustrations and behind-the-scenes information about the Fire Emblem manga and drama CDs.",
     "type": ["Artbook"],
     "status": "",
     "translation": false,
     "img": "arc_hakoda2",
     "buttons": [
     {
-      "type": "gdrive",
-      "link": "",
+      "type": "archive",
+      "link": "https://archive.org/details/makihakodadraws/mode/2up",
       "glow": false,
       "note": "Scans (JP)"
     }]
@@ -535,7 +527,6 @@ let entry_data = {
     "name": "Special Edition Artbook",
     "published": "May 19, 2017",
     "desc": "Bundled with the US Special Edition release of Shadows of Valentia. Contains character concept art and illustrations, as well as some weapon, class and background concepts.",
-
     "art": "Hidari",
     "type": ["Artbook"],
     "status": "English Release",
@@ -549,7 +540,7 @@ let entry_data = {
       "note": "Scans (EN)"
     }]
   },
-    {
+  {
     "name": "Gaiden Manga",
     "published": "1993",
     "desc": "",
@@ -569,7 +560,6 @@ let entry_data = {
       "note": "Translations"
     }]
   },
-
   {
     "name": "4koma & Comic Anthology",
     "published": "October 26, 2017",
@@ -583,7 +573,7 @@ let entry_data = {
     ],
     "img": "sov_antho",
     "buttons": [
-      {
+    {
       "type": "mangadex",
       "link": "  https://mangadex.org/title/241f4867-e8c7-4c94-89da-6468b94d46ed/fire-emblem-echoes-mou-hitori-no-eiyuu-ou-comic-anthology",
       "glow": true,
@@ -596,9 +586,6 @@ let entry_data = {
       "note": "4komas"
     }]
   },
-
-
-
   {
     "name": "Valentia Accordion",
     "published": "March 30, 2018",
@@ -803,10 +790,7 @@ let entry_data = {
     "translation": ["Another FE4 Translation"],
     "img": "gothw_gekka",
     "buttons": [
-
-     
-
-          {
+    {
       "type": "mangadex",
       "link": "https://mangadex.org/title/bf2109c7-2250-42bf-b6ca-e3b2903653fb/fire-emblem-genealogy-of-the-holy-war-gekka-ginyu",
       "glow": true,
@@ -862,7 +846,7 @@ let entry_data = {
   {
     "name": "Military History of the Continent",
     "published": "August 1, 2000",
-    "desc": "Contains both FE4 and FE5 stories and characters.",
+    "desc": "Contains short stories featuring both FE4 and FE5 characters.",
     "type": ["Manga"],
     "status": "Partially Translated",
     "translation": ['Kitsudori'],
@@ -945,7 +929,7 @@ let entry_data = {
     "name": "Famitsu Fan Special",
     "published": "September 1, 1996",
     "desc": "Contains the short story 'Fateful Encounter at the Doors of Destiny', centered on Quan.",
-    "story" : "Jindai Sou",
+    "story": "Jindai Sou",
     "type": ["Guidebook", "Novel"],
     "status": "Untranslated",
     "translation": ['Kitsudori'],
@@ -1097,7 +1081,7 @@ let entry_data = {
   },
   {
     "name": "Game Manual",
-    "published": "",
+    "published": "May 14, 1996",
     "desc": "",
     "type": ["Misc"],
     "status": "Untranslated",
@@ -1113,7 +1097,7 @@ let entry_data = {
   }, ],
   "t776": [
   {
-    "name": "Thracia 776 (Takanagi Yuuna)",
+    "name": "Thracia 776 Manga (Takanagi Yuuna)",
     "published": "October 2000 - October 2001",
     "desc": "A partial adapation of Thracia 776 that covers from Chapter 1 to Chapter 14 (Siege of Tarrah).",
     "story": "Takanagi Yuuna",
@@ -1138,8 +1122,7 @@ let entry_data = {
       "note": "Translations"
     }]
   },
-
-    {
+  {
     "name": "Illustrated Works",
     "published": "April 1, 2000",
     "desc": "Contains the story 'Leonster's Fall', character artwork and descriptions, battle information and bonus illustrations.",
@@ -1157,9 +1140,8 @@ let entry_data = {
       "note": "Scans (JP)"
     }]
   },
-
   {
-    "name": "Thracia 776 (Hino Shiinnosuke)",
+    "name": "Thracia 776 Manga (Hino Shiinnosuke)",
     "published": " June 1, 2000",
     "desc": "A partial adapation of Thracia 776 that covers Chapter 1 through Chapter 4x (Hero on the Wind).",
     "story": "Hino Shiinnosuke",
@@ -1197,7 +1179,7 @@ let entry_data = {
   {
     "name": "Military History of the Continent",
     "published": "August 1, 2000",
-    "desc": "Contains both FE4 and FE5 stories and characters.",
+    "desc": "Contains short stories featuring both FE4 and FE5 characters.",
     "type": ["Manga"],
     "status": "Partially Translated",
     "translation": ['Kitsudori'],
@@ -1346,7 +1328,7 @@ let entry_data = {
   },
   {
     "name": "Game Manual",
-    "published": "",
+    "published": "September 1, 1999",
     "desc": "",
     "type": ["Misc"],
     "status": "Untranslated",
@@ -1518,7 +1500,7 @@ let entry_data = {
     "img": "tell_guide",
     "buttons": [
     {
-      "type": "external",
+      "type": "archive",
       "link": "https://archive.org/details/fire-emblem-path-of-radiance-players-guide/mode/2up",
       "glow": true,
       "note": "Scans (EN)"
@@ -1526,7 +1508,7 @@ let entry_data = {
   },
   {
     "name": "Game Manual",
-    "published": "",
+    "published": "October 17, 2005",
     "desc": "",
     "type": ["Misc"],
     "status": "English Release",
@@ -1562,7 +1544,7 @@ let entry_data = {
   },
   {
     "name": "Prima Strategy Guide",
-    "published": "",
+    "published": "2007",
     "desc": "",
     "type": ["Guidebook"],
     "status": "English Release",
@@ -1570,7 +1552,7 @@ let entry_data = {
     "img": "tell_prima",
     "buttons": [
     {
-      "type": "external",
+      "type": "archive",
       "link": "https://archive.org/details/fire-emblem-radiant-dawn-prima-strategy-guide/mode/2up",
       "glow": true,
       "note": "Scans (EN)"
@@ -1578,7 +1560,7 @@ let entry_data = {
   },
   {
     "name": "Game Manual",
-    "published": "",
+    "published": "November 5, 2007",
     "desc": "",
     "type": ["Misc"],
     "status": "English Release",
@@ -1586,7 +1568,7 @@ let entry_data = {
     "img": "tell_rdmanual",
     "buttons": [
     {
-      "type": "external",
+      "type": "archive",
       "link": "https://archive.org/details/manuallib-id-2492732/mode/2up",
       "glow": true,
       "note": "Scans (EN)"
@@ -1623,9 +1605,7 @@ let entry_data = {
     ],
     "img": "awk_yonkoma",
     "buttons": [
-
-      
-      {
+    {
       "type": "mangadex",
       "link": "https://mangadex.org/title/8bcfdcc4-d07e-4aa8-9f91-0f2a89b988b2/fire-emblem-kakusei-4-koma-kings",
       "glow": true,
@@ -1674,7 +1654,7 @@ let entry_data = {
       "note": "Scans (EN)"
     }]
   },
-    {
+  {
     "name": "Crown of Nibelung",
     "published": "September 2017 - July 2018",
     "desc": "A manga whose plotline focuses mainly on Leo, the second royal prince of Nohr. It follows the Revelation route, and Corrin is depicted in her female incarnation.",
@@ -1694,7 +1674,6 @@ let entry_data = {
       "note": "Translations"
     }]
   },
-
   {
     "name": "4koma Kings",
     "published": "",
@@ -1708,14 +1687,12 @@ let entry_data = {
     ],
     "img": "fates_king",
     "buttons": [
-      {
+    {
       "type": "mangadex",
       "link": " https://mangadex.org/title/3ac5ae4c-33b9-40b2-9c88-16f6c004d9c8/fire-emblem-if-fates-4koma-kings",
       "glow": true,
       "note": "Translations"
     },
-
-     
     {
       "type": "external",
       "link": "https://kantopia.wordpress.com/2016/03/04/fire-emblem-iffates-4koma-kings-translations/",
@@ -1959,16 +1936,16 @@ let entry_data = {
     "img": "series_complete",
     "buttons": [
     {
-      "type": "gdrive",
-      "link": "",
+      "type": "archive",
+      "link": "https://archive.org/details/fireemblemthecomplete",
       "glow": false,
       "note": "Scans (JP)"
     }]
   },
   {
     "name": "Official Staff Book",
-    "published": "",
-    "desc": "",
+    "published": "March 28, 2015",
+    "desc": "The Fire Emblem 25th Anniversary Official Staff Book that was sold at Comiket in March 2015.",
     "story": "",
     "art": "",
     "type": ["Artbook"],
@@ -1977,16 +1954,16 @@ let entry_data = {
     "img": "series_staff",
     "buttons": [
     {
-      "type": "gdrive",
-      "link": "",
+      "type": "archive",
+      "link": "https://archive.org/details/fireemblem25thofficialstaffbook",
       "glow": false,
       "note": "Scans (JP)"
     }]
   },
   {
     "name": "Warriors Treasure Box Artbook",
-    "published": "",
-    "desc": "",
+    "published": "September 28, 2017",
+    "desc": "The artbook included in the Japanese version of Fire Emblem Warriors Treasure Box Set.",
     "story": "",
     "art": "",
     "type": ["Artbook"],
@@ -1995,10 +1972,10 @@ let entry_data = {
     "img": "series_warriors",
     "buttons": [
     {
-      "type": "gdrive",
-      "link": "",
+      "type": "archive",
+      "link": "https://archive.org/details/fewtreasureboxartbook",
       "glow": false,
-      "note": "Scans"
+      "note": "Scans (JP)"
     }]
   }]
 }

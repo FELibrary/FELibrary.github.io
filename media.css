@@ -231,6 +231,11 @@ body {
   background: url('./assets/gdrive.png');
 }
 
+.archive {
+  background: url('./assets/archive.png');
+}
+
+
 .mangadex {
   background: url('./assets/mangadex.png');
 }
