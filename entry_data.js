@@ -50,8 +50,8 @@ let entry_data = {
   },
   {
     "name": "Fire Emblem Wind Mage",
-    "published": "",
-    "desc": "",
+    "published": "March 28, 1998",
+    "desc": "A manga adapation of Shadow Dragon and the Blade of Light. It follows a duel backstory for the Wind Mage Merric of Altea/Khadein & Crimson Princess Minerva of Macedon. Merric renews his vows for the protection of his homeland, while Minerva must uncover the truth about her Kingdom's sudden turn towards a dark path.",
     "type": ["Manga"],
     "art": "Shinshu Ueda",
     "story": "Shinshu Ueda",
@@ -222,15 +222,15 @@ let entry_data = {
     "img": "arc_shinosaki1",
     "buttons": [
     {
-      "type": "gdrive",
-      "link": "",
+      "type": "archive",
+      "link": "https://archive.org/details/feshadowdragonsamishinosaki",
       "glow": false,
       "note": "Scans (JP)"
     }]
   },
   {
     "name": "Mystery of the Emblem Novel (Takayashiki)",
-    "published": "",
+    "published": "1993 - 1996",
     "story": "Hideo Takayashiki",
     "art": "Yoshihiko Ochi",
     "desc": "A 4-volume adapation of Mystery of the Emblem",
@@ -241,7 +241,7 @@ let entry_data = {
     "buttons": [
     {
       "type": "gdrive",
-      "link": "",
+      "link": "https://drive.google.com/drive/folders/1DN3K--SDhLMcb7avjtcM6Zg8eoQoYoOP?usp=sharing",
       "glow": false,
       "note": "Scans (JP)"
     }]
@@ -250,7 +250,7 @@ let entry_data = {
     "name": "Shadow Dragon Manga (Simada)",
     "published": "1990",
     "story": "Hirokazu Simada",
-    "desc": "1 Volume",
+    "desc": "1 Volume adapation of Shadow Dragon and the Blade of Light.",
     "type": ["Manga"],
     "status": "Untranslated",
     "translation": false,
@@ -265,7 +265,7 @@ let entry_data = {
   },
   {
     "name": "SD & MotE Manga (MSKW)",
-    "published": "",
+    "published": "July 1992 - 1997",
     "story": "Masaki Sano & Kyo Watanabe",
     "art": "Masaki Sano & Kyo Watanabe",
     "desc": "A 5-volume adapation of Shadow Dragon and the Blade of Light and Mystery of the Emblem",
@@ -276,7 +276,7 @@ let entry_data = {
     "buttons": [
     {
       "type": "gdrive",
-      "link": "",
+      "link": "https://drive.google.com/drive/folders/1ye7DmwH-uJdRoaikryq2gqT8irhjBVpe?usp=sharing",
       "glow": false,
       "note": "Scans (JP)"
     }]
@@ -294,7 +294,7 @@ let entry_data = {
     "buttons": [
     {
       "type": "gdrive",
-      "link": "",
+      "link": "https://drive.google.com/drive/folders/1P_oMYdIlcCcB4eU4FZBEDXlviLCBMczo?usp=sharing",
       "glow": false,
       "note": "Scans (JP)"
     }]
@@ -605,7 +605,7 @@ let entry_data = {
   },
   {
     "name": "Fire Emblem Gaiden Encyclopedia",
-    "published": "",
+    "published": "1992",
     "desc": "Contains the old official art from the game, and a detailed overview of each battle maps with tips and tricks.",
     "type": ["Guidebook"],
     "status": "Untranslated",
@@ -691,7 +691,7 @@ let entry_data = {
   },
   {
     "name": "Light Inheritors",
-    "published": "",
+    "published": "March 1999 - October 1999",
     "desc": "A 5-volume adapation of Genealogy of the Holy War that covers Generation 2 from Chapters 6 through 9. It notably includes the pairing Ares/Julia.",
     "story": "Fuyuki Nea",
     "art": "Fuyuki Nea",
@@ -713,7 +713,6 @@ let entry_data = {
     "name": "Fire Emblem Treasure",
     "published": "January 1, 1999",
     "desc": "The book is split into two sections: 'Establishment' (World, Lore, Setting, Character Profiles, Designer's Notes, Kaga Interviews), and 'Special Data' (Character Stats/Parameters, Unit Data, Opening Demo Collection, and Postscript)",
-    "story": "",
     "art": "Mayumi Hirota",
     "type": ["Artbook"],
     "status": "Untranslated",
@@ -1022,8 +1021,8 @@ let entry_data = {
   },
   {
     "name": "Genealogy of the Holy War Novel (Takeda)",
-    "published": "",
-    "desc": "",
+    "published": "November 1996 - December 1996",
+    "desc": "A 2-volume novel adapation of Genealogy of the Holy War.",
     "type": ["Novel"],
     "story": "Yuichiro Takeda",
     "status": "Untranslated",
@@ -1045,7 +1044,7 @@ let entry_data = {
   },
   {
     "name": "Genealogy of the Holy War Novel (Suzuki)",
-    "published": "",
+    "published": "December 1996 - December 1997",
     "desc": "A 3-volume novel adapation of Genealogy of the Holy War. Books 1 & 2 cover Generation 1, and Book 3 covers Generation 2.",
     "story": "Ginichiro Suzuki",
     "art": "Rika Suzuki",
@@ -1064,10 +1063,10 @@ let entry_data = {
     }]
   },
   {
-    "name": "Gakken Mook Strategy Book",
-    "published": "",
+    "name": "Super Tactics Book",
+    "published": "August 1996",
     "desc": "",
-    "type": ["Guidebook"],
+    "type": ["Artbook", "Manga"],
     "status": "Untranslated",
     "translation": false,
     "img": "gothw_gakken",
@@ -1126,7 +1125,7 @@ let entry_data = {
     "name": "Illustrated Works",
     "published": "April 1, 2000",
     "desc": "Contains the story 'Leonster's Fall', character artwork and descriptions, battle information and bonus illustrations.",
-    "story": "",
+
     "art": "Mayumi Hirota",
     "type": ["Artbook"],
     "status": "Untranslated",
@@ -1142,7 +1141,7 @@ let entry_data = {
   },
   {
     "name": "Thracia 776 Manga (Hino Shiinnosuke)",
-    "published": " June 1, 2000",
+    "published": "June 24, 2000",
     "desc": "A partial adapation of Thracia 776 that covers Chapter 1 through Chapter 4x (Hero on the Wind).",
     "story": "Hino Shiinnosuke",
     "art": "Hino Shiinnosuke",
@@ -1160,7 +1159,7 @@ let entry_data = {
   },
   {
     "name": "Thracia 776 Novel",
-    "published": "",
+    "published": "March 2000 - April 2000",
     "desc": "A 2-volume novel adapation of Thracia 776. Book 1 covers Chapters 1-19, and Book 2 covers the remaining chapters.",
     "story": "Takashi Umemura",
     "art": "Mitsuki Shiina",
@@ -1413,7 +1412,7 @@ let entry_data = {
   },
   {
     "name": "Game Manual",
-    "published": "",
+    "published": "March 29, 2002",
     "desc": "",
     "type": ["Misc"],
     "status": "Untranslated",
@@ -1575,55 +1574,77 @@ let entry_data = {
     }]
   }],
   "awakening": [
-  {
-    "name": "Kozaki Holiday Fan Book",
-    "published": "",
-    "desc": "",
-    "type": ["Artbook"],
-    "art": "Yusuke Kozaki",
-    "status": "Untranslated",
-    "translation": false,
-    "img": "fates_kozaki",
-    "buttons": [
     {
-      "type": "gdrive",
-      "link": "https://drive.google.com/drive/folders/1LmU_rxPERXGI7nEcoRwcmcougdWAsoRV",
-      "glow": false,
-      "note": "Scans"
-    }]
-  },
-  {
-    "name": "4koma Kings",
-    "published": "",
-    "desc": "",
-    "story": "",
-    "art": "",
-    "type": ["4koma"],
-    "status": "Fully Translated",
-    "translation": [
-      "Kantopia"
-    ],
-    "img": "awk_yonkoma",
-    "buttons": [
-    {
-      "type": "mangadex",
-      "link": "https://mangadex.org/title/8bcfdcc4-d07e-4aa8-9f91-0f2a89b988b2/fire-emblem-kakusei-4-koma-kings",
-      "glow": true,
-      "note": "Translations"
+      "name": "Kozaki Holiday Fan Book",
+      "published": "",
+      "desc": "",
+      "type": ["Artbook"],
+      "art": "Yusuke Kozaki",
+      "status": "Untranslated",
+      "translation": false,
+      "img": "fates_kozaki",
+      "buttons": [
+      {
+        "type": "gdrive",
+        "link": "https://drive.google.com/drive/folders/1LmU_rxPERXGI7nEcoRwcmcougdWAsoRV",
+        "glow": false,
+        "note": "Scans"
+      }]
     },
     {
-      "type": "external",
-      "link": "https://kantopia.wordpress.com/2015/01/26/fe-a-yonkoma-kings-translation-all-ongoing/",
-      "glow": true,
-      "note": "Translations"
-    }]
-  }],
+      "name": "4koma Kings",
+      "published": "January 24, 2015",
+      "desc": "",
+      "story": "Various",
+      "art": "Shirataki Naco / Hanokage",
+      "type": ["4koma"],
+      "status": "Fully Translated",
+      "translation": [
+        "Kantopia"
+      ],
+      "img": "awk_yonkoma",
+      "buttons": [
+      {
+        "type": "mangadex",
+        "link": "https://mangadex.org/title/8bcfdcc4-d07e-4aa8-9f91-0f2a89b988b2/fire-emblem-kakusei-4-koma-kings",
+        "glow": true,
+        "note": "Translations"
+      },
+      {
+        "type": "external",
+        "link": "https://kantopia.wordpress.com/2015/01/26/fe-a-yonkoma-kings-translation-all-ongoing/",
+        "glow": true,
+        "note": "Translations"
+      }]
+    },
+    {
+      "name": "Comic Anthology",
+      "published": "December 25, 2014",
+      "desc": "",
+      "story": "Various",
+      "art": "Various",
+      "type": ["Manga"],
+      "status": "Fully Translated",
+      "translation": [
+        "maboroshi-no", "Shattered Scanlations"
+      ],
+      "img": "awk_comic",
+      "buttons": [
+      {
+        "type": "mangadex",
+        "link": "https://mangadex.org/title/7da3a22b-151c-43c6-97df-0e86a71ea2ce/fire-emblem-awakening-comic-anthology",
+        "glow": true,
+        "note": "Translations"
+      }]
+    }
+    
+  ],
   "fates": [
   {
     "name": "Pellucid Crystal",
     "published": "April 25, 2019",
     "desc": "A design document book for Fire Emblem Fates / if.",
-    "story": "",
+  
     "art": "Yusuke Kozaki",
     "type": ["Artbook"],
     "status": "Untranslated",
@@ -1702,8 +1723,8 @@ let entry_data = {
   },
   {
     "name": "4koma + Character Book",
-    "published": "",
-    "desc": "",
+    "published": "September 25, 2015",
+    "desc": "A comic adaptation of Fire Emblem Fates. The comic also features artworks of characters from the game and all pages are drawn in full color.",
     "story": "",
     "art": "",
     "type": ["4koma", "Artbook"],
@@ -1722,7 +1743,7 @@ let entry_data = {
   },
   {
     "name": "Valla Comic Anthology",
-    "published": "",
+    "published": "April 25, 2016",
     "desc": "",
     "type": ["Manga"],
     "status": "Untranslated",
