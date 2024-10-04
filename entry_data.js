@@ -17,6 +17,48 @@ let entry_data = {
     }]
   },
   {
+    "name": "Shadow Dragon Manga (Hakoda)",
+    "published": "January 1994 - March 1999",
+    "art": "Maki Hakoda",
+    "story": "Maki Hakoda",
+    "desc": "A 12-volume adaptation of Shadow Dragon and the Blade of Light, covering Chapters 1-17 of the game.",
+    "type": ["Manga"],
+    "status": "Fully Translated",
+    "translation": [],
+    "img": "arc_hakoda",
+    "buttons": [
+    {
+      "type": "mangadex",
+      "link": "https://mangadex.org/title/97f5faa3-538f-4a03-91e3-0ea92a72fa7e/fire-emblem-shadow-dragon-and-the-sword-of-light",
+      "glow": true,
+      "note": "Vol 1-12 (EN)"
+    },
+    {
+      "type": "external",
+      "link": "https://serenesforest.net/gallery/manga/dark-dragon-and-sword-of-light/",
+      "glow": true,
+      "note": "Vol 1-12 (EN)"
+    }]
+  },
+  {
+    "name": "Fire Emblem Wind Mage",
+    "published": "March 28, 1998",
+    "desc": "A manga adapation of Shadow Dragon and the Blade of Light. It follows a duel backstory for the Wind Mage Merric of Altea/Khadein & Crimson Princess Minerva of Macedon. Merric renews his vows for the protection of his homeland, while Minerva must uncover the truth about her Kingdom's sudden turn towards a dark path.",
+    "type": ["Manga"],
+    "art": "Shinshu Ueda",
+    "story": "Shinshu Ueda",
+    "status": "Untranslated",
+    "translation": false,
+    "img": "arc_wind",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1vkfthwI2IESVuvUA9ATe-6Vg5a0BLxLh",
+      "glow": false,
+      "note": "Scans (JP)"
+    }]
+  },
+  {
     "name": "Fire Emblem Tactics",
     "published": "",
     "desc": "An obscure tactical booklet for the original Fire Emblem. Each chapter is given a full map view and a medieval fantasy illustration.",
@@ -49,24 +91,6 @@ let entry_data = {
     }]
   },
   {
-    "name": "Fire Emblem Wind Mage",
-    "published": "March 28, 1998",
-    "desc": "A manga adapation of Shadow Dragon and the Blade of Light. It follows a duel backstory for the Wind Mage Merric of Altea/Khadein & Crimson Princess Minerva of Macedon. Merric renews his vows for the protection of his homeland, while Minerva must uncover the truth about her Kingdom's sudden turn towards a dark path.",
-    "type": ["Manga"],
-    "art": "Shinshu Ueda",
-    "story": "Shinshu Ueda",
-    "status": "Untranslated",
-    "translation": false,
-    "img": "arc_wind",
-    "buttons": [
-    {
-      "type": "gdrive",
-      "link": "https://drive.google.com/drive/folders/1vkfthwI2IESVuvUA9ATe-6Vg5a0BLxLh",
-      "glow": false,
-      "note": "Scans (JP)"
-    }]
-  },
-  {
     "name": "Enix Super Comic Gekijoh Vol.5",
     "published": "",
     "desc": "",
@@ -83,7 +107,7 @@ let entry_data = {
     }]
   },
   {
-    "name": "Theater Comic Anthology Book 1",
+    "name": "Theater Comic Anthology",
     "published": "",
     "desc": "",
     "type": ["4koma"],
@@ -95,55 +119,25 @@ let entry_data = {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1HfHxom9QUL-TC0BUS01i6yTSmhjyXPV1",
       "glow": false,
-      "note": "Scans (JP)"
-    }]
-  },
-  {
-    "name": "Theater Comic Anthology Book 2",
-    "published": "",
-    "desc": "",
-    "type": ["4koma"],
-    "status": "Untranslated",
-    "translation": false,
-    "img": "arc_theater2",
-    "buttons": [
+      "note": "Vol. 1 (JP)"
+    },
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1_c6lZbdkiDg3G8PcmFKllUkschCqabsk",
       "glow": false,
-      "note": "Scans (JP)"
-    }]
-  },
-  {
-    "name": "Theater Comic Anthology Book 3",
-    "published": "",
-    "desc": "",
-    "type": ["4koma"],
-    "status": "Untranslated",
-    "translation": false,
-    "img": "arc_theater3",
-    "buttons": [
+      "note": "Vol. 2 (JP)"
+    },
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1o1ACvx_JxYcy5jpbdBhu8FKPWa0nyiRI",
       "glow": false,
-      "note": "Scans (JP)"
-    }]
-  },
-  {
-    "name": "Theater Comic Anthology Book 4",
-    "published": "",
-    "desc": "",
-    "type": ["4koma"],
-    "status": "Untranslated",
-    "translation": false,
-    "img": "arc_theater4",
-    "buttons": [
+      "note": "Vol. 3 (JP)"
+    },
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1By4Lh49n5LiZJGjt5N83fkl7jYP23bB5",
       "glow": false,
-      "note": "Scans (JP)"
+      "note": "Vol. 4 (JP)"
     }]
   },
   {
@@ -433,29 +427,6 @@ let entry_data = {
     }]
   },
   {
-    "name": "Dark Dragon and Sword of Light",
-    "published": "",
-    "art": "Maki Hakoda",
-    "desc": "A 12-volume adaptation of Shadow Dragon and the Blade of Light.",
-    "type": ["Manga"],
-    "status": "Fully Translated",
-    "translation": [],
-    "img": "arc_hakoda",
-    "buttons": [
-    {
-      "type": "mangadex",
-      "link": "https://mangadex.org/title/97f5faa3-538f-4a03-91e3-0ea92a72fa7e/fire-emblem-shadow-dragon-and-the-sword-of-light",
-      "glow": true,
-      "note": "Vol 1-12 (EN)"
-    },
-    {
-      "type": "external",
-      "link": "https://serenesforest.net/gallery/manga/dark-dragon-and-sword-of-light/",
-      "glow": true,
-      "note": "Vol 1-12 (EN)"
-    }]
-  },
-  {
     "name": "The Recollections of Fire Emblem",
     "published": "",
     "art": "Tsubasa Iwasaki & Alumii Sateaux",
@@ -643,7 +614,7 @@ let entry_data = {
   {
     "name": "Genealogy of the Holy War (Mitsuki Oosawa)",
     "published": "October 1999 - October 2001",
-    "desc": "A 16-volume adapation of Genealogy of the Holy War. Chapters 1-55 cover Generation 1, and Chapters 56-99 cover Generation 2 until the end of Chapter 10. This manga has three different releases, a SC deluxe version and two MF (Media Factory) versions. There is not much difference between the versions other than different color pages and the sizes of the volumes.",
+    "desc": "A 16-volume adapation of Genealogy of the Holy War. Chapters 1-55 cover Generation 1, and Chapters 56-99 cover Generation 2 until the end of Chapter 10. This manga has three different releases, a SC deluxe version and two MF (Media Factory) versions. There isn't much difference between them besides different color pages and volume size.",
     "story": "Mitsuki Oosawa",
     "art": "Mitsuki Oosawa",
     "type": ["Manga"],
@@ -727,24 +698,8 @@ let entry_data = {
     }]
   },
   {
-    "name": "Memorial File",
-    "published": "November 1, 1996",
-    "desc": "",
-    "type": ["Artbook", "Guidebook"],
-    "status": "Untranslated",
-    "translation": false,
-    "img": "gothw_memorial",
-    "buttons": [
-    {
-      "type": ["gdrive"],
-      "link": "https://drive.google.com/drive/folders/1jnvf9LSjU7KPPM6V81olwlEqjqpOB8B-",
-      "glow": false,
-      "note": "Scans (JP)"
-    }]
-  },
-  {
     "name": "Short Story Collection",
-    "published": "December 1, 1997 / January 1, 1998",
+    "published": "Dec. 1, 1997 / Jan. 1, 1998",
     "desc": "Contains a total of 15 short stories across 2 volumes.<br><strong>Volume 1:</strong> The Last of the Earth Dragon Tribe, The Spirit Forest, General Aida, The Three Witches, Their Sealed Pasts, A Thief's Vow, The Killing Blow, The Phantom Horse<br><strong>Volume 2:</strong> The Wind Mage, My Child Loptous, The Flying Warrior, Bonds, Arion, Vampire, The Forested Land of the Lake",
     "story": "Ginichiro Suzuki",
     "art": "Rika Suzuki",
@@ -760,22 +715,6 @@ let entry_data = {
       "link": "https://drive.google.com/drive/folders/1kTI7zrOPY_pnRT85Jg4J8wVMc5BPgahY",
       "glow": true,
       "note": "Translations"
-    }]
-  },
-  {
-    "name": "Final Capture Bible",
-    "published": "",
-    "desc": "",
-    "type": ["Guidebook"],
-    "status": "Untranslated",
-    "translation": false,
-    "img": "gothw_final",
-    "buttons": [
-    {
-      "type": "gdrive",
-      "link": "https://drive.google.com/drive/folders/1ucy7uNSGj-7_DR1rWUdhMZpbIYoGSoFt",
-      "glow": false,
-      "note": "Scans (JP)"
     }]
   },
   {
@@ -804,6 +743,86 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1Ow0oU5yX1-wRmU4-cfFNzNk24nrQnqa2",
+      "glow": false,
+      "note": "Scans (JP)"
+    }]
+  },
+  {
+    "name": "Memorial File",
+    "published": "November 1, 1996",
+    "desc": "",
+    "type": ["Artbook", "Guidebook"],
+    "status": "Untranslated",
+    "translation": false,
+    "img": "gothw_memorial",
+    "buttons": [
+    {
+      "type": ["gdrive"],
+      "link": "https://drive.google.com/drive/folders/1jnvf9LSjU7KPPM6V81olwlEqjqpOB8B-",
+      "glow": false,
+      "note": "Scans (JP)"
+    }]
+  },
+  {
+    "name": "Final Capture Bible",
+    "published": "",
+    "desc": "",
+    "type": ["Guidebook"],
+    "status": "Untranslated",
+    "translation": false,
+    "img": "gothw_final",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1ucy7uNSGj-7_DR1rWUdhMZpbIYoGSoFt",
+      "glow": false,
+      "note": "Scans (JP)"
+    }]
+  },
+  {
+    "name": "FE World Tour",
+    "published": "",
+    "desc": "All five volumes are grouped together in one listing. Select stories from Volumes 1-3 have currently been translated.",
+    "story": "",
+    "art": "",
+    "type": ["Manga"],
+    "status": "Partially Translated",
+    "translation": [
+      "Kitsudori"
+    ],
+    "img": "gothw_tour",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1pSiDEjAwUTxIN3LAmvZBQ99gknisZ_3c",
+      "glow": true,
+      "note": "Translations"
+    },
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1JxJOJedTP1AtNJ728LjYrTgkUIDhLXgQ",
+      "glow": false,
+      "note": "Vol 1-5 (JP)"
+    }]
+  },
+  {
+    "name": "Military History of the Continent",
+    "published": "August 1, 2000",
+    "desc": "Contains short stories featuring both FE4 and FE5 characters.",
+    "type": ["Manga"],
+    "status": "Partially Translated",
+    "translation": ['Kitsudori'],
+    "img": "gothw_military",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1KaesxvO81PMYwaAqUp2Sr6VXSuM0uxzi?usp=drive_link",
+      "glow": true,
+      "note": "Translations"
+    },
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1XD_OfV3wKYwXVhyjC0WFTLEkGMW_FOBD",
       "glow": false,
       "note": "Scans (JP)"
     }]
@@ -843,28 +862,6 @@ let entry_data = {
     }]
   },
   {
-    "name": "Military History of the Continent",
-    "published": "August 1, 2000",
-    "desc": "Contains short stories featuring both FE4 and FE5 characters.",
-    "type": ["Manga"],
-    "status": "Partially Translated",
-    "translation": ['Kitsudori'],
-    "img": "gothw_military",
-    "buttons": [
-    {
-      "type": "gdrive",
-      "link": "https://drive.google.com/drive/folders/1KaesxvO81PMYwaAqUp2Sr6VXSuM0uxzi?usp=drive_link",
-      "glow": true,
-      "note": "Translations"
-    },
-    {
-      "type": "gdrive",
-      "link": "https://drive.google.com/drive/folders/1XD_OfV3wKYwXVhyjC0WFTLEkGMW_FOBD",
-      "glow": false,
-      "note": "Scans (JP)"
-    }]
-  },
-  {
     "name": "Fire Emblem Yaruze",
     "published": "",
     "desc": "",
@@ -896,32 +893,6 @@ let entry_data = {
       "link": "https://drive.google.com/drive/folders/1QG7KI7UFmF34AAyfyI59srrDQWZr7eZ5",
       "glow": false,
       "note": "Scans (JP)"
-    }]
-  },
-  {
-    "name": "FE World Tour",
-    "published": "",
-    "desc": "All five volumes are grouped together in one listing. Select stories from Volumes 1-3 have currently been translated.",
-    "story": "",
-    "art": "",
-    "type": ["Manga"],
-    "status": "Partially Translated",
-    "translation": [
-      "Kitsudori"
-    ],
-    "img": "gothw_tour",
-    "buttons": [
-    {
-      "type": "gdrive",
-      "link": "https://drive.google.com/drive/folders/1pSiDEjAwUTxIN3LAmvZBQ99gknisZ_3c",
-      "glow": true,
-      "note": "Translations"
-    },
-    {
-      "type": "gdrive",
-      "link": "https://drive.google.com/drive/folders/1JxJOJedTP1AtNJ728LjYrTgkUIDhLXgQ",
-      "glow": false,
-      "note": "Vol 1-5 (JP)"
     }]
   },
   {
@@ -1125,7 +1096,6 @@ let entry_data = {
     "name": "Illustrated Works",
     "published": "April 1, 2000",
     "desc": "Contains the story 'Leonster's Fall', character artwork and descriptions, battle information and bonus illustrations.",
-
     "art": "Mayumi Hirota",
     "type": ["Artbook"],
     "status": "Untranslated",
@@ -1199,7 +1169,7 @@ let entry_data = {
   },
   {
     "name": "Enix Super Comic Gekijoh Vol.23",
-    "published": " March 1, 2000",
+    "published": "March 1, 2000",
     "desc": "",
     "type": ["Manga"],
     "status": "Untranslated",
@@ -1215,9 +1185,9 @@ let entry_data = {
   },
   {
     "name": "Enix 4koma",
-    "published": "",
+    "published": "February 18, 2000",
     "desc": "",
-    "type": ["Manga"],
+    "type": ["4koma"],
     "status": "Untranslated",
     "translation": false,
     "img": "t776_enix",
@@ -1231,7 +1201,7 @@ let entry_data = {
   },
   {
     "name": "Kobunsha Gag Battle 1",
-    "published": "",
+    "published": "November 1, 1999",
     "desc": "Contains several full-page illustrations.",
     "type": ["4koma"],
     "status": "Untranslated",
@@ -1249,7 +1219,7 @@ let entry_data = {
     "name": "Kobunsha Gag Battle 2",
     "published": "",
     "desc": "",
-    "type": ["Manga"],
+    "type": ["4koma"],
     "status": "Untranslated",
     "translation": false,
     "img": "t776_kobunsha4",
@@ -1295,7 +1265,7 @@ let entry_data = {
   },
   {
     "name": "Kobunsha Short Comics",
-    "published": "",
+    "published": "January 1, 2000",
     "desc": "",
     "type": ["Manga"],
     "status": "Untranslated",
@@ -1311,7 +1281,7 @@ let entry_data = {
   },
   {
     "name": "Romanticist",
-    "published": "",
+    "published": "December 24, 1999",
     "desc": "",
     "type": ["Manga"],
     "status": "Untranslated",
@@ -1574,77 +1544,74 @@ let entry_data = {
     }]
   }],
   "awakening": [
+  {
+    "name": "Kozaki Holiday Fan Book",
+    "published": "",
+    "desc": "",
+    "type": ["Artbook"],
+    "art": "Yusuke Kozaki",
+    "status": "Untranslated",
+    "translation": false,
+    "img": "fates_kozaki",
+    "buttons": [
     {
-      "name": "Kozaki Holiday Fan Book",
-      "published": "",
-      "desc": "",
-      "type": ["Artbook"],
-      "art": "Yusuke Kozaki",
-      "status": "Untranslated",
-      "translation": false,
-      "img": "fates_kozaki",
-      "buttons": [
-      {
-        "type": "gdrive",
-        "link": "https://drive.google.com/drive/folders/1LmU_rxPERXGI7nEcoRwcmcougdWAsoRV",
-        "glow": false,
-        "note": "Scans"
-      }]
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1LmU_rxPERXGI7nEcoRwcmcougdWAsoRV",
+      "glow": false,
+      "note": "Scans"
+    }]
+  },
+  {
+    "name": "4koma Kings",
+    "published": "January 24, 2015",
+    "desc": "",
+    "story": "Various",
+    "art": "Shirataki Naco / Hanokage",
+    "type": ["4koma"],
+    "status": "Fully Translated",
+    "translation": [
+      "Kantopia"
+    ],
+    "img": "awk_yonkoma",
+    "buttons": [
+    {
+      "type": "mangadex",
+      "link": "https://mangadex.org/title/8bcfdcc4-d07e-4aa8-9f91-0f2a89b988b2/fire-emblem-kakusei-4-koma-kings",
+      "glow": true,
+      "note": "Translations"
     },
     {
-      "name": "4koma Kings",
-      "published": "January 24, 2015",
-      "desc": "",
-      "story": "Various",
-      "art": "Shirataki Naco / Hanokage",
-      "type": ["4koma"],
-      "status": "Fully Translated",
-      "translation": [
-        "Kantopia"
-      ],
-      "img": "awk_yonkoma",
-      "buttons": [
-      {
-        "type": "mangadex",
-        "link": "https://mangadex.org/title/8bcfdcc4-d07e-4aa8-9f91-0f2a89b988b2/fire-emblem-kakusei-4-koma-kings",
-        "glow": true,
-        "note": "Translations"
-      },
-      {
-        "type": "external",
-        "link": "https://kantopia.wordpress.com/2015/01/26/fe-a-yonkoma-kings-translation-all-ongoing/",
-        "glow": true,
-        "note": "Translations"
-      }]
-    },
+      "type": "external",
+      "link": "https://kantopia.wordpress.com/2015/01/26/fe-a-yonkoma-kings-translation-all-ongoing/",
+      "glow": true,
+      "note": "Translations"
+    }]
+  },
+  {
+    "name": "Comic Anthology",
+    "published": "December 25, 2014",
+    "desc": "",
+    "story": "Various",
+    "art": "Various",
+    "type": ["Manga"],
+    "status": "Fully Translated",
+    "translation": [
+      "maboroshi-no", "Shattered Scanlations"
+    ],
+    "img": "awk_comic",
+    "buttons": [
     {
-      "name": "Comic Anthology",
-      "published": "December 25, 2014",
-      "desc": "",
-      "story": "Various",
-      "art": "Various",
-      "type": ["Manga"],
-      "status": "Fully Translated",
-      "translation": [
-        "maboroshi-no", "Shattered Scanlations"
-      ],
-      "img": "awk_comic",
-      "buttons": [
-      {
-        "type": "mangadex",
-        "link": "https://mangadex.org/title/7da3a22b-151c-43c6-97df-0e86a71ea2ce/fire-emblem-awakening-comic-anthology",
-        "glow": true,
-        "note": "Translations"
-      }]
-    }
-    
-  ],
+      "type": "mangadex",
+      "link": "https://mangadex.org/title/7da3a22b-151c-43c6-97df-0e86a71ea2ce/fire-emblem-awakening-comic-anthology",
+      "glow": true,
+      "note": "Translations"
+    }]
+  }],
   "fates": [
   {
     "name": "Pellucid Crystal",
     "published": "April 25, 2019",
     "desc": "A design document book for Fire Emblem Fates / if.",
-  
     "art": "Yusuke Kozaki",
     "type": ["Artbook"],
     "status": "Untranslated",
@@ -1776,6 +1743,24 @@ let entry_data = {
   }],
   "3h": [
   {
+    "name": "Three Houses Special Edition Artbook",
+    "published": "July 26, 2019",
+    "desc": "Bundled with the US Special Edition release.",
+    "story": "",
+    "art": "Chinatsu Kurahana",
+    "type": ["Artbook"],
+    "status": "English Release",
+    "translation": false,
+    "img": "3h_special",
+    "buttons": [
+    {
+      "type": "external",
+      "link": "https://www.fireemblemwod.com/gallery/thumbnails.php?album=109",
+      "glow": true,
+      "note": "Scans (EN)"
+    }]
+  },
+  {
     "name": "Three Hopes Special Edition Artbook",
     "published": "June 24, 2022",
     "desc": "Bundled with the European Special Edition release of Warriors: Three Hopes.",
@@ -1792,7 +1777,7 @@ let entry_data = {
       "glow": true,
       "note": "Scans (EN)"
     }]
-  }, ],
+  }],
   "engage": [
   {
     "name": "Fire Emblem Engage (Kazuro Kyou)",
@@ -1827,6 +1812,23 @@ let entry_data = {
       "link": "https://drive.google.com/drive/folders/1JnOvAwsPcez3gO5MBXmkdUGqPc-BdmqN",
       "glow": true,
       "note": "Scans (EN)"
+    }]
+  },
+  {
+    "name": "The Sonata of Emblems and Bonds at the Banquet",
+    "published": "March 20, 2024",
+    "desc": "A short story included with the official soundtrack release, featuring Alear, Veyle, and the crown royals.",
+    "art": "Mika Pikazo",
+    "type": ["Misc"],
+    "status": "Fully Translated",
+    "translation": false,
+    "img": "engage_soundtrack",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://docs.google.com/spreadsheets/d/12uNPttQU4PNHYoEQM6gsUmc6mF3IMG2blYtL4YF9zzo/edit?usp=sharing",
+      "glow": true,
+      "note": "Translation"
     }]
   }],
   "feh": [
@@ -1910,93 +1912,112 @@ let entry_data = {
     }]
   }],
   "series": [
-  {
-    "name": "20th Anniversary Encyclopedia",
-    "published": "June 30, 2010",
-    "desc": "A fan book that covers the series from the first installment, Shadow Dragon and the Blade of Light to New Mystery of the Emblem. It contains messages, illustrations, interviews, and a World Guide that is seperated by continents rather than games.",
-    "story": "",
-    "art": "",
-    "type": ["Artbook"],
-    "status": "Untranslated",
-    "translation": false,
-    "img": "series_20",
-    "buttons": [
     {
-      "type": "gdrive",
-      "link": "https://drive.google.com/file/d/1R_JET3GOikA97kLfqjzKkiMdq4SVpoqp/view?usp=sharing",
-      "glow": false,
-      "note": "Scans (JP)"
-    }]
-  },
-  {
-    "name": "The Making of Fire Emblem",
-    "published": "November 11, 2015",
-    "desc": "A design book providing the developement information and secrets of the Fire Emblem series, from the beginning of the series to the latest releases at the time, Fire Emblem Awakening and Fire Emblem Fates.",
-    "art": "",
-    "type": ["Artbook"],
-    "status": "Fully Translated",
-    "translation": ["Kantopia"],
-    "img": "series_making",
-    "buttons": [
+      "name": "20th Anniversary Encyclopedia",
+      "published": "June 30, 2010",
+      "desc": "A fan book that covers the series from the first installment, Shadow Dragon and the Blade of Light to New Mystery of the Emblem. It contains messages, illustrations, interviews, and a World Guide that is seperated by continents rather than games.",
+      "story": "",
+      "art": "",
+      "type": ["Artbook"],
+      "status": "Untranslated",
+      "translation": false,
+      "img": "series_20",
+      "buttons": [
+      {
+        "type": "gdrive",
+        "link": "https://drive.google.com/file/d/1R_JET3GOikA97kLfqjzKkiMdq4SVpoqp/view?usp=sharing",
+        "glow": false,
+        "note": "Scans (JP)"
+      }]
+    },
     {
-      "type": "external",
-      "link": "https://kantopia.wordpress.com/2015/12/10/fire-emblem-25th-anniversary-book-scantranslation-compilation-post/",
-      "glow": true,
-      "note": "Translations"
-    }]
-  },
-  {
-    "name": "The Complete",
-    "published": "May 1996",
-    "desc": "An artbook providing artworks, comics, and information of characters from Shadow Dragon and the Blade of Light, Fire Emblem Gaiden, and Mystery of the Emblem.",
-    "story": "",
-    "art": "Various",
-    "type": ["Artbook"],
-    "status": "Untranslated",
-    "translation": false,
-    "img": "series_complete",
-    "buttons": [
+      "name": "The Making of Fire Emblem",
+      "published": "November 11, 2015",
+      "desc": "A design book providing the developement information and secrets of the Fire Emblem series, from the beginning of the series to the latest releases at the time, Fire Emblem Awakening and Fire Emblem Fates.",
+      "art": "",
+      "type": ["Artbook"],
+      "status": "Fully Translated",
+      "translation": ["Kantopia"],
+      "img": "series_making",
+      "buttons": [
+      {
+        "type": "external",
+        "link": "https://kantopia.wordpress.com/2015/12/10/fire-emblem-25th-anniversary-book-scantranslation-compilation-post/",
+        "glow": true,
+        "note": "Translations"
+      }]
+    },
     {
-      "type": "archive",
-      "link": "https://archive.org/details/fireemblemthecomplete",
-      "glow": false,
-      "note": "Scans (JP)"
-    }]
-  },
-  {
-    "name": "Official Staff Book",
-    "published": "March 28, 2015",
-    "desc": "The Fire Emblem 25th Anniversary Official Staff Book that was sold at Comiket in March 2015.",
-    "story": "",
-    "art": "",
-    "type": ["Artbook"],
-    "status": "Untranslated",
-    "translation": false,
-    "img": "series_staff",
-    "buttons": [
+      "name": "The Complete",
+      "published": "May 1996",
+      "desc": "An artbook providing artworks, comics, and information of characters from Shadow Dragon and the Blade of Light, Fire Emblem Gaiden, and Mystery of the Emblem.",
+      "story": "",
+      "art": "Various",
+      "type": ["Artbook"],
+      "status": "Untranslated",
+      "translation": false,
+      "img": "series_complete",
+      "buttons": [
+      {
+        "type": "archive",
+        "link": "https://archive.org/details/fireemblemthecomplete",
+        "glow": false,
+        "note": "Scans (JP)"
+      }]
+    },
     {
-      "type": "archive",
-      "link": "https://archive.org/details/fireemblem25thofficialstaffbook",
-      "glow": false,
-      "note": "Scans (JP)"
-    }]
-  },
-  {
-    "name": "Warriors Treasure Box Artbook",
-    "published": "September 28, 2017",
-    "desc": "The artbook included in the Japanese version of Fire Emblem Warriors Treasure Box Set.",
-    "story": "",
-    "art": "",
-    "type": ["Artbook"],
-    "status": "English Release",
-    "translation": false,
-    "img": "series_warriors",
-    "buttons": [
+      "name": "Official Staff Book",
+      "published": "March 28, 2015",
+      "desc": "The Fire Emblem 25th Anniversary Official Staff Book that was sold at Comiket in March 2015.",
+      "story": "",
+      "art": "",
+      "type": ["Artbook"],
+      "status": "Untranslated",
+      "translation": false,
+      "img": "series_staff",
+      "buttons": [
+      {
+        "type": "archive",
+        "link": "https://archive.org/details/fireemblem25thofficialstaffbook",
+        "glow": false,
+        "note": "Scans (JP)"
+      }]
+    },
     {
-      "type": "archive",
-      "link": "https://archive.org/details/fewtreasureboxartbook",
-      "glow": false,
-      "note": "Scans (JP)"
-    }]
-  }]
+      "name": "Warriors Treasure Box Artbook",
+      "published": "September 28, 2017",
+      "desc": "The artbook included in the Japanese version of Fire Emblem Warriors Treasure Box Set.",
+      "story": "",
+      "art": "",
+      "type": ["Artbook"],
+      "status": "English Release",
+      "translation": false,
+      "img": "series_warriors",
+      "buttons": [
+      {
+        "type": "archive",
+        "link": "https://archive.org/details/fewtreasureboxartbook",
+        "glow": false,
+        "note": "Scans (JP)"
+      }]
+    }
+    /*,
+        {
+        "name": "One Hundred Songs of Heroes",
+        "published": "July 24, 2015",
+        "desc": "A limited-edition set of traditional Japanese uta-garuta playing cards based on the Fire Emblem series which was released as premium merchandise for the series' 25th anniversary. They were originally exclusively available for sale at The 25th Anniversary of Love and Courage: Fire Emblem Festival.",
+        "art": "Various",
+        "type": ["Misc"],
+        "status": "",
+        "translation": false,
+        "img": "series_cards",
+        "buttons": [
+        {
+          "type": "gdrive",
+          "link": "",
+          "glow": true,
+          "note": "Gallery"
+        }]
+      }*/
+  ]
 }

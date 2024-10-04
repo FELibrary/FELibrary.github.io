@@ -61,7 +61,7 @@ let games = {
 
       "engage" : {
     "name" : "Engage",
-    "filters" : ['All', 'Manga', 'Artbook']
+    "filters" : ['All', 'Manga', 'Artbook', 'Misc']
   },
 
   "tmsfe" : {
