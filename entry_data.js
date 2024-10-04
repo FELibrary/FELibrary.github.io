@@ -466,7 +466,7 @@ let entry_data = {
     "art": "Maki Hakoda",
     "desc": "An artbook featuring illustrations and behind-the-scenes information about the Fire Emblem manga and drama CDs.",
     "type": ["Artbook"],
-    "status": "",
+    "status": "Untranslated",
     "translation": false,
     "img": "arc_hakoda2",
     "buttons": [
@@ -479,8 +479,8 @@ let entry_data = {
   },
   {
     "name": "Shadow Dragon Game Manual",
-    "published": "",
-    "desc": "",
+    "published": "August 7, 2008",
+    "desc": "The included game manual. It contains story background, detailed controls and gameplay instructions with character artwork throughout.",
     "type": ["Misc"],
     "status": "English Release",
     "translation": false,
@@ -514,7 +514,7 @@ let entry_data = {
   {
     "name": "Gaiden Manga",
     "published": "1993",
-    "desc": "",
+    "desc": "A 1-volume manga adaption of Gaiden. It takes place after Alm leaves the village and meets Celica at the castle. The current translation uses pre-SoV names.",
     "story": "Masaki Sano & Kyo Watanabe",
     "art": "Masaki Sano & Kyo Watanabe",
     "status": "Fully Translated",
@@ -592,7 +592,7 @@ let entry_data = {
   },
   {
     "name": "Gaiden Novel",
-    "published": "",
+    "published": "1993",
     "desc": "A 2-volume novel adapation of Gaiden. The first book has been translated so far.",
     "story": "Katsuyuki Ozaki",
     "art": "Ichiro & Kazuo Hiroi",
@@ -781,14 +781,12 @@ let entry_data = {
   },
   {
     "name": "FE World Tour",
-    "published": "",
-    "desc": "All five volumes are grouped together in one listing. Select stories from Volumes 1-3 have currently been translated.",
-    "story": "",
-    "art": "",
+    "published": "March 1997 - July 1998",
+    "desc": "A 5-volume series of comic anthologies. Select stories from Volumes 1-3 have currently been translated.",
     "type": ["Manga"],
     "status": "Partially Translated",
     "translation": [
-      "Kitsudori"
+      "Kitsudori", "MrTalkingDinosaur"
     ],
     "img": "gothw_tour",
     "buttons": [
@@ -811,7 +809,7 @@ let entry_data = {
     "desc": "Contains short stories featuring both FE4 and FE5 characters.",
     "type": ["Manga"],
     "status": "Partially Translated",
-    "translation": ['Kitsudori'],
+    "translation": ["MrTalkingDinosaur"],
     "img": "gothw_military",
     "buttons": [
     {
@@ -867,7 +865,7 @@ let entry_data = {
     "desc": "",
     "story": "",
     "art": "",
-    "type": ["Manga"],
+    "type": ["4koma"],
     "status": "Untranslated",
     "translation": false,
     "img": "gothw_yaruze",
@@ -1036,7 +1034,7 @@ let entry_data = {
   {
     "name": "Super Tactics Book",
     "published": "August 1996",
-    "desc": "",
+    "desc": "Provides information and artworks of various characters from Genealogy of the Holy War.",
     "type": ["Artbook", "Manga"],
     "status": "Untranslated",
     "translation": false,
@@ -1052,7 +1050,7 @@ let entry_data = {
   {
     "name": "Game Manual",
     "published": "May 14, 1996",
-    "desc": "",
+    "desc": "The included game manual. It contains story background, detailed controls and gameplay instructions with character artwork throughout.",
     "type": ["Misc"],
     "status": "Untranslated",
     "translation": false,
@@ -1151,7 +1149,7 @@ let entry_data = {
     "desc": "Contains short stories featuring both FE4 and FE5 characters.",
     "type": ["Manga"],
     "status": "Partially Translated",
-    "translation": ['Kitsudori'],
+    "translation": ["MrTalkingDinosaur"],
     "img": "gothw_military",
     "buttons": [
     {
@@ -1202,7 +1200,7 @@ let entry_data = {
   {
     "name": "Kobunsha Gag Battle 1",
     "published": "November 1, 1999",
-    "desc": "Contains several full-page illustrations.",
+    "desc": "A 4koma collection featuring the Thracia 776 cast. It contains several full-page illustrations.",
     "type": ["4koma"],
     "status": "Untranslated",
     "translation": false,
@@ -1298,7 +1296,7 @@ let entry_data = {
   {
     "name": "Game Manual",
     "published": "September 1, 1999",
-    "desc": "",
+    "desc": "The included game manual. It contains story background, detailed controls and gameplay instructions with character artwork throughout.",
     "type": ["Misc"],
     "status": "Untranslated",
     "translation": false,
@@ -1383,7 +1381,8 @@ let entry_data = {
   {
     "name": "Game Manual",
     "published": "March 29, 2002",
-    "desc": "",
+    "desc": "The included game manual. It contains story background, detailed controls and gameplay instructions with character artwork throughout.",
+  
     "type": ["Misc"],
     "status": "Untranslated",
     "translation": false,
@@ -1399,8 +1398,8 @@ let entry_data = {
   "blazing": [
   {
     "name": "The Blazing Blade Novel",
-    "published": "",
-    "desc": "A 2-volume novel adapation of The Blazing Blade.",
+    "published": "2004",
+    "desc": "A 2-volume novel adapation of The Blazing Blade, which make up the first 2 novels of the Elibe Disturbance series.",
     "story": "Makasa Kazuyoshi",
     "art": "Kaneda Eiji",
     "type": ["Novel"],
@@ -1420,7 +1419,7 @@ let entry_data = {
   "ss": [
   {
     "name": "The Sacred Stones Novel",
-    "published": "",
+    "published": "2005",
     "desc": "A 2-volume novel adapation of The Sacred Stones.",
     "story": "Mie Takase",
     "art": "Rika Suzuki",
@@ -1478,7 +1477,8 @@ let entry_data = {
   {
     "name": "Game Manual",
     "published": "October 17, 2005",
-    "desc": "",
+    "desc": "The included game manual. It contains story background, detailed controls and gameplay instructions with character artwork throughout.",
+   
     "type": ["Misc"],
     "status": "English Release",
     "translation": false,
@@ -1514,7 +1514,7 @@ let entry_data = {
   {
     "name": "Prima Strategy Guide",
     "published": "2007",
-    "desc": "",
+    "desc": "A 229-page guidebook which contains character artwork and introductions, breakdowns of each map, and charts of classes and skills.",
     "type": ["Guidebook"],
     "status": "English Release",
     "translation": false,
@@ -1530,7 +1530,8 @@ let entry_data = {
   {
     "name": "Game Manual",
     "published": "November 5, 2007",
-    "desc": "",
+    "desc": "The included game manual. It contains story background, detailed controls and gameplay instructions with character artwork throughout.",
+   
     "type": ["Misc"],
     "status": "English Release",
     "translation": false,
@@ -1546,8 +1547,8 @@ let entry_data = {
   "awakening": [
   {
     "name": "Kozaki Holiday Fan Book",
-    "published": "",
-    "desc": "",
+    "published": "2019",
+    "desc": "A collection of Kozaki's sketches and drawings, including drawings posted on social media. Mainly Awakening and Fates characters",
     "type": ["Artbook"],
     "art": "Yusuke Kozaki",
     "status": "Untranslated",
@@ -1726,8 +1727,9 @@ let entry_data = {
   },
   {
     "name": "Kozaki Holiday Fan Book",
-    "published": "",
-    "desc": "",
+    "published": "2019",
+    "desc": "A collection of Kozaki's sketches and drawings, including drawings posted on social media. Mainly Awakening and Fates characters",
+    
     "type": ["Artbook"],
     "art": "Yusuke Kozaki",
     "status": "Untranslated",
@@ -1746,7 +1748,7 @@ let entry_data = {
     "name": "Three Houses Special Edition Artbook",
     "published": "July 26, 2019",
     "desc": "Bundled with the US Special Edition release.",
-    "story": "",
+ 
     "art": "Chinatsu Kurahana",
     "type": ["Artbook"],
     "status": "English Release",
@@ -1764,7 +1766,7 @@ let entry_data = {
     "name": "Three Hopes Special Edition Artbook",
     "published": "June 24, 2022",
     "desc": "Bundled with the European Special Edition release of Warriors: Three Hopes.",
-    "story": "",
+    
     "art": "Chinatsu Kurahana",
     "type": ["Artbook"],
     "status": "English Release",
@@ -1821,7 +1823,7 @@ let entry_data = {
     "art": "Mika Pikazo",
     "type": ["Misc"],
     "status": "Fully Translated",
-    "translation": false,
+    "translation": ["Beecil"],
     "img": "engage_soundtrack",
     "buttons": [
     {
@@ -1895,10 +1897,9 @@ let entry_data = {
   "tmsfe": [
   {
     "name": "Special Edition Artbook",
-    "published": "",
+    "published": "December 26, 2015",
     "desc": "",
-    "story": "",
-    "art": "",
+    "art": "toi8",
     "type": ["Artbook"],
     "status": "English Release",
     "translation": false,
