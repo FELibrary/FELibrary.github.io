@@ -6,7 +6,7 @@ let games = {
 
     "sov" : {
     "name" : "Gaiden / Shadows of Valentia",
-    "filters" : ['All', 'Manga', 'Artbook', 'Novel', '4koma', 'Guidebook']
+    "filters" : ['All', 'Manga', 'Novel', 'Artbook', '4koma', 'Guidebook']
   },
 
     "gothw" : {
@@ -16,7 +16,7 @@ let games = {
 
     "t776" : {
     "name" : "Thracia 776",
-    "filters" : ['All', 'Manga', 'Novel', '4koma']
+    "filters" : ['All', 'Manga', 'Novel', 'Artbook', '4koma', 'Misc']
   },
 
     "binding" : {
@@ -46,7 +46,7 @@ let games = {
 
       "awakening" : {
     "name" : "Awakening",
-    "filters" : ['All', 'Artbook', '4koma']
+    "filters" : ['All', 'Manga', 'Artbook', '4koma']
   },
 
       "fates" : {
