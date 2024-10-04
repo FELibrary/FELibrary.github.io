@@ -1047,15 +1047,15 @@ let entry_data = {
   {
     "name": "Super Tactics Book",
     "published": "August 1996",
-    "desc": "Provides information and artworks of various characters from Genealogy of the Holy War.",
-    "type": ["Artbook", "Manga"],
+    "desc": "Provides information and artworks of various characters from Genealogy of the Holy War, including substitues. Also contains map overviews and other gameplay information.",
+    "type": ["Artbook", "Guidebook"],
     "status": "Untranslated",
     "translation": false,
     "img": "gothw_gakken",
     "buttons": [
     {
       "type": "gdrive",
-      "link": "https://drive.google.com/drive/folders/1HQX568sx4Gx5SzmwMzuqnLR8zCwLfl0V",
+      "link": "https://drive.google.com/drive/folders/1-j3G33rcte5oiHjNV48_FtxLNfcwXl3N",
       "glow": false,
       "note": "Scans (JP)"
     }]
