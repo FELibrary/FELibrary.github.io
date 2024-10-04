@@ -24,7 +24,7 @@ let entry_data = {
     "desc": "A 12-volume adaptation of Shadow Dragon and the Blade of Light, covering Chapters 1-17 of the game.",
     "type": ["Manga"],
     "status": "Fully Translated",
-    "translation": [],
+    "translation": ["Calculuswhiz"],
     "img": "arc_hakoda",
     "buttons": [
     {
@@ -60,7 +60,7 @@ let entry_data = {
   },
   {
     "name": "Fire Emblem Tactics",
-    "published": "",
+    "published": "March 1991",
     "desc": "An obscure tactical booklet for the original Fire Emblem. Each chapter is given a full map view and a medieval fantasy illustration.",
     "type": ["Guidebook"],
     "status": "Untranslated",
@@ -76,9 +76,10 @@ let entry_data = {
   },
   {
     "name": "All of Fire Emblem",
-    "published": "",
-    "desc": "",
+    "published": "Unknown",
+    "desc": "A guidebook for Mystery of the Emblem, featuring chapter guides and guest artwork.",
     "type": ["Guidebook"],
+    "art" : "Junko Taguchi & Yoko Takeda",
     "status": "Untranslated",
     "translation": false,
     "img": "arc_all",
@@ -92,8 +93,8 @@ let entry_data = {
   },
   {
     "name": "Enix Super Comic Gekijoh Vol.5",
-    "published": "",
-    "desc": "",
+    "published": "1996",
+    "desc": "The highlight story for this Archanea book is a deep dive at King Michalis' personal thoughts after the War of Shadows. Flashback memory of the ambitious King of Macedon shows the deep love he truly has for his younger sisters & a protective oath he made to them as children",
     "type": ["Manga"],
     "status": "Untranslated",
     "translation": false,
@@ -108,8 +109,8 @@ let entry_data = {
   },
   {
     "name": "Theater Comic Anthology",
-    "published": "",
-    "desc": "",
+    "published": "Unknown",
+    "desc": "A 4-volume collection of 4koma comics featuring the FE1 and FE3 cast.",
     "type": ["4koma"],
     "status": "Untranslated",
     "translation": false,
@@ -190,7 +191,7 @@ let entry_data = {
   },
   {
     "name": "Mystery of the Emblem Strategy Guidebook",
-    "published": "",
+    "published": "Unknown",
     "desc": "Covers all maps from Book 1 & 2 with full map screens and important information.",
     "type": ["Guidebook"],
     "status": "Untranslated",
@@ -313,8 +314,8 @@ let entry_data = {
   },
   {
     "name": "Shadow Dragon Encyclopedia",
-    "published": "",
-    "desc": "",
+    "published": "May 20, 1990",
+    "desc": "Contains a full world map of Archanea",
     "type": ["Guidebook"],
     "status": "Untranslated",
     "translation": false,
@@ -329,8 +330,8 @@ let entry_data = {
   },
   {
     "name": "Mystery of the Emblem APE Guide",
-    "published": "",
-    "desc": "",
+    "published": "February 4, 1994",
+    "desc": "Contains a map of Archena and a character chart in addition to gameplay guides.",
     "type": ["Guidebook"],
     "status": "Untranslated",
     "translation": false,
@@ -345,8 +346,8 @@ let entry_data = {
   },
   {
     "name": "Mystery of the Emblem Strategy Manual",
-    "published": "",
-    "desc": "",
+    "published": "Unknown",
+    "desc": "A classic retro strategy guide book for Mystery of the Emblem with tips and tricks for every playable map",
     "type": ["Guidebook"],
     "status": "Untranslated",
     "translation": false,
@@ -361,9 +362,10 @@ let entry_data = {
   },
   {
     "name": "Mystery of the Emblem Manga (Yamaguchi)",
-    "published": "",
-    "desc": "",
+    "published": "December 1, 1994",
+    "desc": "A 1-volume adapation of Mystery of the Emblem.",
     "type": ["Manga"],
+    "story": "Sara Yamaguchi",
     "art": "Sara Yamaguchi",
     "status": "Untranslated",
     "translation": false,
@@ -412,9 +414,10 @@ let entry_data = {
   },
   {
     "name": "Memorial Book Akaneia Chronicle",
-    "published": "",
-    "desc": "",
-    "type": ["Guidebook"],
+    "published": "December 17, 2010",
+    "desc": "A fan book that focuses on the remakes, Fire Emblem: Shadow Dragon and Fire Emblem: New Mystery of the Emblem.",
+    "type": ["Artbook"],
+    "art" : "Various",
     "status": "Untranslated",
     "translation": false,
     "img": "arc_akaneia",
@@ -428,9 +431,9 @@ let entry_data = {
   },
   {
     "name": "The Recollections of Fire Emblem",
-    "published": "",
+    "published": "Unknown",
     "art": "Tsubasa Iwasaki & Alumii Sateaux",
-    "desc": "",
+    "desc": "Contains character introductions and a guide for each chapter.",
     "type": ["Guidebook"],
     "status": "Untranslated",
     "translation": false,
@@ -491,6 +494,22 @@ let entry_data = {
       "link": "https://drive.google.com/file/d/1e_kF6E6z9xiTBTGQcgj-jq8GeTQZ6MiZ/view?usp=sharing",
       "glow": true,
       "note": "Scans (EN)"
+    }]
+  },
+    {
+    "name": "Enix Super Comic Gekijoh Vol.2",
+    "published": "October 1, 1996",
+    "desc": "First half contains FE4, second half contains FE3.",
+    "type": ["Manga"],
+    "status": "Untranslated",
+    "translation": false,
+    "img": "gothw_gekijoh2",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1oz0U8YzdF7TaUT5EfYc0-yiEM-xkacGP",
+      "glow": false,
+      "note": "Scans (JP)"
     }]
   }],
   "sov": [
@@ -765,8 +784,8 @@ let entry_data = {
   },
   {
     "name": "Final Capture Bible",
-    "published": "",
-    "desc": "",
+    "published": "Unknown",
+    "desc": "A simple strategy guide for Genealogy. Contains brief introduction chapter summaries for the whole story, and character stats and brief bios about their combat use. Heavy focus on overall map placements and hints of secrets events.",
     "type": ["Guidebook"],
     "status": "Untranslated",
     "translation": false,
@@ -829,8 +848,6 @@ let entry_data = {
     "name": "Short Comic Theater 2",
     "published": "November 1, 1996",
     "desc": "",
-    "story": "",
-    "art": "",
     "type": ["Manga"],
     "status": "Untranslated",
     "translation": false,
@@ -861,10 +878,8 @@ let entry_data = {
   },
   {
     "name": "Fire Emblem Yaruze",
-    "published": "",
+    "published": "November 1, 1997",
     "desc": "",
-    "story": "",
-    "art": "",
     "type": ["4koma"],
     "status": "Untranslated",
     "translation": false,
@@ -918,8 +933,8 @@ let entry_data = {
   },
   {
     "name": "Enix Super Comic Gekijoh Vol.7",
-    "published": " January 1, 1998",
-    "desc": "",
+    "published": "January 1, 1998",
+    "desc": "Contains a variety of stories, with a highlight story focusing on Larcei.",
     "type": ["Manga"],
     "status": "Untranslated",
     "translation": false,
@@ -1168,7 +1183,7 @@ let entry_data = {
   {
     "name": "Enix Super Comic Gekijoh Vol.23",
     "published": "March 1, 2000",
-    "desc": "",
+    "desc": "Wide range of short stories for the cast of Thracia. A deep glimpse into the personal lives & struggles for this obscure rebel team of the franchise.",
     "type": ["Manga"],
     "status": "Untranslated",
     "translation": false,
@@ -1184,7 +1199,7 @@ let entry_data = {
   {
     "name": "Enix 4koma",
     "published": "February 18, 2000",
-    "desc": "",
+    "desc": " 4koma collection featuring the Thracia 776 cast.",
     "type": ["4koma"],
     "status": "Untranslated",
     "translation": false,
@@ -1215,8 +1230,8 @@ let entry_data = {
   },
   {
     "name": "Kobunsha Gag Battle 2",
-    "published": "",
-    "desc": "",
+    "published": "April 1, 2000",
+    "desc": " 4koma collection featuring the Thracia 776 cast.",
     "type": ["4koma"],
     "status": "Untranslated",
     "translation": false,
@@ -1232,7 +1247,7 @@ let entry_data = {
   {
     "name": "Kobunsha Comic Anthology 1",
     "published": "December 1, 1999",
-    "desc": "Contains several full-page illustrations from the FE Fan Illus. Club.",
+    "desc": "Starts with several full-page illustrations from the FE Fan Illus. Club.",
     "type": ["Manga"],
     "status": "Untranslated",
     "translation": false,
@@ -1248,7 +1263,7 @@ let entry_data = {
   {
     "name": "Kobunsha Comic Anthology 2",
     "published": "March 1, 2000",
-    "desc": "Contains several full-page illustrations from the FE Fan Illus. Club.",
+    "desc": "Starts with several full-page illustrations from the FE Fan Illus. Club.",
     "type": ["Manga"],
     "status": "Untranslated",
     "translation": false,
@@ -1264,7 +1279,7 @@ let entry_data = {
   {
     "name": "Kobunsha Short Comics",
     "published": "January 1, 2000",
-    "desc": "",
+    "desc": "A comic anthology featuring the Thracia 776. Contains some color pages.",
     "type": ["Manga"],
     "status": "Untranslated",
     "translation": false,
@@ -1280,7 +1295,7 @@ let entry_data = {
   {
     "name": "Romanticist",
     "published": "December 24, 1999",
-    "desc": "",
+    "desc": "Contains short bios for each character and the appearance of some Genealogy characters.",
     "type": ["Manga"],
     "status": "Untranslated",
     "translation": false,
@@ -1332,8 +1347,8 @@ let entry_data = {
   },
   {
     "name": "The Binding Blade Anthology Manga",
-    "published": "",
-    "desc": "",
+    "published": "December 7, 2002",
+    "desc": "Afunny story collection book about Roy's triumphant war time escapades. A heavy focus on Lilina & Clarine during a restful army encampment, & a side tale of Fir's life goal towards becoming a great Swordmaster like Karla.",
     "type": ["Manga"],
     "status": "Untranslated",
     "translation": false,
@@ -1348,8 +1363,8 @@ let entry_data = {
   },
   {
     "name": "Gag Battle Anthology",
-    "published": "",
-    "desc": "",
+    "published": "2002",
+    "desc": "A collection of 4koma comics featuring the Binding Blade cast.",
     "type": ["4koma"],
     "status": "Untranslated",
     "translation": false,
@@ -1364,8 +1379,8 @@ let entry_data = {
   },
   {
     "name": "Futabasha 4koma",
-    "published": "",
-    "desc": "",
+    "published": "2002",
+    "desc": "A collection of 4koma comics featuring the Binding Blade cast.",
     "type": ["4koma"],
     "status": "Untranslated",
     "translation": false,
@@ -1440,7 +1455,7 @@ let entry_data = {
   "por": [
   {
     "name": "Tellius Recollection Vol. 1",
-    "published": "July 29 2016",
+    "published": "July 29, 2016",
     "desc": "The book provides a compilation of official documents from Intelligent Systems revealing aspects of character designs, such as their background in this world, and rough sketches of their original illustrations. In addition, the book features info on the full story, setting, every support conversation, a directory of character names (even enemy commanders), and more.",
     "story": "",
     "art": "Senri Kita",
@@ -1460,8 +1475,8 @@ let entry_data = {
   },
   {
     "name": "Nintendo Player's Guide",
-    "published": "",
-    "desc": "",
+    "published": "2005",
+    "desc": "The official guide for Path of Radiance, by Nintendo Power ",
     "type": ["Guidebook"],
     "status": "English Release",
     "translation": false,
@@ -1565,7 +1580,7 @@ let entry_data = {
   {
     "name": "4koma Kings",
     "published": "January 24, 2015",
-    "desc": "",
+    "desc": "A 4koma antholog featuring the Awakening cast.",
     "story": "Various",
     "art": "Shirataki Naco / Hanokage",
     "type": ["4koma"],
@@ -1591,7 +1606,7 @@ let entry_data = {
   {
     "name": "Comic Anthology",
     "published": "December 25, 2014",
-    "desc": "",
+    "desc": "A collection of 14 short stories by a variety of authors.",
     "story": "Various",
     "art": "Various",
     "type": ["Manga"],
@@ -1629,7 +1644,7 @@ let entry_data = {
   {
     "name": "Special Edition Artbook",
     "published": "February 19, 2016",
-    "desc": "Bundled with the US Special Edition release. Contains character sketches, class, weapon, and background designs as well as photos of many in-game cutscenes. ",
+    "desc": "Bundled with the US Special Edition release. Contains character sketches, class, weapon, and background designs as well as photos of many in-game cutscenes. The original Japanese notes are left intact, and translations are provided at the end.",
     "art": "Yusuke Kozaki",
     "type": ["Artbook"],
     "status": "English Release",
@@ -1665,9 +1680,8 @@ let entry_data = {
   },
   {
     "name": "4koma Kings",
-    "published": "",
-    "desc": "",
-    "story": "",
+    "published": "February 25, 2016",
+    "desc": "A 4koma anthology featuring the Fates cast, illustrated by a variety of artists.",
     "art": "Various",
     "type": ["4koma"],
     "status": "Fully Translated",
@@ -1712,7 +1726,7 @@ let entry_data = {
   {
     "name": "Valla Comic Anthology",
     "published": "April 25, 2016",
-    "desc": "",
+    "desc": "A collection of short stories focused on the Revelation route.",
     "type": ["Manga"],
     "status": "Untranslated",
     "translation": false,
@@ -1898,7 +1912,7 @@ let entry_data = {
   {
     "name": "Special Edition Artbook",
     "published": "December 26, 2015",
-    "desc": "",
+    "desc": "Included with the US Special 'Fortissimo' Edition release/",
     "art": "toi8",
     "type": ["Artbook"],
     "status": "English Release",
