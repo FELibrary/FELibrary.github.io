@@ -6,6 +6,7 @@ let entry_data = {
     "desc": "Included in the 30th Anniversary Edition of Fire Emblem: Shadow Dragon & the Blade of Light. Contains an Archanea timeline, introductions for each game, character artwork and full page Cipher artworks.",
     "type": ["Artbook"],
     "status": "English Release",
+    "scans": "@ShiningEmblem64",
     "translation": false,
     "img": "arc_legacy",
     "buttons": [
@@ -48,6 +49,7 @@ let entry_data = {
     "art": "Shinshu Ueda",
     "story": "Shinshu Ueda",
     "status": "Untranslated",
+    "scans": "@ShiningEmblem64",
     "translation": false,
     "img": "arc_wind",
     "buttons": [
@@ -64,6 +66,7 @@ let entry_data = {
     "desc": "An obscure tactical booklet for the original Fire Emblem. Each chapter is given a full map view and a medieval fantasy illustration.",
     "type": ["Guidebook"],
     "status": "Untranslated",
+    "scans": "@ShiningEmblem64",
     "translation": false,
     "img": "arc_tactics",
     "buttons": [
@@ -79,7 +82,7 @@ let entry_data = {
     "published": "Unknown",
     "desc": "A guidebook for Mystery of the Emblem, featuring chapter guides and guest artwork.",
     "type": ["Guidebook"],
-    "art" : "Junko Taguchi & Yoko Takeda",
+    "art": "Junko Taguchi & Yoko Takeda",
     "status": "Untranslated",
     "translation": false,
     "img": "arc_all",
@@ -97,6 +100,7 @@ let entry_data = {
     "desc": "The highlight story for this Archanea book is a deep dive at King Michalis' personal thoughts after the War of Shadows. Flashback memory of the ambitious King of Macedon shows the deep love he truly has for his younger sisters & a protective oath he made to them as children",
     "type": ["Manga"],
     "status": "Untranslated",
+    "scans": "@ShiningEmblem64",
     "translation": false,
     "img": "arc_gekijoh",
     "buttons": [
@@ -113,6 +117,7 @@ let entry_data = {
     "desc": "A 4-volume collection of 4koma comics featuring the FE1 and FE3 cast.",
     "type": ["4koma"],
     "status": "Untranslated",
+    "scans": "@ShiningEmblem64",
     "translation": false,
     "img": "arc_theater1",
     "buttons": [
@@ -147,6 +152,7 @@ let entry_data = {
     "desc": "Contains a few full-page illustrations and 4komas. Mostly contains comedic short stories",
     "type": ["4koma", "Manga"],
     "status": "Untranslated",
+    "scans": "@ShiningEmblem64",
     "translation": false,
     "img": "arc_amusement",
     "buttons": [
@@ -163,6 +169,7 @@ let entry_data = {
     "desc": "A collection of 4koma comics. Contains a cameo from the heroes of Valentia.",
     "type": ["4koma"],
     "status": "Untranslated",
+    "scans": "@ShiningEmblem64",
     "translation": false,
     "img": "arc_gag",
     "buttons": [
@@ -179,12 +186,13 @@ let entry_data = {
     "desc": "A telephone card that was given away in a raffle for buying the FE3 official guidebook in 1994. Only 20 winners were selected.",
     "type": ["Misc"],
     "status": "Untranslated",
+    "scans": "SpiritGriffon",
     "translation": false,
     "img": "arc_phone",
     "buttons": [
     {
-      "type": "external",
-      "link": "https://www.reddit.com/r/fireemblem/comments/zykmc5/one_of_my_big_highlights_of_2022_was_getting_what/",
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1D2Yk7ZGPlq89lNhjdIOUBMwYrcBZe8e0?usp=sharing",
       "glow": false,
       "note": "Scans (JP)"
     }]
@@ -195,6 +203,7 @@ let entry_data = {
     "desc": "Covers all maps from Book 1 & 2 with full map screens and important information.",
     "type": ["Guidebook"],
     "status": "Untranslated",
+    "scans": "@ShiningEmblem64",
     "translation": false,
     "img": "arc_strategy",
     "buttons": [
@@ -213,6 +222,7 @@ let entry_data = {
     "desc": "A 1-volume adapation of Shadow Dragon and the Blade of Light.",
     "type": ["Novel"],
     "status": "Untranslated",
+    "scans": "SpiritGriffon",
     "translation": false,
     "img": "arc_shinosaki1",
     "buttons": [
@@ -231,14 +241,33 @@ let entry_data = {
     "desc": "A 4-volume adapation of Mystery of the Emblem",
     "type": ["Novel"],
     "status": "Untranslated",
+    "scans": "SpiritGriffon",
     "translation": false,
     "img": "arc_takayashiki",
     "buttons": [
     {
-      "type": "gdrive",
-      "link": "https://drive.google.com/drive/folders/1DN3K--SDhLMcb7avjtcM6Zg8eoQoYoOP?usp=sharing",
+      "type": "archive",
+      "link": "https://archive.org/details/HTmysteryvol1",
       "glow": false,
-      "note": "Scans (JP)"
+      "note": "Vol. 1 (JP)"
+    },
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/HTmysteryvol2",
+      "glow": false,
+      "note": "Vol. 2 (JP)"
+    },
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/HTmysteryvol3",
+      "glow": false,
+      "note": "Vol. 3 (JP)"
+    },
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/HTmysteryvol4",
+      "glow": false,
+      "note": "Vol. 4 (JP)"
     }]
   },
   {
@@ -248,6 +277,7 @@ let entry_data = {
     "desc": "1 Volume adapation of Shadow Dragon and the Blade of Light.",
     "type": ["Manga"],
     "status": "Untranslated",
+    "scans": "SpiritGriffon",
     "translation": false,
     "img": "arc_simada",
     "buttons": [
@@ -266,14 +296,39 @@ let entry_data = {
     "desc": "A 5-volume adapation of Shadow Dragon and the Blade of Light and Mystery of the Emblem",
     "type": ["Manga"],
     "status": "Untranslated",
+    "scans": "SpiritGriffon",
     "translation": false,
     "img": "arc_mskw",
     "buttons": [
     {
-      "type": "gdrive",
-      "link": "https://drive.google.com/drive/folders/1ye7DmwH-uJdRoaikryq2gqT8irhjBVpe?usp=sharing",
+      "type": "archive",
+      "link": "https://archive.org/details/mskwfevol1",
       "glow": false,
-      "note": "Scans (JP)"
+      "note": "Vol. 1 (JP)"
+    },
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/mskwfevol2",
+      "glow": false,
+      "note": "Vol. 2 (JP)"
+    },
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/mskwfevol3",
+      "glow": false,
+      "note": "Vol. 3 (JP)"
+    },
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/mskwfevol4",
+      "glow": false,
+      "note": "Vol. 4 (JP)"
+    },
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/mskwfevol5",
+      "glow": false,
+      "note": "Vol. 5 (JP)"
     }]
   },
   {
@@ -281,17 +336,24 @@ let entry_data = {
     "published": "2001",
     "story": "Sami Shinosaki",
     "art": "Hino Shinnosuke",
-    "desc": "A 2-volume novel adaptation of Mystery of the Emblem.",
+    "desc": "A 2-book novel adaptation of Mystery of the Emblem.",
     "type": ["Novel"],
+    "scans": "SpiritGriffon",
     "status": "Untranslated",
     "translation": false,
     "img": "arc_shinosaki2",
     "buttons": [
     {
-      "type": "gdrive",
-      "link": "https://drive.google.com/drive/folders/1P_oMYdIlcCcB4eU4FZBEDXlviLCBMczo?usp=sharing",
+      "type": "archive",
+      "link": "https://archive.org/details/femystery1samishinosaki",
       "glow": false,
-      "note": "Scans (JP)"
+      "note": "Book 1 (JP)"
+    },
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/femystery2samishinosaki",
+      "glow": false,
+      "note": "Book 2 (JP)"
     }]
   },
   {
@@ -302,6 +364,7 @@ let entry_data = {
     "desc": "A choose your own adventure game book based on Fire Emblem: Mystery of the Emblem, published by Enix.",
     "type": ["Novel"],
     "status": "Untranslated",
+    "scans": "SpiritGriffon",
     "translation": false,
     "img": "arc_cyoa",
     "buttons": [
@@ -318,6 +381,7 @@ let entry_data = {
     "desc": "Contains a full world map of Archanea",
     "type": ["Guidebook"],
     "status": "Untranslated",
+    "scans": "Oh Block",
     "translation": false,
     "img": "arc_ape1",
     "buttons": [
@@ -334,6 +398,7 @@ let entry_data = {
     "desc": "Contains a map of Archena and a character chart in addition to gameplay guides.",
     "type": ["Guidebook"],
     "status": "Untranslated",
+    "scans": "Oh Block",
     "translation": false,
     "img": "arc_ape3",
     "buttons": [
@@ -350,6 +415,7 @@ let entry_data = {
     "desc": "A classic retro strategy guide book for Mystery of the Emblem with tips and tricks for every playable map",
     "type": ["Guidebook"],
     "status": "Untranslated",
+    "scans": "@ShiningEmblem64",
     "translation": false,
     "img": "arc_guide",
     "buttons": [
@@ -368,6 +434,7 @@ let entry_data = {
     "story": "Sara Yamaguchi",
     "art": "Sara Yamaguchi",
     "status": "Untranslated",
+    "scans": "@ShiningEmblem64",
     "translation": false,
     "img": "arc_sara",
     "buttons": [
@@ -384,6 +451,7 @@ let entry_data = {
     "desc": "A collection of 4koma comics featuring the Archanea cast.",
     "type": ["Manga"],
     "status": "Untranslated",
+    "scans": "@ShiningEmblem64",
     "translation": false,
     "img": "arc_theater",
     "buttons": [
@@ -400,6 +468,7 @@ let entry_data = {
     "desc": "Short comic stories featuring the Archanea cast. Starts with several full-page illustrations from the FE Fan Illus. Club, and the back cover has an illustration of Minerva.",
     "type": ["Manga"],
     "status": "Untranslated",
+    "scans": "@ShiningEmblem64",
     "translation": false,
     "img": "arc_legend",
     "buttons": [
@@ -415,8 +484,9 @@ let entry_data = {
     "published": "December 17, 2010",
     "desc": "A fan book that focuses on the remakes, Fire Emblem: Shadow Dragon and Fire Emblem: New Mystery of the Emblem.",
     "type": ["Artbook"],
-    "art" : "Various",
+    "art": "Various",
     "status": "Untranslated",
+    "scans": "@ShiningEmblem64",
     "translation": false,
     "img": "arc_akaneia",
     "buttons": [
@@ -451,6 +521,7 @@ let entry_data = {
     "desc": "Contains 32 picture postcards",
     "type": ["Artbook"],
     "status": "Translation not Required",
+    "scans": "SpiritGriffon",
     "translation": false,
     "img": "arc_postcard",
     "buttons": [
@@ -468,6 +539,7 @@ let entry_data = {
     "desc": "An artbook featuring illustrations and behind-the-scenes information about the Fire Emblem manga and drama CDs.",
     "type": ["Artbook"],
     "status": "Untranslated",
+    "scans": "SpiritGriffon",
     "translation": false,
     "img": "arc_hakoda2",
     "buttons": [
@@ -494,7 +566,7 @@ let entry_data = {
       "note": "Scans (EN)"
     }]
   },
-    {
+  {
     "name": "Enix Super Comic Gekijoh Vol.2",
     "published": "October 1, 1996",
     "desc": "First half contains FE4, second half contains FE3.",
@@ -597,7 +669,8 @@ let entry_data = {
     "desc": "Contains the old official art from the game, and a detailed overview of each battle maps with tips and tricks.",
     "type": ["Guidebook"],
     "status": "Untranslated",
-    "translation": [],
+    "scans": "@ShiningEmblem64",
+    "translation": false,
     "img": "gaiden_encyclo",
     "buttons": [
     {
@@ -1349,6 +1422,7 @@ let entry_data = {
     "desc": "Afunny story collection book about Roy's triumphant war time escapades. A heavy focus on Lilina & Clarine during a restful army encampment, & a side tale of Fir's life goal towards becoming a great Swordmaster like Karla.",
     "type": ["Manga"],
     "status": "Untranslated",
+    "scans": "@ShiningEmblem64",
     "translation": false,
     "img": "fe6_antho",
     "buttons": [
@@ -1365,6 +1439,7 @@ let entry_data = {
     "desc": "A collection of 4koma comics featuring the Binding Blade cast.",
     "type": ["4koma"],
     "status": "Untranslated",
+    "scans": "@ShiningEmblem64",
     "translation": false,
     "img": "fe6_gag",
     "buttons": [
@@ -1381,6 +1456,7 @@ let entry_data = {
     "desc": "A collection of 4koma comics featuring the Binding Blade cast.",
     "type": ["4koma"],
     "status": "Untranslated",
+    "scans": "@ShiningEmblem64",
     "translation": false,
     "img": "fe6_futabasha",
     "buttons": [
@@ -1395,7 +1471,6 @@ let entry_data = {
     "name": "Game Manual",
     "published": "March 29, 2002",
     "desc": "The included game manual. It contains story background, detailed controls and gameplay instructions with character artwork throughout.",
-  
     "type": ["Misc"],
     "status": "Untranslated",
     "translation": false,
@@ -1491,7 +1566,6 @@ let entry_data = {
     "name": "Game Manual",
     "published": "October 17, 2005",
     "desc": "The included game manual. It contains story background, detailed controls and gameplay instructions with character artwork throughout.",
-   
     "type": ["Misc"],
     "status": "English Release",
     "translation": false,
@@ -1544,7 +1618,6 @@ let entry_data = {
     "name": "Game Manual",
     "published": "November 5, 2007",
     "desc": "The included game manual. It contains story background, detailed controls and gameplay instructions with character artwork throughout.",
-   
     "type": ["Misc"],
     "status": "English Release",
     "translation": false,
@@ -1565,6 +1638,7 @@ let entry_data = {
     "type": ["Artbook"],
     "art": "Yusuke Kozaki",
     "status": "Untranslated",
+    "scans": "@ShiningEmblem64",
     "translation": false,
     "img": "fates_kozaki",
     "buttons": [
@@ -1629,6 +1703,7 @@ let entry_data = {
     "art": "Yusuke Kozaki",
     "type": ["Artbook"],
     "status": "Untranslated",
+    "scans": "Kantopia",
     "translation": false,
     "img": "fates_crystal",
     "buttons": [
@@ -1646,6 +1721,7 @@ let entry_data = {
     "art": "Yusuke Kozaki",
     "type": ["Artbook"],
     "status": "English Release",
+    "scans": "@Mina_776_",
     "translation": false,
     "img": "fates_se",
     "buttons": [
@@ -1727,6 +1803,7 @@ let entry_data = {
     "desc": "A collection of short stories focused on the Revelation route.",
     "type": ["Manga"],
     "status": "Untranslated",
+    "scans": "@ShiningEmblem64",
     "translation": false,
     "img": "fates_valla",
     "buttons": [
@@ -1741,10 +1818,10 @@ let entry_data = {
     "name": "Kozaki Holiday Fan Book",
     "published": "2019",
     "desc": "A collection of Kozaki's sketches and drawings, including drawings posted on social media. Mainly Awakening and Fates characters",
-    
     "type": ["Artbook"],
     "art": "Yusuke Kozaki",
     "status": "Untranslated",
+    "scans": "@ShiningEmblem64",
     "translation": false,
     "img": "fates_kozaki",
     "buttons": [
@@ -1760,7 +1837,6 @@ let entry_data = {
     "name": "Three Houses Special Edition Artbook",
     "published": "July 26, 2019",
     "desc": "Bundled with the US Special Edition release.",
- 
     "art": "Chinatsu Kurahana",
     "type": ["Artbook"],
     "status": "English Release",
@@ -1778,7 +1854,6 @@ let entry_data = {
     "name": "Three Hopes Special Edition Artbook",
     "published": "June 24, 2022",
     "desc": "Bundled with the European Special Edition release of Warriors: Three Hopes.",
-    
     "art": "Chinatsu Kurahana",
     "type": ["Artbook"],
     "status": "English Release",
@@ -1818,6 +1893,7 @@ let entry_data = {
     "art": "Mika Pikazo",
     "type": ["Artbook"],
     "status": "English Release",
+    "scans": "@ShiningEmblem64",
     "translation": false,
     "img": "engage_se",
     "buttons": [
@@ -1878,6 +1954,7 @@ let entry_data = {
     "art": "",
     "type": ["Artbook"],
     "status": "Translation Not Required",
+    "scans": "Yoostink",
     "translation": false,
     "img": "feh_char1",
     "buttons": [
@@ -1896,6 +1973,7 @@ let entry_data = {
     "art": "",
     "type": ["Artbook"],
     "status": "Translation Not Required",
+    "scans": "Yoostink",
     "translation": false,
     "img": "feh_char2",
     "buttons": [
@@ -1968,6 +2046,7 @@ let entry_data = {
       "art": "Various",
       "type": ["Artbook"],
       "status": "Untranslated",
+      "scans": "SpiritGriffon",
       "translation": false,
       "img": "series_complete",
       "buttons": [
@@ -1985,6 +2064,7 @@ let entry_data = {
       "story": "",
       "art": "",
       "type": ["Artbook"],
+      "scans": "SpiritGriffon",
       "status": "Untranslated",
       "translation": false,
       "img": "series_staff",
@@ -2004,6 +2084,7 @@ let entry_data = {
       "art": "",
       "type": ["Artbook"],
       "status": "English Release",
+      "scans": "SpiritGriffon",
       "translation": false,
       "img": "series_warriors",
       "buttons": [

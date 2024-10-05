@@ -119,6 +119,11 @@ function mediaPage()
       heading_arr.push("Art")
       info_arr.push(items[i].art)
     }
+    if (items[i]['scans'])
+    {
+      heading_arr.push("Scans")
+      info_arr.push(items[i].scans)
+    }
     if (items[i]['translation'])
     {
       heading_arr.push("Translation")
