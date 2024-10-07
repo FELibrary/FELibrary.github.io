@@ -234,6 +234,24 @@ let entry_data = {
     }]
   },
   {
+    "name": "Shadow Dragon Novel (Yamaguchi)",
+    "published": "1992",
+    "story": "Hiroshi Yamaguchi",
+    "desc": "A 1-volume adapation of Shadow Dragon and the Blade of Light.",
+    "type": ["Novel"],
+    "status": "Untranslated",
+    "scans": "SpiritGriffon",
+    "translation": false,
+    "img": "arc_yamaguchi",
+    "buttons": [
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/feshadowdragonhiroshiyamaguchi",
+      "glow": false,
+      "note": "Scans (JP)"
+    }]
+  },
+  {
     "name": "Mystery of the Emblem Novel (Takayashiki)",
     "published": "1993 - 1996",
     "story": "Hideo Takayashiki",
@@ -551,6 +569,23 @@ let entry_data = {
     }]
   },
   {
+    "name": "Departure Chapter Fanbook",
+    "published": "January 15, 1994",
+    "desc": "The fanbook included with Dengeki CD Bunko Best Game Selection 7 - Fire Emblem: Tabidachi no Shou (Departure Chapter).",
+    "type": ["Misc"],
+    "status": "Untranslated",
+    "scans": "SpiritGriffon",
+    "translation": false,
+    "img": "arc_departure",
+    "buttons": [
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/departurechapterfanbook",
+      "glow": false,
+      "note": "Scans (JP)"
+    }]
+  },
+  {
     "name": "Shadow Dragon Game Manual",
     "published": "August 7, 2008",
     "desc": "The included game manual. It contains story background, detailed controls and gameplay instructions with character artwork throughout.",
@@ -562,6 +597,57 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/file/d/1e_kF6E6z9xiTBTGQcgj-jq8GeTQZ6MiZ/view?usp=sharing",
+      "glow": true,
+      "note": "Scans (EN)"
+    }]
+  },
+  {
+    "name": "Shadow Dragon & Blade of Light Manual",
+    "published": "April 20, 1990",
+    "desc": "The included game manual. It contains story background, detailed controls and gameplay instructions with character artwork throughout.",
+    "type": ["Misc"],
+    "status": "Untranslated",
+    "scans": "Twibat",
+    "translation": false,
+    "img": "arc_manual2",
+    "buttons": [
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/fire-emblem-dark-dragon-and-the-blade-of-light-manual",
+      "glow": false,
+      "note": "Scans (JP)"
+    }]
+  },
+  {
+    "name": "Mystery of the Emblem Manual",
+    "published": "January 21, 1994",
+    "desc": "The included game manual. It contains story background, detailed controls and gameplay instructions with character artwork throughout.",
+    "type": ["Misc"],
+    "status": "Untranslated",
+    "scans": "Hubz",
+    "translation": false,
+    "img": "arc_manual2",
+    "buttons": [
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/fireemblemmonshounonazosfchiresscans/Fire%20Emblem%20-%20Monshou%20no%20Nazo%20-%20Manual%20%28Searchable%29/",
+      "glow": false,
+      "note": "Scans (JP)"
+    }]
+  },
+  {
+    "name": "Prima Strategy Guide",
+    "published": "2009",
+    "desc": "A 180-page guidebook which contains character artwork and introductions, breakdowns of each map, and charts of classes and skills.",
+    "type": ["Guidebook"],
+    "status": "English Release",
+    "scans": "HourEleven",
+    "translation": false,
+    "img": "arc_prima",
+    "buttons": [
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/fire-emblem-shadow-dragon_202207",
       "glow": true,
       "note": "Scans (EN)"
     }]
@@ -875,6 +961,7 @@ let entry_data = {
     "desc": "A 5-volume series of comic anthologies. Select stories from Volumes 1-3 have currently been translated.",
     "type": ["Manga"],
     "status": "Partially Translated",
+    "scans": "MrTalkingDinosaur",
     "translation": [
       "Kitsudori", "MrTalkingDinosaur"
     ],
@@ -899,6 +986,7 @@ let entry_data = {
     "desc": "Contains short stories featuring both FE4 and FE5 characters.",
     "type": ["Manga"],
     "status": "Partially Translated",
+    "scans": "Kitsudori",
     "translation": ["MrTalkingDinosaur"],
     "img": "gothw_military",
     "buttons": [
@@ -1235,6 +1323,7 @@ let entry_data = {
     "desc": "Contains short stories featuring both FE4 and FE5 characters.",
     "type": ["Manga"],
     "status": "Partially Translated",
+    "scans": "Kitsudori",
     "translation": ["MrTalkingDinosaur"],
     "img": "gothw_military",
     "buttons": [
@@ -1249,6 +1338,23 @@ let entry_data = {
       "link": "https://drive.google.com/drive/folders/1XD_OfV3wKYwXVhyjC0WFTLEkGMW_FOBD",
       "glow": false,
       "note": "Scans (JP)"
+    }]
+  },
+  {
+    "name": "Picture Postcards",
+    "published": "Unknown",
+    "desc": "Collection of 32 picture postcards.",
+    "art": "Mayumi Hirota",
+    "type": ["Artbook"],
+    "status": "Translation not Required",
+    "translation": false,
+    "img": "t776_postcard",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1CyfiJ8nLsgaMDlbZGs-Hh03_0jx48_DL?usp=sharing",
+      "glow": true,
+      "note": "Scans"
     }]
   },
   {
@@ -1503,6 +1609,41 @@ let entry_data = {
       "glow": true,
       "note": "Books 1-2 (EN)"
     }]
+  },
+  {
+    "name": "Game Manual",
+    "published": "November 3, 2003",
+    "desc": "The included game manual. It contains story background, detailed controls and gameplay instructions with character artwork throughout.",
+    "art": "Wada Sachiko",
+    "type": ["Misc"],
+    "status": "English Release",
+    "scans": "Replacementdocs.com",
+    "translation": false,
+    "img": "fe7_manual",
+    "buttons": [
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/fireemblemmanualgba",
+      "glow": true,
+      "note": "Scans (EN)"
+    }]
+  },
+  {
+    "name": "Nintendo Player's Guide",
+    "published": "2003",
+    "desc": "The official guide for Fire Emblem (Blazing Blade), by Nintendo Power.",
+    "type": ["Guidebook"],
+    "status": "English Release",
+    "scans": "Karm2980",
+    "translation": false,
+    "img": "fe7_guide",
+    "buttons": [
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/FireEmblemGBANintendoPlayersGuide",
+      "glow": true,
+      "note": "Scans (EN)"
+    }]
   }],
   "ss": [
   {
@@ -1523,6 +1664,44 @@ let entry_data = {
       "link": "https://drive.google.com/drive/folders/1HlaBPNkUGqTeoiOzpuUUiOIJSNh771rE?usp=drive_link",
       "glow": true,
       "note": "Books 1-2 (EN)"
+    }]
+  },
+
+
+
+  {
+    "name": "Game Manual",
+    "published": "October 7, 2004",
+    "desc": "The included game manual. It contains story background, detailed controls and gameplay instructions with character artwork throughout.",
+    "art": "Wada Sachiko",
+    "type": ["Misc"],
+    "status": "English Release",
+    "scans": "Replacementdocs.com",
+    "translation": false,
+    "img": "stones_manual",
+    "buttons": [
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/fireemblemthesacredstonesmanualgba",
+      "glow": true,
+      "note": "Scans (EN)"
+    }]
+  },
+  {
+    "name": "Nintendo Player's Guide",
+    "published": "2005",
+    "desc": "The official guide for The Sacred Stones, by Nintendo Power ",
+    "type": ["Guidebook"],
+    "status": "English Release",
+    "scans": "Crossblades",
+    "translation": false,
+    "img": "stones_guide",
+    "buttons": [
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/fire-emblem-the-sacred-stones-nintendo-players-guide",
+      "glow": true,
+      "note": "Scans (EN)"
     }]
   }],
   "por": [
@@ -1631,6 +1810,34 @@ let entry_data = {
     }]
   }],
   "awakening": [
+  {
+    "name": "Art of Fire Emblem: Awakening",
+    "published": "August 17, 2016",
+    "desc": "Artbook of Fire Emblem Awakening, which contains an in-depth, behind-the-scenes look at the smash-hit 3DS game, from beautifully illustrated renditions of your favorite characters, to storyboards for in-game events, character designs, weapon designs, character profiles, and the entirety of the script with every possible branch of dialogue.<strong>This entry is still for sale by the publisher and therefore not linked here.</strong>",
+    "type": ["Artbook"],
+    "art": "Yusuke Kozaki",
+    "status": "English Release",
+    "translation": false,
+    "img": "awk_main",
+    "buttons": []
+  },
+
+    {
+    "name": "Official Comic",
+    "published": "June 2012 - June 2013",
+    "desc": "The official Fire Emblem: Awakening comic published by Nintendo Dream. It featured 11 two-page chapters that provided additional background on some of the game's playable characters. Later, all 11 chapters were put together and published in a commemorative booklet, along with some extras.",
+    "type": ["Misc"],
+    "status": "Fully Translated",
+    "translation": ["Amielleon"],
+    "img": "awk_dream",
+    "buttons": [  {
+      "type": "external",
+      "link": "https://serenesforest.net/gallery/manga/official-fire-emblem-awakening-comic/",
+      "glow": true,
+      "note": "Translations"
+    }]
+  },
+
   {
     "name": "Kozaki Holiday Fan Book",
     "published": "2019",
@@ -2007,19 +2214,26 @@ let entry_data = {
       "name": "20th Anniversary Encyclopedia",
       "published": "June 30, 2010",
       "desc": "A fan book that covers the series from the first installment, Shadow Dragon and the Blade of Light to New Mystery of the Emblem. It contains messages, illustrations, interviews, and a World Guide that is seperated by continents rather than games.",
-      "story": "",
-      "art": "",
+
       "type": ["Artbook"],
-      "status": "Untranslated",
+      "status": "Translation in Progress",
       "translation": false,
       "img": "series_20",
       "buttons": [
+         {
+        "type": "external",
+        "link": "https://emblem-translations.vercel.app/",
+        "glow": true,
+        "note": "Translation"
+      },
       {
         "type": "gdrive",
         "link": "https://drive.google.com/file/d/1R_JET3GOikA97kLfqjzKkiMdq4SVpoqp/view?usp=sharing",
         "glow": false,
         "note": "Scans (JP)"
       }]
+
+      
     },
     {
       "name": "The Making of Fire Emblem",

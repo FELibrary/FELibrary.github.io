@@ -26,12 +26,12 @@ let games = {
 
     "blazing" : {
     "name" : "The Blazing Blade",
-    "filters" : ['All', 'Novel']
+    "filters" : ['All', 'Novel', 'Guidebook', 'Misc']
   },
 
     "ss" : {
     "name" : "The Sacred Stones",
-    "filters" : ['All', 'Novel']
+    "filters" : ['All', 'Novel', 'Guidebook', 'Misc']
   },
 
     "por" : {
@@ -46,7 +46,7 @@ let games = {
 
       "awakening" : {
     "name" : "Awakening",
-    "filters" : ['All', 'Manga', 'Artbook', '4koma']
+    "filters" : ['All', 'Manga', 'Artbook', '4koma', 'Misc']
   },
 
       "fates" : {
