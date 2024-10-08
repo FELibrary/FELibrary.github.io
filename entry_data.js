@@ -626,7 +626,7 @@ let entry_data = {
     "status": "Untranslated",
     "scans": "Hubz",
     "translation": false,
-    "img": "arc_manual2",
+    "img": "arc_manual3",
     "buttons": [
     {
       "type": "archive",
