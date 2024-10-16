@@ -1246,6 +1246,7 @@ let entry_data = {
     "art": "Takanagi Yuuna",
     "type": ["Manga"],
     "status": "Translation in Progress",
+    "scans" : "Yosjiefo",
     "translation": [
       "Kitsudori"
     ],
@@ -1260,7 +1261,7 @@ let entry_data = {
     {
       "type": "mangadex",
       "link": "https://mangadex.org/title/bb1792a0-5887-4dcf-abc4-a733934f6eb1/fire-emblem-thracia-776?tab=art",
-      "glow": false,
+      "glow": true,
       "note": "Translations"
     }]
   },
