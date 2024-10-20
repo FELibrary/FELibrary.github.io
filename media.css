@@ -80,6 +80,19 @@ body {
 #media_div {
   width: 100%;
   font-family: FEH;
+  display: flex;
+  flex: 1;
+ 
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  overflow-y: hidden;
+
+
+  justify-content: space-around;
+  align-content: center;
+  gap: 7%;
+
 }
 
 .line {
@@ -93,13 +106,10 @@ body {
   top: 25%;
 }
 
-#media_div {
-  display: flex;
-  flex-direction: column;
-}
 
 .media_box {
   width: 90%;
+   max-width: 800px;
   height: 30%;
   position: relative;
   min-height: 400px;
@@ -156,6 +166,7 @@ body {
   margin-top: 1%;
   flex-basis: 0%;
   flex-grow: 1;
+  font-size: 1.3cqh;
   font-family: arial;
 }
 
@@ -220,7 +231,7 @@ body {
 .button_note {
   width: 80%;
   text-align: left;
-  font-size: 2.2vw;
+  font-size: 1.1cqw;
 
 }
 
@@ -248,29 +259,27 @@ body {
   background-repeat: no-repeat;
   aspect-ratio: 1/1;
 }
-
-#linksTable {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#linksTable a {
-  height: 100%;
+#contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1;
+  gap: 5%;
   width: 100%;
-  display: block;
 }
 
-#twitter {
-  background: url('./assets/twitter.png');
-  background-size: 40px 40px;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+.contact_btn {
+
+  min-width: 30px;
+  border-radius: 50%;
+  max-width: 5%;
+  aspect-ratio: 1/1;
+  height: auto;
 }
 
-#discord {
-  background: url('./assets/discord.png');
-  background-size: 40px 40px;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+.contact_btn img {
+  min-width: 30px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
 }

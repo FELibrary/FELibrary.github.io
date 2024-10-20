@@ -1072,6 +1072,7 @@ let entry_data = {
     "published": "September 1, 1996",
     "desc": "Contains the short story 'Fateful Encounter at the Doors of Destiny', centered on Quan.",
     "story": "Jindai Sou",
+    "art" : "Rika Suzuki",
     "type": ["Guidebook", "Novel"],
     "status": "Untranslated",
     "translation": ['Kitsudori'],
@@ -1221,6 +1222,46 @@ let entry_data = {
       "note": "Scans (JP)"
     }]
   },
+
+    {
+    "name": "Nintendo Power",
+    "published": "August 1996",
+    "desc": "4 Pages from the August 1996 edition of Nintendo Power focused on Genealogy of the Holy War.",
+    "type": ["Misc"],
+    "status": "English Release",
+    "translation": false,
+    "img": "gothw_power",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/file/d/1RB0Y_m9ukp0G3c0lma5BzDTcpfC-yEvw/view",
+      "glow": false,
+      "note": "Scans (EN)"
+    }]
+  },
+
+
+
+  
+
+    {
+    "name": "Gag Battle SC Edition",
+    "published": "July 1, 1996",
+    "desc": "A collection of 4komas with both Gen 1 and Gen 2 stories.",
+    "type": ["4koma"],
+    "status": "Untranslated",
+    "scans" : "@gaebolgz",
+    "translation": false,
+    "img": "gothw_gagsc",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1yg21UqDy68h4h4HLdtznAwzZAa4PYnDp?usp=drive_link",
+      "glow": false,
+      "note": "Scans (JP)"
+    }]
+  },
+
   {
     "name": "Game Manual",
     "published": "May 14, 1996",
@@ -1491,10 +1532,18 @@ let entry_data = {
     "published": "September 1, 1999",
     "desc": "The included game manual. It contains story background, detailed controls and gameplay instructions with character artwork throughout.",
     "type": ["Misc"],
-    "status": "Untranslated",
+    "status": "Spanish Translation",
     "translation": false,
     "img": "t776_manual",
+
+    
     "buttons": [
+      {
+      "type": "gdrive",
+      "link": "https://drive.google.com/file/d/1C_hxJBM32O2r9ts4d3S4ygO8Y0YHVgLk/view?usp=drive_link",
+      "glow": false,
+      "note": "Trans. (ES)"
+    },
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1NG4OXgjAmElZzJoPO0oXa38qU-MKsqm8?usp=sharing",
@@ -2074,7 +2123,30 @@ let entry_data = {
       "glow": true,
       "note": "Scans (EN)"
     }]
-  }],
+  },
+
+    {
+    "name": "Soundtrack Booklet",
+    "published": "February 17, 2021",
+    "desc": "Booklet accompanying the official soundtrack. Contains artwork, a list of tracks, lyrics, and a letter from the director.",
+    "art": "Chinatsu Kurahana",
+    "type": ["Misc"],
+    "status": "Untranslated",
+    "translation": false,
+    "img": "3h_soundtrack",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/161M99EHbwa1dHPAeP77i9_ZysMV2HFmp?usp=sharing",
+      "glow": true,
+      "note": "Scans (JP)"
+    }]
+  },
+
+
+
+
+  ],
   "engage": [
   {
     "name": "Fire Emblem Engage (Kazuro Kyou)",
@@ -2145,7 +2217,7 @@ let entry_data = {
       "type": "external",
       "link": "https://fire-emblem-heroes.com/en/manga/",
       "glow": true,
-      "note": "Ch 101-Current"
+      "note": "Ch 101- Curr."
     },
     {
       "type": "mangadex",
@@ -2170,7 +2242,7 @@ let entry_data = {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1K67jDK5GUjFSrkUQ3Pdy2AzJGIhBjk5T?usp=sharing",
       "glow": true,
-      "note": "Concept Pages"
+      "note": "Concept"
     }]
   },
   {
@@ -2189,7 +2261,7 @@ let entry_data = {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1IohZEXdxpoiglXlS3iBiG0ATT5x8TO36?usp=sharing",
       "glow": true,
-      "note": "Concept Pages"
+      "note": "Concept"
     }]
   }],
   "tmsfe": [
@@ -2207,7 +2279,7 @@ let entry_data = {
       "type": "external",
       "link": "https://idolasphere-performa.tumblr.com/US-SEgoodies/SE_Book",
       "glow": true,
-      "note": "Images (EN)"
+      "note": "Scans (EN)"
     }]
   }],
   "series": [
