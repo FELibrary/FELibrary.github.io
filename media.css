@@ -139,6 +139,7 @@ body {
   background-color: rgba(166, 127, 65, 0.1);
   box-shadow: 0px 0px 5px rgba(166, 127, 65, 0.1);
   display: flex;
+  container-type: size ;
 }
 
 .title_box {
@@ -166,8 +167,9 @@ body {
   margin-top: 1%;
   flex-basis: 0%;
   flex-grow: 1;
-  font-size: 1.3cqh;
+  font-size: 4cqh;
   font-family: arial;
+
 }
 
 .buttons_box {
@@ -224,6 +226,7 @@ body {
   width: 100%;
   font-family: FEH;
   color: white;
+  container-type: size;
 
 
 }
@@ -231,7 +234,7 @@ body {
 .button_note {
   width: 80%;
   text-align: left;
-  font-size: 1.1cqw;
+  font-size: 2.5cqw;
 
 }
 
