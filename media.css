@@ -204,16 +204,40 @@ body {
 
 }
 
-#glow_btn {
-  background: url('./assets/entry_glow.png');
+#blue_btn {
+  background: url('./assets/entry_blue.png');
   background-repeat: no-repeat;
   aspect-ratio: 302/53;
   background-position: 50% 50%;
   background-size: 100%;
 }
 
-#blk_btn {
-  background: url('./assets/entry.png');
+#black_btn {
+  background: url('./assets/entry_black.png');
+  background-repeat: no-repeat;
+  aspect-ratio: 302/53;
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+
+#red_btn {
+  background: url('./assets/entry_red.png');
+  background-repeat: no-repeat;
+  aspect-ratio: 302/53;
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+
+#yellow_btn {
+  background: url('./assets/entry_yellow.png');
+  background-repeat: no-repeat;
+  aspect-ratio: 302/53;
+  background-position: 50% 50%;
+  background-size: 100%;
+}
+
+#green_btn {
+  background: url('./assets/entry_green.png');
   background-repeat: no-repeat;
   aspect-ratio: 302/53;
   background-position: 50% 50%;

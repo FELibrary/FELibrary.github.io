@@ -90,10 +90,11 @@ function mediaPage()
       //let span = document.createElement('span')
       //button.style.backgroundColor = items[i].buttons[j].color
       //span.innerHTML = items[i].buttons[j].note
-      if (items[i].buttons[j].glow)
-        button.id = "glow_btn"
-      else
-        button.id = 'blk_btn'
+      //if (items[i].buttons[j].glow)
+        //button.id = "glow_btn"
+      //else
+        //button.id = 'blk_btn'
+      button.id = `${items[i].buttons[j].glow}_btn`
       button.appendChild(button_tbl)
       a.appendChild(button)
       //button.appendChild(span)

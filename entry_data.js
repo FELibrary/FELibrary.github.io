@@ -13,7 +13,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1Y7XWvhDjynoD4PKsJqs_-bIB5Yv62nMP",
-      "glow": true,
+      "glow": "blue",
       "note": "Scans (EN)"
     }]
   },
@@ -31,13 +31,13 @@ let entry_data = {
     {
       "type": "mangadex",
       "link": "https://mangadex.org/title/97f5faa3-538f-4a03-91e3-0ea92a72fa7e/fire-emblem-shadow-dragon-and-the-sword-of-light",
-      "glow": true,
+      "glow": "blue",
       "note": "Vol 1-12 (EN)"
     },
     {
       "type": "external",
       "link": "https://serenesforest.net/gallery/manga/dark-dragon-and-sword-of-light/",
-      "glow": true,
+      "glow": "blue",
       "note": "Vol 1-12 (EN)"
     }]
   },
@@ -56,7 +56,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1vkfthwI2IESVuvUA9ATe-6Vg5a0BLxLh",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -73,7 +73,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1z7iChG4BnaIm6OWve4KX1P_7JzSutJe0",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -90,7 +90,7 @@ let entry_data = {
     {
       "type": "external",
       "link": "https://serenesforest.net/gallery/all-of-fire-emblem/",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -107,7 +107,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1h1h-rYs-k_8P80bYgHXwxkztEld7G2Qy",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -124,25 +124,25 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1HfHxom9QUL-TC0BUS01i6yTSmhjyXPV1",
-      "glow": false,
+      "glow": "black",
       "note": "Vol. 1 (JP)"
     },
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1_c6lZbdkiDg3G8PcmFKllUkschCqabsk",
-      "glow": false,
+      "glow": "black",
       "note": "Vol. 2 (JP)"
     },
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1o1ACvx_JxYcy5jpbdBhu8FKPWa0nyiRI",
-      "glow": false,
+      "glow": "black",
       "note": "Vol. 3 (JP)"
     },
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1By4Lh49n5LiZJGjt5N83fkl7jYP23bB5",
-      "glow": false,
+      "glow": "black",
       "note": "Vol. 4 (JP)"
     }]
   },
@@ -159,7 +159,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1orJzH2Vn2zaiFMlaC9TVmcOW85RionAT",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -176,7 +176,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1mHVBTgFiUKUJeT43wH4xAbHogoLbNfC_",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -193,7 +193,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1D2Yk7ZGPlq89lNhjdIOUBMwYrcBZe8e0?usp=sharing",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -210,7 +210,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/10sZAU0VyrSnhIXdnqgb3tHX9TWeviDRv",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -229,7 +229,7 @@ let entry_data = {
     {
       "type": "archive",
       "link": "https://archive.org/details/feshadowdragonsamishinosaki",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -247,7 +247,7 @@ let entry_data = {
     {
       "type": "archive",
       "link": "https://archive.org/details/feshadowdragonhiroshiyamaguchi",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -266,25 +266,25 @@ let entry_data = {
     {
       "type": "archive",
       "link": "https://archive.org/details/HTmysteryvol1",
-      "glow": false,
+      "glow": "black",
       "note": "Vol. 1 (JP)"
     },
     {
       "type": "archive",
       "link": "https://archive.org/details/HTmysteryvol2",
-      "glow": false,
+      "glow": "black",
       "note": "Vol. 2 (JP)"
     },
     {
       "type": "archive",
       "link": "https://archive.org/details/HTmysteryvol3",
-      "glow": false,
+      "glow": "black",
       "note": "Vol. 3 (JP)"
     },
     {
       "type": "archive",
       "link": "https://archive.org/details/HTmysteryvol4",
-      "glow": false,
+      "glow": "black",
       "note": "Vol. 4 (JP)"
     }]
   },
@@ -302,7 +302,7 @@ let entry_data = {
     {
       "type": "archive",
       "link": "https://archive.org/details/FEhirokazusimada",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -321,31 +321,31 @@ let entry_data = {
     {
       "type": "archive",
       "link": "https://archive.org/details/mskwfevol1",
-      "glow": false,
+      "glow": "black",
       "note": "Vol. 1 (JP)"
     },
     {
       "type": "archive",
       "link": "https://archive.org/details/mskwfevol2",
-      "glow": false,
+      "glow": "black",
       "note": "Vol. 2 (JP)"
     },
     {
       "type": "archive",
       "link": "https://archive.org/details/mskwfevol3",
-      "glow": false,
+      "glow": "black",
       "note": "Vol. 3 (JP)"
     },
     {
       "type": "archive",
       "link": "https://archive.org/details/mskwfevol4",
-      "glow": false,
+      "glow": "black",
       "note": "Vol. 4 (JP)"
     },
     {
       "type": "archive",
       "link": "https://archive.org/details/mskwfevol5",
-      "glow": false,
+      "glow": "black",
       "note": "Vol. 5 (JP)"
     }]
   },
@@ -364,13 +364,13 @@ let entry_data = {
     {
       "type": "archive",
       "link": "https://archive.org/details/femystery1samishinosaki",
-      "glow": false,
+      "glow": "black",
       "note": "Book 1 (JP)"
     },
     {
       "type": "archive",
       "link": "https://archive.org/details/femystery2samishinosaki",
-      "glow": false,
+      "glow": "black",
       "note": "Book 2 (JP)"
     }]
   },
@@ -389,7 +389,7 @@ let entry_data = {
     {
       "type": "archive",
       "link": "https://archive.org/details/femota-cyoa",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -406,7 +406,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1SlSxT18j4Sk_Hd545l9CRIYaqziliif9?usp=drive_link",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -423,7 +423,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1zwPkwxjF2Obd70YIScdPzJzUxjB78yK1?usp=drive_link",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -440,7 +440,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1xQvys5nXSj-7QWeR_IYGeSmKxEuB0xTW",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -459,7 +459,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1hmT2biUytt95yFFZQBfOT_8uolTojvOk",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -476,7 +476,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1JtYnDvq9-BAeVLIX8v84pKYoU-g7YpE6",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -493,7 +493,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1lyMAoWZZzRKLctw-FV4ReS4UbQmfEGf9",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -511,7 +511,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1KahbvANHj6l3wgNJ52o2aoNg5iVTfpiF",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -528,7 +528,7 @@ let entry_data = {
     {
       "type": "external",
       "link": "https://serenesforest.net/gallery/recollections-of-fire-emblem/",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -546,7 +546,7 @@ let entry_data = {
     {
       "type": "archive",
       "link": "https://archive.org/details/FEPicturePostcards",
-      "glow": true,
+      "glow": "blue",
       "note": "Scans"
     }]
   },
@@ -564,7 +564,7 @@ let entry_data = {
     {
       "type": "archive",
       "link": "https://archive.org/details/makihakodadraws/mode/2up",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -581,7 +581,7 @@ let entry_data = {
     {
       "type": "archive",
       "link": "https://archive.org/details/departurechapterfanbook",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -597,7 +597,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/file/d/1e_kF6E6z9xiTBTGQcgj-jq8GeTQZ6MiZ/view?usp=sharing",
-      "glow": true,
+      "glow": "blue",
       "note": "Scans (EN)"
     }]
   },
@@ -614,7 +614,7 @@ let entry_data = {
     {
       "type": "archive",
       "link": "https://archive.org/details/fire-emblem-dark-dragon-and-the-blade-of-light-manual",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -631,7 +631,7 @@ let entry_data = {
     {
       "type": "archive",
       "link": "https://archive.org/details/fireemblemmonshounonazosfchiresscans/Fire%20Emblem%20-%20Monshou%20no%20Nazo%20-%20Manual%20%28Searchable%29/",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -648,7 +648,7 @@ let entry_data = {
     {
       "type": "archive",
       "link": "https://archive.org/details/fire-emblem-shadow-dragon_202207",
-      "glow": true,
+      "glow": "blue",
       "note": "Scans (EN)"
     }]
   },
@@ -664,7 +664,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1oz0U8YzdF7TaUT5EfYc0-yiEM-xkacGP",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   }],
@@ -682,7 +682,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1efyUtaypaFusaz_Z3FLkfU8JyKLI8Xjz?usp=sharing",
-      "glow": true,
+      "glow": "blue",
       "note": "Scans (EN)"
     }]
   },
@@ -702,7 +702,7 @@ let entry_data = {
     {
       "type": "mangadex",
       "link": "https://mangadex.org/title/eb17cb9f-3b06-424a-a90c-6e978dda8bf9/fire-emblem-gaiden",
-      "glow": true,
+      "glow": "blue",
       "note": "Translations"
     }]
   },
@@ -722,13 +722,13 @@ let entry_data = {
     {
       "type": "mangadex",
       "link": "  https://mangadex.org/title/241f4867-e8c7-4c94-89da-6468b94d46ed/fire-emblem-echoes-mou-hitori-no-eiyuu-ou-comic-anthology",
-      "glow": true,
+      "glow": "blue",
       "note": "All"
     },
     {
       "type": "external",
       "link": "https://kantopia.wordpress.com/2018/01/28/fire-emblem-echoes-shadows-of-valentia-comic-anthology-4koma-translations-all/",
-      "glow": true,
+      "glow": "blue",
       "note": "4komas"
     }]
   },
@@ -745,7 +745,7 @@ let entry_data = {
     {
       "type": "external",
       "link": "https://kantopia.wordpress.com/2018/04/01/fe-echoes-sov-memorial-book-valentia-accordion-scan-translation-compilation-post/",
-      "glow": true,
+      "glow": "blue",
       "note": "Translations"
     }]
   },
@@ -762,7 +762,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1VsCgf4EqbYiGXWdRTZWC0KtGvQZ8VFqn",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -782,7 +782,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1VukemM7dNj4vN9xU_lXd8Fgf9hhbOeka",
-      "glow": true,
+      "glow": "blue",
       "note": "Book 1"
     }]
   }],
@@ -805,13 +805,13 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1Ah26-A1hxYMXG2RbpOIRuHbhtW-WorVs",
-      "glow": true,
+      "glow": "blue",
       "note": "Vol 13-16"
     },
     {
       "type": ["mangadex"],
       "link": "https://mangadex.org/title/81e9cf75-908b-489e-906d-c7f001673274/fire-emblem-genealogy-of-the-holy-war",
-      "glow": true,
+      "glow": "blue",
       "note": "Vol 1-16"
     }]
   },
@@ -832,7 +832,7 @@ let entry_data = {
     {
       "type": "mangadex",
       "link": "https://mangadex.org/title/9259bdc2-d6f1-4bf8-b4a7-725f34f4b8fd/fire-emblem-genealogy-of-the-holy-war",
-      "glow": true,
+      "glow": "blue",
       "note": "Ch 1-38"
     }]
   },
@@ -852,7 +852,7 @@ let entry_data = {
     {
       "type": "mangadex",
       "link": "https://mangadex.org/title/d720f17c-473b-410e-adab-a1c5543fcc09/fire-emblem-successor-of-the-light",
-      "glow": true,
+      "glow": "blue",
       "note": "Ch 1-21"
     }]
   },
@@ -869,7 +869,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1VAWgDkwLn1BoCugO6LiSK3Cx_YIZ8b8a",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -889,7 +889,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1kTI7zrOPY_pnRT85Jg4J8wVMc5BPgahY",
-      "glow": true,
+      "glow": "blue",
       "note": "Translations"
     }]
   },
@@ -907,19 +907,19 @@ let entry_data = {
     {
       "type": "mangadex",
       "link": "https://mangadex.org/title/bf2109c7-2250-42bf-b6ca-e3b2903653fb/fire-emblem-genealogy-of-the-holy-war-gekka-ginyu",
-      "glow": true,
+      "glow": "blue",
       "note": "Story (EN)"
     },
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1aZD5YEqVH_udy2sUO_MWxBBqxZ08EfDW",
-      "glow": true,
+      "glow": "blue",
       "note": "Story (EN)"
     },
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1Ow0oU5yX1-wRmU4-cfFNzNk24nrQnqa2",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -935,7 +935,7 @@ let entry_data = {
     {
       "type": ["gdrive"],
       "link": "https://drive.google.com/drive/folders/1jnvf9LSjU7KPPM6V81olwlEqjqpOB8B-",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -951,7 +951,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1ucy7uNSGj-7_DR1rWUdhMZpbIYoGSoFt",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -970,13 +970,13 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1pSiDEjAwUTxIN3LAmvZBQ99gknisZ_3c",
-      "glow": true,
+      "glow": "blue",
       "note": "Translations"
     },
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1JxJOJedTP1AtNJ728LjYrTgkUIDhLXgQ",
-      "glow": false,
+      "glow": "black",
       "note": "Vol 1-5 (JP)"
     }]
   },
@@ -993,13 +993,13 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1KaesxvO81PMYwaAqUp2Sr6VXSuM0uxzi?usp=drive_link",
-      "glow": true,
+      "glow": "blue",
       "note": "Translations"
     },
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1XD_OfV3wKYwXVhyjC0WFTLEkGMW_FOBD",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1015,7 +1015,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/10EFlg6gWOPOz5Wp-gUtXTiHzo2fOPxJ8",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1031,7 +1031,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/171KcHPc5XcQ8lWomWbgjDfRxUTFMQGzg",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1047,7 +1047,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/160OGlP9e2QCBclusrKRa7jgFMFtDg6lw",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1063,7 +1063,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1QG7KI7UFmF34AAyfyI59srrDQWZr7eZ5",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1072,7 +1072,7 @@ let entry_data = {
     "published": "September 1, 1996",
     "desc": "Contains the short story 'Fateful Encounter at the Doors of Destiny', centered on Quan.",
     "story": "Jindai Sou",
-    "art" : "Rika Suzuki",
+    "art": "Rika Suzuki",
     "type": ["Guidebook", "Novel"],
     "status": "Untranslated",
     "translation": ['Kitsudori'],
@@ -1081,13 +1081,13 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://docs.google.com/document/d/1tMrg68NdvlA7HJOy0Br-mLdC2SVqVG23WW7-11nA2yQ/edit?usp=sharing",
-      "glow": true,
+      "glow": "blue",
       "note": "Story (EN)"
     },
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1-C7epGBbKp9sZDIqAwGD0D0J3epc6gmu",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1103,7 +1103,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1F6RWVOxWUPLmov9JTs8fyoxdYrFgGuQw",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1119,7 +1119,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1oz0U8YzdF7TaUT5EfYc0-yiEM-xkacGP",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1135,7 +1135,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1HQX568sx4Gx5SzmwMzuqnLR8zCwLfl0V",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1153,13 +1153,13 @@ let entry_data = {
     {
       "type": "mangadex",
       "link": "https://mangadex.org/title/a8ffcf08-5cb9-4ed1-bd40-d73b7450ac74/fire-emblem-genealogy-of-the-holy-war-those-who-inherit-the-light",
-      "glow": true,
+      "glow": "blue",
       "note": "Translations"
     },
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1q7UNICK4NGDQEyRTSyODKh5R4E0iN9Iq",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1176,13 +1176,13 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1ApBadZm7yD1aRTYnPph_X2ywvjePwkHZ",
-      "glow": false,
+      "glow": "black",
       "note": "Book 1 (JP)"
     },
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1byVDmBWdEvnXSE82IFD_XENkDMLPjotT",
-      "glow": false,
+      "glow": "black",
       "note": "Book 2 (JP)"
     }]
   },
@@ -1202,7 +1202,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1dGUtCC8jk5ENhpb0Uvj_LH1VQbcnC5Da?usp=drive_link",
-      "glow": true,
+      "glow": "blue",
       "note": "Books 1-3 (EN)"
     }]
   },
@@ -1218,12 +1218,11 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1-j3G33rcte5oiHjNV48_FtxLNfcwXl3N",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
-
-    {
+  {
     "name": "Nintendo Power",
     "published": "August 1996",
     "desc": "4 Pages from the August 1996 edition of Nintendo Power focused on Genealogy of the Holy War.",
@@ -1235,33 +1234,27 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/file/d/1RB0Y_m9ukp0G3c0lma5BzDTcpfC-yEvw/view",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (EN)"
     }]
   },
-
-
-
-  
-
-    {
+  {
     "name": "Gag Battle SC Edition",
     "published": "July 1, 1996",
     "desc": "A collection of 4komas with both Gen 1 and Gen 2 stories.",
     "type": ["4koma"],
     "status": "Untranslated",
-    "scans" : "@gaebolgz",
+    "scans": "@gaebolgz",
     "translation": false,
     "img": "gothw_gagsc",
     "buttons": [
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1yg21UqDy68h4h4HLdtznAwzZAa4PYnDp?usp=drive_link",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
-
   {
     "name": "Game Manual",
     "published": "May 14, 1996",
@@ -1274,7 +1267,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/file/d/1zNdLPPKerywR0roPiDdaBfT5y37RROtE/view?usp=sharing",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   }, ],
@@ -1287,7 +1280,7 @@ let entry_data = {
     "art": "Takanagi Yuuna",
     "type": ["Manga"],
     "status": "Translation in Progress",
-    "scans" : "Yosjiefo",
+    "scans": "Yosjiefo",
     "translation": [
       "Kitsudori"
     ],
@@ -1296,13 +1289,13 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1vqlwDa8fKrzQ4r-lvMYmAZc9qLxgi8Cy?usp=sharing]",
-      "glow": true,
+      "glow": "blue",
       "note": "Translations"
     },
     {
       "type": "mangadex",
       "link": "https://mangadex.org/title/bb1792a0-5887-4dcf-abc4-a733934f6eb1/fire-emblem-thracia-776?tab=art",
-      "glow": true,
+      "glow": "blue",
       "note": "Translations"
     }]
   },
@@ -1319,7 +1312,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1WG6zJaA0SjXBcEYXkDXtXQhyK4yGla9q?usp=drive_link",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1337,7 +1330,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1qeR4xZMT1vRPTX3xks3AiAhrPZreBml-?usp=drive_link",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1355,7 +1348,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1_ovqBXO_xxrbrbooT67JnuaETz2mjznx",
-      "glow": true,
+      "glow": "blue",
       "note": "Books 1-2 (EN)"
     }]
   },
@@ -1372,13 +1365,13 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1KaesxvO81PMYwaAqUp2Sr6VXSuM0uxzi?usp=drive_link",
-      "glow": true,
+      "glow": "blue",
       "note": "Translations"
     },
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1XD_OfV3wKYwXVhyjC0WFTLEkGMW_FOBD",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1395,7 +1388,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1CyfiJ8nLsgaMDlbZGs-Hh03_0jx48_DL?usp=sharing",
-      "glow": true,
+      "glow": "blue",
       "note": "Scans"
     }]
   },
@@ -1411,7 +1404,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1z3RX73Zm9qS56wNfg_ZExEhSHphfcxBY",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1427,7 +1420,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1e7WldML3PKkmwVjlri1WVJbb6OClY-iy?usp=drive_link",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1443,7 +1436,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1ODa7h3JJdowtYr9ng8UDGfggRvVkUVtz",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1459,7 +1452,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1HUY_9BzMQxDb0O7oFkTwV2a0fh7ozUvG?usp=drive_link",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1475,7 +1468,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1xKf9Pa2rtsq_ZAbLNAId0QtCAEeEFVLf",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1491,7 +1484,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/16wHtpDzJkYmEZPtPEswuoC5mJCTvdUKN",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1507,7 +1500,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1E1U0RrIS6Nc74J6jLbsQXa9IfbUCuNiz?usp=drive_link",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1523,7 +1516,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1bVizG0_FAxaUmBlMQfnav3Q-6NtsmzyR?usp=drive_link",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1535,19 +1528,17 @@ let entry_data = {
     "status": "Spanish Translation",
     "translation": false,
     "img": "t776_manual",
-
-    
     "buttons": [
-      {
+    {
       "type": "gdrive",
       "link": "https://drive.google.com/file/d/1C_hxJBM32O2r9ts4d3S4ygO8Y0YHVgLk/view?usp=drive_link",
-      "glow": false,
+      "glow": "yellow",
       "note": "Trans. (ES)"
     },
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1NG4OXgjAmElZzJoPO0oXa38qU-MKsqm8?usp=sharing",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   }, ],
@@ -1568,7 +1559,7 @@ let entry_data = {
     {
       "type": "mangadex",
       "link": "https://mangadex.org/title/d320eeff-08d2-424d-9513-77b17b219354/fire-emblem-6-another-story-champion-s-sword",
-      "glow": true,
+      "glow": "blue",
       "note": "Ch 1-45 (EN)"
     }]
   },
@@ -1585,7 +1576,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1HqDSzoKQIXDUpiiGbMAhpG06nzg0wCh_",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1602,7 +1593,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1aoRcBIhSB8K8CUQ9FyvtjmCbCyMPPquD",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1619,7 +1610,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1X9HBqJl5BuwZ9oWB7tyqsxEZrS04BdAG",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1635,7 +1626,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/file/d/1GcScgbftql1EeeAOvse8nwwXSqxb_eOA/view?usp=sharing",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   }],
@@ -1656,7 +1647,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1wJ4jmra4GBelMLIT-Y-XM5y_jLhRf3Z5",
-      "glow": true,
+      "glow": "blue",
       "note": "Books 1-2 (EN)"
     }]
   },
@@ -1674,7 +1665,7 @@ let entry_data = {
     {
       "type": "archive",
       "link": "https://archive.org/details/fireemblemmanualgba",
-      "glow": true,
+      "glow": "blue",
       "note": "Scans (EN)"
     }]
   },
@@ -1691,7 +1682,7 @@ let entry_data = {
     {
       "type": "archive",
       "link": "https://archive.org/details/FireEmblemGBANintendoPlayersGuide",
-      "glow": true,
+      "glow": "blue",
       "note": "Scans (EN)"
     }]
   }],
@@ -1712,13 +1703,10 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1HlaBPNkUGqTeoiOzpuUUiOIJSNh771rE?usp=drive_link",
-      "glow": true,
+      "glow": "blue",
       "note": "Books 1-2 (EN)"
     }]
   },
-
-
-
   {
     "name": "Game Manual",
     "published": "October 7, 2004",
@@ -1733,7 +1721,7 @@ let entry_data = {
     {
       "type": "archive",
       "link": "https://archive.org/details/fireemblemthesacredstonesmanualgba",
-      "glow": true,
+      "glow": "blue",
       "note": "Scans (EN)"
     }]
   },
@@ -1750,7 +1738,7 @@ let entry_data = {
     {
       "type": "archive",
       "link": "https://archive.org/details/fire-emblem-the-sacred-stones-nintendo-players-guide",
-      "glow": true,
+      "glow": "blue",
       "note": "Scans (EN)"
     }]
   }],
@@ -1771,7 +1759,7 @@ let entry_data = {
     {
       "type": "external",
       "link": "https://kantopia.wordpress.com/2016/07/31/fire-emblem-por-tellius-recollection-scantranslation-compilation-post/",
-      "glow": true,
+      "glow": "blue",
       "note": "Translations"
     }]
   },
@@ -1787,7 +1775,7 @@ let entry_data = {
     {
       "type": "archive",
       "link": "https://archive.org/details/fire-emblem-path-of-radiance-players-guide/mode/2up",
-      "glow": true,
+      "glow": "blue",
       "note": "Scans (EN)"
     }]
   },
@@ -1803,7 +1791,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/file/d/1n4MOIMw7K9jXNU6bf149rJEDUbE9ymIk/view?usp=sharing",
-      "glow": true,
+      "glow": "blue",
       "note": "Scans (EN)"
     }]
   }],
@@ -1823,7 +1811,7 @@ let entry_data = {
     {
       "type": "external",
       "link": "https://kantopia.wordpress.com/2016/11/28/fire-emblem-rd-tellius-recollection-vol-2-scantranslation-compilation-post/",
-      "glow": true,
+      "glow": "blue",
       "note": "Translations"
     }]
   },
@@ -1839,7 +1827,7 @@ let entry_data = {
     {
       "type": "archive",
       "link": "https://archive.org/details/fire-emblem-radiant-dawn-prima-strategy-guide/mode/2up",
-      "glow": true,
+      "glow": "blue",
       "note": "Scans (EN)"
     }]
   },
@@ -1855,7 +1843,7 @@ let entry_data = {
     {
       "type": "archive",
       "link": "https://archive.org/details/manuallib-id-2492732/mode/2up",
-      "glow": true,
+      "glow": "blue",
       "note": "Scans (EN)"
     }]
   }],
@@ -1871,8 +1859,7 @@ let entry_data = {
     "img": "awk_main",
     "buttons": []
   },
-
-    {
+  {
     "name": "Official Comic",
     "published": "June 2012 - June 2013",
     "desc": "The official Fire Emblem: Awakening comic published by Nintendo Dream. It featured 11 two-page chapters that provided additional background on some of the game's playable characters. Later, all 11 chapters were put together and published in a commemorative booklet, along with some extras.",
@@ -1880,14 +1867,14 @@ let entry_data = {
     "status": "Fully Translated",
     "translation": ["Amielleon"],
     "img": "awk_dream",
-    "buttons": [  {
+    "buttons": [
+    {
       "type": "external",
       "link": "https://serenesforest.net/gallery/manga/official-fire-emblem-awakening-comic/",
-      "glow": true,
+      "glow": "blue",
       "note": "Translations"
     }]
   },
-
   {
     "name": "Kozaki Holiday Fan Book",
     "published": "2019",
@@ -1902,7 +1889,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1LmU_rxPERXGI7nEcoRwcmcougdWAsoRV",
-      "glow": false,
+      "glow": "black",
       "note": "Scans"
     }]
   },
@@ -1922,13 +1909,13 @@ let entry_data = {
     {
       "type": "mangadex",
       "link": "https://mangadex.org/title/8bcfdcc4-d07e-4aa8-9f91-0f2a89b988b2/fire-emblem-kakusei-4-koma-kings",
-      "glow": true,
+      "glow": "blue",
       "note": "Translations"
     },
     {
       "type": "external",
       "link": "https://kantopia.wordpress.com/2015/01/26/fe-a-yonkoma-kings-translation-all-ongoing/",
-      "glow": true,
+      "glow": "blue",
       "note": "Translations"
     }]
   },
@@ -1948,7 +1935,7 @@ let entry_data = {
     {
       "type": "mangadex",
       "link": "https://mangadex.org/title/7da3a22b-151c-43c6-97df-0e86a71ea2ce/fire-emblem-awakening-comic-anthology",
-      "glow": true,
+      "glow": "blue",
       "note": "Translations"
     }]
   }],
@@ -1967,7 +1954,7 @@ let entry_data = {
     {
       "type": "external",
       "link": "https://imgur.com/a/pellucid-crystal-scans-raw-eNmezzA",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -1985,7 +1972,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1c33OrsiL6UEFeOOQJTDtynIY0dK3Q-1K?usp=sharing",
-      "glow": true,
+      "glow": "blue",
       "note": "Scans (EN)"
     }]
   },
@@ -2005,7 +1992,7 @@ let entry_data = {
     {
       "type": "mangadex",
       "link": "https://mangadex.org/title/0f7ef4b8-d6c1-4b0c-901c-41f3490d79e3/fire-emblem-fates-crown-of-nibelung",
-      "glow": true,
+      "glow": "blue",
       "note": "Translations"
     }]
   },
@@ -2024,13 +2011,13 @@ let entry_data = {
     {
       "type": "mangadex",
       "link": " https://mangadex.org/title/3ac5ae4c-33b9-40b2-9c88-16f6c004d9c8/fire-emblem-if-fates-4koma-kings",
-      "glow": true,
+      "glow": "blue",
       "note": "Translations"
     },
     {
       "type": "external",
       "link": "https://kantopia.wordpress.com/2016/03/04/fire-emblem-iffates-4koma-kings-translations/",
-      "glow": true,
+      "glow": "blue",
       "note": "Translations"
     }]
   },
@@ -2050,7 +2037,7 @@ let entry_data = {
     {
       "type": "external",
       "link": "https://kantopia.wordpress.com/2015/09/29/fire-emblem-fates-4koma-character-book-translations/",
-      "glow": true,
+      "glow": "blue",
       "note": "Translations"
     }]
   },
@@ -2067,7 +2054,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/12fJ7FkUQGWruYAbtzNm5gflGFDrWxgm9",
-      "glow": false,
+      "glow": "black",
       "note": "Scans (JP)"
     }]
   },
@@ -2085,7 +2072,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1LmU_rxPERXGI7nEcoRwcmcougdWAsoRV",
-      "glow": false,
+      "glow": "black",
       "note": "Scans"
     }]
   }],
@@ -2103,7 +2090,7 @@ let entry_data = {
     {
       "type": "external",
       "link": "https://www.fireemblemwod.com/gallery/thumbnails.php?album=109",
-      "glow": true,
+      "glow": "blue",
       "note": "Scans (EN)"
     }]
   },
@@ -2120,12 +2107,11 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/file/d/1vTiOA9iXZ3seRxf6qk44Kyb4CzUFSe68/view?usp=sharing",
-      "glow": true,
+      "glow": "blue",
       "note": "Scans (EN)"
     }]
   },
-
-    {
+  {
     "name": "Soundtrack Booklet",
     "published": "February 17, 2021",
     "desc": "Booklet accompanying the official soundtrack. Contains artwork, a list of tracks, lyrics, and a letter from the director.",
@@ -2138,15 +2124,10 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/161M99EHbwa1dHPAeP77i9_ZysMV2HFmp?usp=sharing",
-      "glow": true,
+      "glow": "blue",
       "note": "Scans (JP)"
     }]
-  },
-
-
-
-
-  ],
+  }, ],
   "engage": [
   {
     "name": "Fire Emblem Engage (Kazuro Kyou)",
@@ -2162,7 +2143,7 @@ let entry_data = {
     {
       "type": "mangadex",
       "link": "https://mangadex.org/title/54510496-b1d9-4b71-ac97-b50dec06d685/fire-emblem-engage",
-      "glow": true,
+      "glow": "blue",
       "note": "Translations"
     }]
   },
@@ -2180,7 +2161,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1JnOvAwsPcez3gO5MBXmkdUGqPc-BdmqN",
-      "glow": true,
+      "glow": "blue",
       "note": "Scans (EN)"
     }]
   },
@@ -2197,7 +2178,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://docs.google.com/spreadsheets/d/12uNPttQU4PNHYoEQM6gsUmc6mF3IMG2blYtL4YF9zzo/edit?usp=sharing",
-      "glow": true,
+      "glow": "blue",
       "note": "Translation"
     }]
   }],
@@ -2216,13 +2197,13 @@ let entry_data = {
     {
       "type": "external",
       "link": "https://fire-emblem-heroes.com/en/manga/",
-      "glow": true,
+      "glow": "blue",
       "note": "Ch 101- Curr."
     },
     {
       "type": "mangadex",
       "link": "https://mangadex.org/title/99830840-8b6f-479f-8524-d220ba162007/fire-emblem-heroes-daily-lives-of-the-heroes?tab=chapters&order=asc",
-      "glow": true,
+      "glow": "blue",
       "note": "Ch 0-100"
     }]
   },
@@ -2241,7 +2222,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1K67jDK5GUjFSrkUQ3Pdy2AzJGIhBjk5T?usp=sharing",
-      "glow": true,
+      "glow": "blue",
       "note": "Concept"
     }]
   },
@@ -2260,7 +2241,7 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1IohZEXdxpoiglXlS3iBiG0ATT5x8TO36?usp=sharing",
-      "glow": true,
+      "glow": "blue",
       "note": "Concept"
     }]
   }],
@@ -2278,7 +2259,7 @@ let entry_data = {
     {
       "type": "external",
       "link": "https://idolasphere-performa.tumblr.com/US-SEgoodies/SE_Book",
-      "glow": true,
+      "glow": "blue",
       "note": "Scans (EN)"
     }]
   }],
@@ -2287,26 +2268,23 @@ let entry_data = {
       "name": "20th Anniversary Encyclopedia",
       "published": "June 30, 2010",
       "desc": "A fan book that covers the series from the first installment, Shadow Dragon and the Blade of Light to New Mystery of the Emblem. It contains messages, illustrations, interviews, and a World Guide that is seperated by continents rather than games.",
-
       "type": ["Artbook"],
       "status": "Translation in Progress",
       "translation": false,
       "img": "series_20",
       "buttons": [
-         {
+      {
         "type": "external",
         "link": "https://emblem-translations.vercel.app/",
-        "glow": true,
+        "glow": "blue",
         "note": "Translation"
       },
       {
         "type": "gdrive",
         "link": "https://drive.google.com/file/d/1R_JET3GOikA97kLfqjzKkiMdq4SVpoqp/view?usp=sharing",
-        "glow": false,
+        "glow": "black",
         "note": "Scans (JP)"
       }]
-
-      
     },
     {
       "name": "The Making of Fire Emblem",
@@ -2321,7 +2299,7 @@ let entry_data = {
       {
         "type": "external",
         "link": "https://kantopia.wordpress.com/2015/12/10/fire-emblem-25th-anniversary-book-scantranslation-compilation-post/",
-        "glow": true,
+        "glow": "blue",
         "note": "Translations"
       }]
     },
@@ -2340,7 +2318,7 @@ let entry_data = {
       {
         "type": "archive",
         "link": "https://archive.org/details/fireemblemthecomplete",
-        "glow": false,
+        "glow": "black",
         "note": "Scans (JP)"
       }]
     },
@@ -2359,7 +2337,7 @@ let entry_data = {
       {
         "type": "archive",
         "link": "https://archive.org/details/fireemblem25thofficialstaffbook",
-        "glow": false,
+        "glow": "black",
         "note": "Scans (JP)"
       }]
     },
@@ -2378,27 +2356,27 @@ let entry_data = {
       {
         "type": "archive",
         "link": "https://archive.org/details/fewtreasureboxartbook",
-        "glow": false,
+        "glow": "black",
         "note": "Scans (JP)"
       }]
-    }
-    /*,
+    },
+    
         {
         "name": "One Hundred Songs of Heroes",
         "published": "July 24, 2015",
         "desc": "A limited-edition set of traditional Japanese uta-garuta playing cards based on the Fire Emblem series which was released as premium merchandise for the series' 25th anniversary. They were originally exclusively available for sale at The 25th Anniversary of Love and Courage: Fire Emblem Festival.",
         "art": "Various",
         "type": ["Misc"],
-        "status": "",
+        "status": "Translation Not Required",
         "translation": false,
         "img": "series_cards",
         "buttons": [
         {
           "type": "gdrive",
-          "link": "",
-          "glow": true,
+          "link": "https://drive.google.com/drive/folders/15Hag4xgQCRjHXOvAiLeggK_0IeIOUY4c?usp=sharing",
+          "glow": "blue",
           "note": "Gallery"
         }]
-      }*/
+      }
   ]
 }
