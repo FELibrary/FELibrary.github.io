@@ -427,6 +427,25 @@ let entry_data = {
       "note": "Scans (JP)"
     }]
   },
+
+    {
+    "name": "Mystery of the Emblem APE Professional Guide",
+    "published": "May 1, 1994",
+    "desc": "",
+    "type": ["Guidebook"],
+    "status": "Untranslated",
+    "scans": "Oh Block",
+    "translation": false,
+    "img": "arc_ape3pro",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1d1-k6aqHMZPufuGwiPzamZh07UiEppWl?usp=sharing",
+      "glow": "black",
+      "note": "Scans (JP)"
+    }]
+  },
+
   {
     "name": "Mystery of the Emblem Strategy Manual",
     "published": "Unknown",
