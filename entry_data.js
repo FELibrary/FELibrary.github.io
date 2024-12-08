@@ -2311,7 +2311,7 @@ let entry_data = {
       "desc": "A design book providing the developement information and secrets of the Fire Emblem series, from the beginning of the series to the latest releases at the time, Fire Emblem Awakening and Fire Emblem Fates.",
       "art": "",
       "type": ["Artbook"],
-      "status": "Fully Translated",
+      "status": "Partially Translated",
       "translation": ["Kantopia"],
       "img": "series_making",
       "buttons": [
