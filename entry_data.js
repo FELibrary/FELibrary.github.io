@@ -35,7 +35,7 @@ let entry_data = {
       "note": "Vol 1-12 (EN)"
     },
     {
-      "type": "external",
+      "type": "serenes",
       "link": "https://serenesforest.net/gallery/manga/dark-dragon-and-sword-of-light/",
       "glow": "blue",
       "note": "Vol 1-12 (EN)"
@@ -88,7 +88,7 @@ let entry_data = {
     "img": "arc_all",
     "buttons": [
     {
-      "type": "external",
+      "type": "serenes",
       "link": "https://serenesforest.net/gallery/all-of-fire-emblem/",
       "glow": "black",
       "note": "Scans (JP)"
@@ -394,6 +394,23 @@ let entry_data = {
     }]
   },
   {
+    "name": "Fire Emblem Lifetime Book",
+    "published": "August 19, 1994",
+    "desc": "A Mystery of the Emblem guide that covers various parts of FE3. It has many humorous illustrations, and it introduces two original characters called Reggae and Rap.",
+    "type": ["Guidebook"],
+    "status": "Untranslated",
+    "scans": "Oh Block",
+    "translation": false,
+    "img": "arc_lifetime",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1drf-8Tg-CU4MKToRxeY0TpNR0vezXjMf?usp=sharing",
+      "glow": "black",
+      "note": "Scans (JP)"
+    }]
+  },
+  {
     "name": "Shadow Dragon Encyclopedia",
     "published": "May 20, 1990",
     "desc": "Contains a full world map of Archanea",
@@ -545,7 +562,7 @@ let entry_data = {
     "img": "arc_reco",
     "buttons": [
     {
-      "type": "external",
+      "type": "serenes",
       "link": "https://serenesforest.net/gallery/recollections-of-fire-emblem/",
       "glow": "black",
       "note": "Scans (JP)"
@@ -1427,18 +1444,27 @@ let entry_data = {
       "note": "Scans (JP)"
     }]
   },
+
+
   {
     "name": "Enix 4koma",
     "published": "February 18, 2000",
     "desc": " 4koma collection featuring the Thracia 776 cast.",
     "type": ["4koma"],
     "status": "Untranslated",
+    "scans" : "FlareHabanero",
     "translation": false,
     "img": "t776_enix",
     "buttons": [
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1e7WldML3PKkmwVjlri1WVJbb6OClY-iy?usp=drive_link",
+      "glow": "black",
+      "note": "Scans (JP)"
+    },
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/FireEmblemThracia7764KomaVol1",
       "glow": "black",
       "note": "Scans (JP)"
     }]
@@ -1449,12 +1475,20 @@ let entry_data = {
     "desc": "A 4koma collection featuring the Thracia 776 cast. It contains several full-page illustrations.",
     "type": ["4koma"],
     "status": "Untranslated",
+    "scans" : "FlareHabanero",
     "translation": false,
     "img": "t776_kobunsha1",
     "buttons": [
+      
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1ODa7h3JJdowtYr9ng8UDGfggRvVkUVtz",
+      "glow": "black",
+      "note": "Scans (JP)"
+    },
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/fireemblemthracia7764koma2",
       "glow": "black",
       "note": "Scans (JP)"
     }]
@@ -1465,22 +1499,32 @@ let entry_data = {
     "desc": " 4koma collection featuring the Thracia 776 cast.",
     "type": ["4koma"],
     "status": "Untranslated",
+    "scans" : "FlareHabanero",
     "translation": false,
     "img": "t776_kobunsha4",
     "buttons": [
+      
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1HUY_9BzMQxDb0O7oFkTwV2a0fh7ozUvG?usp=drive_link",
       "glow": "black",
       "note": "Scans (JP)"
+    },
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/FireEmblemThracia7764KomaManga",
+      "glow": "black",
+      "note": "Scans (JP)"
     }]
   },
+  
   {
     "name": "Kobunsha Comic Anthology 1",
     "published": "December 1, 1999",
     "desc": "Starts with several full-page illustrations from the FE Fan Illus. Club.",
     "type": ["Manga"],
     "status": "Untranslated",
+    "scans" : "FlareHabanero",
     "translation": false,
     "img": "t776_kobunsha2",
     "buttons": [
@@ -1489,7 +1533,14 @@ let entry_data = {
       "link": "https://drive.google.com/drive/folders/1xKf9Pa2rtsq_ZAbLNAId0QtCAEeEFVLf",
       "glow": "black",
       "note": "Scans (JP)"
-    }]
+    },
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/FireEmblemThracia776MangaVol1",
+      "glow": "black",
+      "note": "Scans (JP)"
+    }
+    ]
   },
   {
     "name": "Kobunsha Comic Anthology 2",
@@ -1497,6 +1548,7 @@ let entry_data = {
     "desc": "Starts with several full-page illustrations from the FE Fan Illus. Club.",
     "type": ["Manga"],
     "status": "Untranslated",
+    "scans" : "FlareHabanero",
     "translation": false,
     "img": "t776_kobunsha3",
     "buttons": [
@@ -1505,20 +1557,38 @@ let entry_data = {
       "link": "https://drive.google.com/drive/folders/16wHtpDzJkYmEZPtPEswuoC5mJCTvdUKN",
       "glow": "black",
       "note": "Scans (JP)"
-    }]
+    },
+     {
+      "type": "archive",
+      "link": "https://archive.org/details/FireEmblemThracia776MangaVol2",
+      "glow": "black",
+      "note": "Scans (JP)"
+    }
+   
+
+    ]
   },
+
+
   {
     "name": "Kobunsha Short Comics",
     "published": "January 1, 2000",
     "desc": "A comic anthology featuring the Thracia 776. Contains some color pages.",
     "type": ["Manga"],
     "status": "Untranslated",
+    "scans" : "FlareHabanero",
     "translation": false,
     "img": "t776_kobunsha5",
     "buttons": [
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1E1U0RrIS6Nc74J6jLbsQXa9IfbUCuNiz?usp=drive_link",
+      "glow": "black",
+      "note": "Scans (JP)"
+    },
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/FireEmblemThracia776MangaVol3",
       "glow": "black",
       "note": "Scans (JP)"
     }]
@@ -1537,7 +1607,16 @@ let entry_data = {
       "link": "https://drive.google.com/drive/folders/1bVizG0_FAxaUmBlMQfnav3Q-6NtsmzyR?usp=drive_link",
       "glow": "black",
       "note": "Scans (JP)"
-    }]
+    },
+
+ {
+      "type": "archive",
+      "link": "https://archive.org/details/24-fire-emblem-thracia-776-navarre-kouta/FireEmblem%20Thracia%20776%20Navarre%20Kouta/03_FireEmblem%20Thracia%20776%20Navarre%20Kouta.jpeg",
+      "glow": "black",
+      "note": "Scans (JP)"
+    },
+
+    ]
   },
   {
     "name": "Game Manual",
@@ -1560,7 +1639,26 @@ let entry_data = {
       "glow": "black",
       "note": "Scans (JP)"
     }]
-  }, ],
+  }, 
+
+    {
+    "name": "Lil' Manster Translation Patch",
+    "published": "December 23, 2019",
+    "desc": "Full Thracia 776 menu/script translation patch based on the Project Exile script, complete with many quality-of-life features.",
+    "type": ["Misc"],
+    "status": "English Translation",
+    "translation": false,
+    "img": "t776_manster",
+    "buttons": [
+    {
+      "type": "serenes",
+      "link": "https://forums.serenesforest.net/topic/90189-fe5-lil-manster-%E2%80%93-translation-and-quality-of-life-patch-for-thracia-776/",
+      "glow": "blue",
+      "note": "Details"
+    }]
+  }
+
+  ],
   "binding": [
   {
     "name": "Another Story - Champion's Sword",
@@ -1888,7 +1986,7 @@ let entry_data = {
     "img": "awk_dream",
     "buttons": [
     {
-      "type": "external",
+      "type": "serenes",
       "link": "https://serenesforest.net/gallery/manga/official-fire-emblem-awakening-comic/",
       "glow": "blue",
       "note": "Translations"
@@ -1993,7 +2091,15 @@ let entry_data = {
       "link": "https://drive.google.com/drive/folders/1c33OrsiL6UEFeOOQJTDtynIY0dK3Q-1K?usp=sharing",
       "glow": "blue",
       "note": "Scans (EN)"
-    }]
+    },
+
+      {
+      "type": "archive",
+      "link": "https://archive.org/details/46_20240903",
+      "glow": "blue",
+      "note": "Scans (EN)"
+    }
+    ]
   },
   {
     "name": "Crown of Nibelung",
