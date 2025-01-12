@@ -410,6 +410,25 @@ let entry_data = {
       "note": "Scans (JP)"
     }]
   },
+
+   {
+    "name": "Fire Emblem Winning Strategy",
+    "published": "July 1, 1990",
+    "desc": "Part of Futabasha's Famicom Perfect Strategy series. It delivers tactics for all the maps in FE1 and contains illustrations of said maps.",
+    "type": ["Guidebook"],
+    "status": "Untranslated",
+    "scans": "Oh Block",
+    "translation": false,
+    "img": "arc_winning",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/1xX8tqT-hz0zWdhmQI9_SR2bftGKJldWv?usp=sharing",
+      "glow": "black",
+      "note": "Scans (JP)"
+    }]
+  },
+
   {
     "name": "Shadow Dragon Encyclopedia",
     "published": "May 20, 1990",

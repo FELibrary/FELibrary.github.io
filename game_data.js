@@ -74,6 +74,6 @@ let games = {
   },
   "series" : {
     "name" : "Series-Wide",
-    "filters" : ['All', 'Artbook']
+    "filters" : ['All', 'Artbook', 'Misc']
   }
 }
