@@ -410,8 +410,7 @@ let entry_data = {
       "note": "Scans (JP)"
     }]
   },
-
-   {
+  {
     "name": "Fire Emblem Winning Strategy",
     "published": "July 1, 1990",
     "desc": "Part of Futabasha's Famicom Perfect Strategy series. It delivers tactics for all the maps in FE1 and contains illustrations of said maps.",
@@ -428,7 +427,6 @@ let entry_data = {
       "note": "Scans (JP)"
     }]
   },
-
   {
     "name": "Shadow Dragon Encyclopedia",
     "published": "May 20, 1990",
@@ -463,8 +461,7 @@ let entry_data = {
       "note": "Scans (JP)"
     }]
   },
-
-    {
+  {
     "name": "Mystery of the Emblem APE Professional Guide",
     "published": "May 1, 1994",
     "desc": "",
@@ -481,7 +478,6 @@ let entry_data = {
       "note": "Scans (JP)"
     }]
   },
-
   {
     "name": "Mystery of the Emblem Strategy Manual",
     "published": "Unknown",
@@ -708,6 +704,23 @@ let entry_data = {
     }]
   },
   {
+    "name": "Nintendo Power #238",
+    "published": "February 2009",
+    "desc": "A detailed 7-page review of Shadow Dragon. The final page is a raffle advertisment for a copy of the game and a Metallic Silver DS.",
+    "type": ["Misc"],
+    "status": "English Release",
+    "scans": "",
+    "translation": false,
+    "img": "arc_power",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/file/d/1xdWpqoFDVsGWrMVnBeUhlYVjNDBVvbqR/view?usp=sharing",
+      "glow": "blue",
+      "note": "Scans (EN)"
+    }]
+  },
+  {
     "name": "Enix Super Comic Gekijoh Vol.2",
     "published": "October 1, 1996",
     "desc": "First half contains FE4, second half contains FE3.",
@@ -839,6 +852,28 @@ let entry_data = {
       "link": "https://drive.google.com/drive/folders/1VukemM7dNj4vN9xU_lXd8Fgf9hhbOeka",
       "glow": "blue",
       "note": "Book 1"
+    }]
+  },
+  {
+    "name": "Nintendo Force #26 & #27",
+    "published": "March-June 2017",
+    "desc": "Issue #26 has a one page announcment about the next issue's focus on the game. Issue #27 has a 2-page overview of the game, as well as amiibo announcments.",
+    "type": ["Misc"],
+    "status": "English Release",
+    "translation": false,
+    "img": "gaiden_nf",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/file/d/1NCvLdD7p_71DCGu4Gh_2DVyzNtrX-zWG/view?usp=sharing",
+      "glow": "blue",
+      "note": "#26 Scans"
+    },
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/file/d/1pSJX-oX7iAnCBswtSZNJ5B5R8I529Nku/view?usp=sharing",
+      "glow": "blue",
+      "note": "#27 Scans"
     }]
   }],
   "gothw": [
@@ -1278,7 +1313,7 @@ let entry_data = {
     }]
   },
   {
-    "name": "Nintendo Power",
+    "name": "Nintendo Power #87",
     "published": "August 1996",
     "desc": "4 Pages from the August 1996 edition of Nintendo Power focused on Genealogy of the Holy War.",
     "type": ["Misc"],
@@ -1289,8 +1324,8 @@ let entry_data = {
     {
       "type": "gdrive",
       "link": "https://drive.google.com/file/d/1RB0Y_m9ukp0G3c0lma5BzDTcpfC-yEvw/view",
-      "glow": "black",
-      "note": "Scans (EN)"
+      "glow": "blue",
+      "note": "#87 Scans"
     }]
   },
   {
@@ -1325,7 +1360,29 @@ let entry_data = {
       "glow": "black",
       "note": "Scans (JP)"
     }]
-  }, ],
+  },
+
+    {
+    "name": "Spanish Translation Patch",
+    "published": "September 27, 2024",
+    "desc": "A complete Spanish translation of Fire Emblem 4, based on the Project Naga script and translation patch for FE4.",
+    "status": "Spanish Translation",
+    "type" : ['Misc'],
+    "translation": ["Xabierin", "Miacis", "VillainThatPlaysTheCello", "& Others"],
+
+    "img": "gothw_patch",
+    "buttons": [
+    {
+      "type": "external",
+      "link": "https://feuniverse.us/t/fe4-complete-fire-emblem-genealogy-of-the-holy-war-spanish-translation/27551",
+      "glow": "yellow",
+      "note": "Details"
+    }]
+  }
+
+
+
+   ],
   "t776": [
   {
     "name": "Thracia 776 Manga (Takanagi Yuuna)",
@@ -1463,15 +1520,13 @@ let entry_data = {
       "note": "Scans (JP)"
     }]
   },
-
-
   {
     "name": "Enix 4koma",
     "published": "February 18, 2000",
     "desc": " 4koma collection featuring the Thracia 776 cast.",
     "type": ["4koma"],
     "status": "Untranslated",
-    "scans" : "FlareHabanero",
+    "scans": "FlareHabanero",
     "translation": false,
     "img": "t776_enix",
     "buttons": [
@@ -1494,11 +1549,10 @@ let entry_data = {
     "desc": "A 4koma collection featuring the Thracia 776 cast. It contains several full-page illustrations.",
     "type": ["4koma"],
     "status": "Untranslated",
-    "scans" : "FlareHabanero",
+    "scans": "FlareHabanero",
     "translation": false,
     "img": "t776_kobunsha1",
     "buttons": [
-      
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1ODa7h3JJdowtYr9ng8UDGfggRvVkUVtz",
@@ -1518,11 +1572,10 @@ let entry_data = {
     "desc": " 4koma collection featuring the Thracia 776 cast.",
     "type": ["4koma"],
     "status": "Untranslated",
-    "scans" : "FlareHabanero",
+    "scans": "FlareHabanero",
     "translation": false,
     "img": "t776_kobunsha4",
     "buttons": [
-      
     {
       "type": "gdrive",
       "link": "https://drive.google.com/drive/folders/1HUY_9BzMQxDb0O7oFkTwV2a0fh7ozUvG?usp=drive_link",
@@ -1536,14 +1589,13 @@ let entry_data = {
       "note": "Scans (JP)"
     }]
   },
-  
   {
     "name": "Kobunsha Comic Anthology 1",
     "published": "December 1, 1999",
     "desc": "Starts with several full-page illustrations from the FE Fan Illus. Club.",
     "type": ["Manga"],
     "status": "Untranslated",
-    "scans" : "FlareHabanero",
+    "scans": "FlareHabanero",
     "translation": false,
     "img": "t776_kobunsha2",
     "buttons": [
@@ -1558,8 +1610,7 @@ let entry_data = {
       "link": "https://archive.org/details/FireEmblemThracia776MangaVol1",
       "glow": "black",
       "note": "Scans (JP)"
-    }
-    ]
+    }]
   },
   {
     "name": "Kobunsha Comic Anthology 2",
@@ -1567,7 +1618,7 @@ let entry_data = {
     "desc": "Starts with several full-page illustrations from the FE Fan Illus. Club.",
     "type": ["Manga"],
     "status": "Untranslated",
-    "scans" : "FlareHabanero",
+    "scans": "FlareHabanero",
     "translation": false,
     "img": "t776_kobunsha3",
     "buttons": [
@@ -1577,25 +1628,20 @@ let entry_data = {
       "glow": "black",
       "note": "Scans (JP)"
     },
-     {
+    {
       "type": "archive",
       "link": "https://archive.org/details/FireEmblemThracia776MangaVol2",
       "glow": "black",
       "note": "Scans (JP)"
-    }
-   
-
-    ]
+    }]
   },
-
-
   {
     "name": "Kobunsha Short Comics",
     "published": "January 1, 2000",
     "desc": "A comic anthology featuring the Thracia 776. Contains some color pages.",
     "type": ["Manga"],
     "status": "Untranslated",
-    "scans" : "FlareHabanero",
+    "scans": "FlareHabanero",
     "translation": false,
     "img": "t776_kobunsha5",
     "buttons": [
@@ -1627,15 +1673,12 @@ let entry_data = {
       "glow": "black",
       "note": "Scans (JP)"
     },
-
- {
+    {
       "type": "archive",
       "link": "https://archive.org/details/24-fire-emblem-thracia-776-navarre-kouta/FireEmblem%20Thracia%20776%20Navarre%20Kouta/03_FireEmblem%20Thracia%20776%20Navarre%20Kouta.jpeg",
       "glow": "black",
       "note": "Scans (JP)"
-    },
-
-    ]
+    }, ]
   },
   {
     "name": "Game Manual",
@@ -1658,15 +1701,14 @@ let entry_data = {
       "glow": "black",
       "note": "Scans (JP)"
     }]
-  }, 
-
-    {
+  },
+  {
     "name": "Lil' Manster Translation Patch",
     "published": "December 23, 2019",
     "desc": "Full Thracia 776 menu/script translation patch based on the Project Exile script, complete with many quality-of-life features.",
     "type": ["Misc"],
     "status": "English Translation",
-    "translation": false,
+    "translation": ["Miacis", "Ultimage", "Zane Avernathy", "& Others"],
     "img": "t776_manster",
     "buttons": [
     {
@@ -1675,9 +1717,7 @@ let entry_data = {
       "glow": "blue",
       "note": "Details"
     }]
-  }
-
-  ],
+  }],
   "binding": [
   {
     "name": "Another Story - Champion's Sword",
@@ -1785,6 +1825,22 @@ let entry_data = {
       "link": "https://drive.google.com/drive/folders/1wJ4jmra4GBelMLIT-Y-XM5y_jLhRf3Z5",
       "glow": "blue",
       "note": "Books 1-2 (EN)"
+    }]
+  },
+  {
+    "name": "Nintendo Power #174",
+    "published": "December 2003",
+    "desc": "Contains an overview of the game, character guides, and tips for Chapters 7-10.",
+    "type": ["Misc"],
+    "status": "English Release",
+    "translation": false,
+    "img": "fe7_power",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/file/d/1kn75aAM-u_dzGwO3HrEMzUXt55Ew-lJ9/view?usp=sharing",
+      "glow": "blue",
+      "note": "#174 Scans"
     }]
   },
   {
@@ -2056,6 +2112,22 @@ let entry_data = {
     }]
   },
   {
+    "name": "Nintendo Force #1",
+    "published": "January/February 2013",
+    "desc": "The debut issue of Nintendo Force Magazine, featuring Awakening on the cover and a 2-page review.",
+    "type": ["Misc"],
+    "status": "English Release",
+    "translation": false,
+    "img": "awk_nf",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/file/d/1h2zQEd-0QghgMqksoFKwp6s9zoXN7wqh/view?usp=sharing",
+      "glow": "blue",
+      "note": "#1 Scans"
+    }]
+  },
+  {
     "name": "Comic Anthology",
     "published": "December 25, 2014",
     "desc": "A collection of 14 short stories by a variety of authors.",
@@ -2111,14 +2183,12 @@ let entry_data = {
       "glow": "blue",
       "note": "Scans (EN)"
     },
-
-      {
+    {
       "type": "archive",
       "link": "https://archive.org/details/46_20240903",
       "glow": "blue",
       "note": "Scans (EN)"
-    }
-    ]
+    }]
   },
   {
     "name": "Crown of Nibelung",
@@ -2203,6 +2273,29 @@ let entry_data = {
     }]
   },
   {
+    "name": "Nintendo Force #19 & #20",
+    "published": "February-April 2016",
+    "desc": "Issue #19 contains an intro to premise of Fates. Issue #20 contains 2-page review of Birthright/Conquest, as well as a page about Corrin's addition to Smash.",
+    "type": ["Misc"],
+    "status": "English Release",
+    "scans": "",
+    "translation": false,
+    "img": "fates_nf",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/file/d/12lKIgW4DWVT7YJkxCwdpp900qBxKmKgK/view?usp=sharing",
+      "glow": "blue",
+      "note": "#19 Scans"
+    },
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/file/d/14U8mh-4Mk4N22piXlN7_u5_lXTx8surd/view?usp=sharing",
+      "glow": "blue",
+      "note": "#20 Scans"
+    }]
+  },
+  {
     "name": "Kozaki Holiday Fan Book",
     "published": "2019",
     "desc": "A collection of Kozaki's sketches and drawings, including drawings posted on social media. Mainly Awakening and Fates characters",
@@ -2271,7 +2364,29 @@ let entry_data = {
       "glow": "blue",
       "note": "Scans (JP)"
     }]
-  }, ],
+  },
+  {
+    "name": "Nintendo Force #40 & #41",
+    "published": "July-September 2019",
+    "desc": "Excerpts from Nintendo Force Magazines issues 40 and 41 that cover Three Houses during it's release period. Also contains a brief history of the Fire Emblem Series and an intro to Fodlan worldbuilding.",
+    "type": ["Misc"],
+    "status": "English Release",
+    "translation": false,
+    "img": "3h_nf",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/file/d/1wf-mUiHomlEmcDg1K_jV-kkyR0wV_ZWF/view?usp=sharing",
+      "glow": "blue",
+      "note": "#40 Scans"
+    },
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/file/d/1psrvvYekgpv1JO2z7WIXkoYUR-7h4UiP/view?usp=sharing",
+      "glow": "blue",
+      "note": "#41 Scans"
+    }]
+  }],
   "engage": [
   {
     "name": "Fire Emblem Engage (Kazuro Kyou)",
@@ -2388,7 +2503,24 @@ let entry_data = {
       "glow": "blue",
       "note": "Concept"
     }]
-  }],
+  },
+  {
+    "name": "Nintendo Force #26 ",
+    "published": "March/April 2017",
+    "desc": "2-page introduction to Fire Emblem Heroes around the time of it's release.",
+    "type": ["Misc"],
+    "status": "English Release",
+    "scans": "",
+    "translation": false,
+    "img": "series_nf26",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/file/d/1YPCTCSBthKcq4szxEsD25mezKKzg8I8D/view?usp=sharing",
+      "glow": "blue",
+      "note": "#26 Scans"
+    }]
+  }, ],
   "tmsfe": [
   {
     "name": "Special Edition Artbook",
@@ -2406,121 +2538,159 @@ let entry_data = {
       "glow": "blue",
       "note": "Scans (EN)"
     }]
-  }],
+  },
+  {
+    "name": "Nintendo Force #19",
+    "published": "February/March 2016",
+    "desc": "Contains a 1-page overview of TMS covering the initial Wii U release.",
+    "type": ["Misc"],
+    "status": "English Release",
+    "scans": "",
+    "translation": false,
+    "img": "series_nf",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/file/d/1XgM_DmdOQuEZGMSGCaDSrAFp2Ku42ugn/view?usp=sharing",
+      "glow": "blue",
+      "note": "#19 Scans"
+    }]
+  }, ],
   "series": [
+  {
+    "name": "20th Anniversary Encyclopedia",
+    "published": "June 30, 2010",
+    "desc": "A fan book that covers the series from the first installment, Shadow Dragon and the Blade of Light to New Mystery of the Emblem. It contains messages, illustrations, interviews, and a World Guide that is seperated by continents rather than games.",
+    "type": ["Artbook"],
+    "status": "Translation in Progress",
+    "translation": false,
+    "img": "series_20",
+    "buttons": [
     {
-      "name": "20th Anniversary Encyclopedia",
-      "published": "June 30, 2010",
-      "desc": "A fan book that covers the series from the first installment, Shadow Dragon and the Blade of Light to New Mystery of the Emblem. It contains messages, illustrations, interviews, and a World Guide that is seperated by continents rather than games.",
-      "type": ["Artbook"],
-      "status": "Translation in Progress",
-      "translation": false,
-      "img": "series_20",
-      "buttons": [
-      {
-        "type": "external",
-        "link": "https://emblem-translations.vercel.app/",
-        "glow": "blue",
-        "note": "Translation"
-      },
-      {
-        "type": "gdrive",
-        "link": "https://drive.google.com/file/d/1R_JET3GOikA97kLfqjzKkiMdq4SVpoqp/view?usp=sharing",
-        "glow": "black",
-        "note": "Scans (JP)"
-      }]
+      "type": "external",
+      "link": "https://emblem-translations.vercel.app/",
+      "glow": "blue",
+      "note": "Translation"
     },
     {
-      "name": "The Making of Fire Emblem",
-      "published": "November 11, 2015",
-      "desc": "A design book providing the developement information and secrets of the Fire Emblem series, from the beginning of the series to the latest releases at the time, Fire Emblem Awakening and Fire Emblem Fates.",
-      "art": "",
-      "type": ["Artbook"],
-      "status": "Partially Translated",
-      "translation": ["Kantopia"],
-      "img": "series_making",
-      "buttons": [
-      {
-        "type": "external",
-        "link": "https://kantopia.wordpress.com/2015/12/10/fire-emblem-25th-anniversary-book-scantranslation-compilation-post/",
-        "glow": "blue",
-        "note": "Translations"
-      }]
+      "type": "gdrive",
+      "link": "https://drive.google.com/file/d/1R_JET3GOikA97kLfqjzKkiMdq4SVpoqp/view?usp=sharing",
+      "glow": "black",
+      "note": "Scans (JP)"
+    }]
+  },
+  {
+    "name": "The Making of Fire Emblem",
+    "published": "November 11, 2015",
+    "desc": "A design book providing the developement information and secrets of the Fire Emblem series, from the beginning of the series to the latest releases at the time, Fire Emblem Awakening and Fire Emblem Fates.",
+    "art": "",
+    "type": ["Artbook"],
+    "status": "Partially Translated",
+    "translation": ["Kantopia"],
+    "img": "series_making",
+    "buttons": [
+    {
+      "type": "external",
+      "link": "https://kantopia.wordpress.com/2015/12/10/fire-emblem-25th-anniversary-book-scantranslation-compilation-post/",
+      "glow": "blue",
+      "note": "Translations"
+    }]
+  },
+  {
+    "name": "The Complete",
+    "published": "May 1996",
+    "desc": "An artbook providing artworks, comics, and information of characters from Shadow Dragon and the Blade of Light, Fire Emblem Gaiden, and Mystery of the Emblem.",
+    "story": "",
+    "art": "Various",
+    "type": ["Artbook"],
+    "status": "Untranslated",
+    "scans": "SpiritGriffon",
+    "translation": false,
+    "img": "series_complete",
+    "buttons": [
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/fireemblemthecomplete",
+      "glow": "black",
+      "note": "Scans (JP)"
+    }]
+  },
+  {
+    "name": "Official Staff Book",
+    "published": "March 28, 2015",
+    "desc": "The Fire Emblem 25th Anniversary Official Staff Book that was sold at Comiket in March 2015.",
+    "story": "",
+    "art": "",
+    "type": ["Artbook"],
+    "scans": "SpiritGriffon",
+    "status": "Untranslated",
+    "translation": false,
+    "img": "series_staff",
+    "buttons": [
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/fireemblem25thofficialstaffbook",
+      "glow": "black",
+      "note": "Scans (JP)"
+    }]
+  },
+  {
+    "name": "Warriors Treasure Box Artbook",
+    "published": "September 28, 2017",
+    "desc": "The artbook included in the Japanese version of Fire Emblem Warriors Treasure Box Set.",
+    "story": "",
+    "art": "",
+    "type": ["Artbook"],
+    "status": "English Release",
+    "scans": "SpiritGriffon",
+    "translation": false,
+    "img": "series_warriors",
+    "buttons": [
+    {
+      "type": "archive",
+      "link": "https://archive.org/details/fewtreasureboxartbook",
+      "glow": "black",
+      "note": "Scans (JP)"
+    }]
+  },
+  {
+    "name": "One Hundred Songs of Heroes",
+    "published": "July 24, 2015",
+    "desc": "A limited-edition set of traditional Japanese uta-garuta playing cards based on the Fire Emblem series which was released as premium merchandise for the series' 25th anniversary. They were originally exclusively available for sale at The 25th Anniversary of Love and Courage: Fire Emblem Festival.",
+    "art": "Various",
+    "type": ["Misc"],
+    "status": "Translation Not Required",
+    "translation": false,
+    "img": "series_cards",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/drive/folders/15Hag4xgQCRjHXOvAiLeggK_0IeIOUY4c?usp=sharing",
+      "glow": "blue",
+      "note": "Gallery"
+    }]
+  },
+  {
+    "name": "Nintendo Force #19 & #26",
+    "published": "Feb/Mar 2016, Mar/Apr 2017",
+    "desc": "Issue #19 contains a look back at the original Fire Emblem, a brief overview of the series history, and a Marth character profile. Issue #26 contains a 1-page introduction to Fire Emblem Warriors.",
+    "type": ["Misc"],
+    "status": "English Release",
+    "scans": "",
+    "translation": false,
+    "img": "series_nf",
+    "buttons": [
+    {
+      "type": "gdrive",
+      "link": "https://drive.google.com/file/d/1JGVVDLwOjtomE9B_ca4ReR_9T3Cj2shE/view?usp=sharing",
+      "glow": "blue",
+      "note": "#19 Scans"
     },
     {
-      "name": "The Complete",
-      "published": "May 1996",
-      "desc": "An artbook providing artworks, comics, and information of characters from Shadow Dragon and the Blade of Light, Fire Emblem Gaiden, and Mystery of the Emblem.",
-      "story": "",
-      "art": "Various",
-      "type": ["Artbook"],
-      "status": "Untranslated",
-      "scans": "SpiritGriffon",
-      "translation": false,
-      "img": "series_complete",
-      "buttons": [
-      {
-        "type": "archive",
-        "link": "https://archive.org/details/fireemblemthecomplete",
-        "glow": "black",
-        "note": "Scans (JP)"
-      }]
-    },
-    {
-      "name": "Official Staff Book",
-      "published": "March 28, 2015",
-      "desc": "The Fire Emblem 25th Anniversary Official Staff Book that was sold at Comiket in March 2015.",
-      "story": "",
-      "art": "",
-      "type": ["Artbook"],
-      "scans": "SpiritGriffon",
-      "status": "Untranslated",
-      "translation": false,
-      "img": "series_staff",
-      "buttons": [
-      {
-        "type": "archive",
-        "link": "https://archive.org/details/fireemblem25thofficialstaffbook",
-        "glow": "black",
-        "note": "Scans (JP)"
-      }]
-    },
-    {
-      "name": "Warriors Treasure Box Artbook",
-      "published": "September 28, 2017",
-      "desc": "The artbook included in the Japanese version of Fire Emblem Warriors Treasure Box Set.",
-      "story": "",
-      "art": "",
-      "type": ["Artbook"],
-      "status": "English Release",
-      "scans": "SpiritGriffon",
-      "translation": false,
-      "img": "series_warriors",
-      "buttons": [
-      {
-        "type": "archive",
-        "link": "https://archive.org/details/fewtreasureboxartbook",
-        "glow": "black",
-        "note": "Scans (JP)"
-      }]
-    },
-    
-        {
-        "name": "One Hundred Songs of Heroes",
-        "published": "July 24, 2015",
-        "desc": "A limited-edition set of traditional Japanese uta-garuta playing cards based on the Fire Emblem series which was released as premium merchandise for the series' 25th anniversary. They were originally exclusively available for sale at The 25th Anniversary of Love and Courage: Fire Emblem Festival.",
-        "art": "Various",
-        "type": ["Misc"],
-        "status": "Translation Not Required",
-        "translation": false,
-        "img": "series_cards",
-        "buttons": [
-        {
-          "type": "gdrive",
-          "link": "https://drive.google.com/drive/folders/15Hag4xgQCRjHXOvAiLeggK_0IeIOUY4c?usp=sharing",
-          "glow": "blue",
-          "note": "Gallery"
-        }]
-      }
-  ]
+      "type": "gdrive",
+      "link": "https://drive.google.com/file/d/14lnhr3w5_SwFlxnRybjysJ_zjEO_1YLJ/view?usp=sharing",
+      "glow": "blue",
+      "note": "#26 Scans"
+    }]
+  }, ]
 }

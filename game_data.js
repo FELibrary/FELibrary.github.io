@@ -6,7 +6,7 @@ let games = {
 
     "sov" : {
     "name" : "Gaiden / Shadows of Valentia",
-    "filters" : ['All', 'Manga', 'Novel', 'Artbook', '4koma', 'Guidebook']
+    "filters" : ['All', 'Manga', 'Novel', 'Artbook', '4koma', 'Guidebook', 'Misc']
   },
 
     "gothw" : {
@@ -51,12 +51,12 @@ let games = {
 
       "fates" : {
     "name" : "Fates",
-    "filters" : ['All', 'Manga', 'Artbook', '4koma']
+    "filters" : ['All', 'Manga', 'Artbook', '4koma', 'Misc']
   },
 
       "3h" : {
     "name" : "Three Houses",
-    "filters" : ['All', 'Artbook']
+    "filters" : ['All', 'Artbook', 'Misc']
   },
 
       "engage" : {
@@ -66,7 +66,7 @@ let games = {
 
   "tmsfe" : {
     "name" : "Tokyo Mirage Sessions #FE",
-    "filters" : ['All', 'Artbook']
+    "filters" : ['All', 'Artbook', 'Misc']
   },
     "feh" : {
     "name" : "Fire Emblem Heroes",
